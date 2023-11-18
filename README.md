@@ -3,3 +3,20 @@
 You've got yourself a fancy new Garmin watch ⌚.
 Hooray!
 After spending ~~4~~ ~~8~~ ~~12~~ 24 hours playing around with new watchfaces and apps, yuo decide to create your own custom watchface.
+
+### Step 1. Garmin IQ SDK
+Download the [Garmin IQ SDK](https://developer.garmin.com/connect-iq/sdk/) using the SDK Manager.
+
+### 2. Visual Studio Code
+Install [Visual Studio Code](https://code.visualstudio.com/Download)
+### 3. Installing the Visual Studio Code Monkey C Extension:
+3.1. In Visual Studio Code, go to
+**View > Extensions**
+
+3.2. In the Extensions Marketplace, search box type "**Monkey C**"
+3.3 Select the Monkey C extension from Garmin.
+3.4 Use the Install button to install the extension in Visual Studio Code. This will require a restart of Visual Studio Code.
+3.5. After Visual Studio Code restarts, summon the command palette with Ctrl + Shift + P (Command + Shift + P on Mac).
+3.6. Type "Verify Installation" and select Monkey C: Verify Installation
+
+- [ ] TODO: Continue instructions.
