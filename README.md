@@ -20,7 +20,7 @@ Install [Visual Studio Code](https://code.visualstudio.com/Download)
 **View > Extensions**
 
 3.2. In the Extensions Marketplace, search box type "**Monkey C**"
-
+<br>
 3.3. Select the Monkey C extension from Garmin.
 
 3.4. Use the Install button to install the extension in Visual Studio Code. This will require a restart of Visual Studio Code.
