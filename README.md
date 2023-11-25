@@ -65,6 +65,9 @@ Install [Visual Studio Code](https://code.visualstudio.com/Download)
 
 ![Screenshot 2023-11-26 032721](https://github.com/AndrewKhassapov/connect-iq/assets/53222142/635c4c97-7b40-4e6e-a558-eb468f901f87)
 
-4.8. Select your test watch. eg. Venu 3.
+4.8. Select Debugger > Monkey C. Then select your test watch. eg. Venu 3.
 
 4.9. Congratulations! You have built and tested a working Garmin watch face!
+
+![image](https://github.com/AndrewKhassapov/connect-iq/assets/53222142/d77317ca-ffab-4d22-a490-6552e0434141)
+
