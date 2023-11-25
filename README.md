@@ -30,6 +30,6 @@ Install [Visual Studio Code](https://code.visualstudio.com/Download)
 4.1A. Generate your **developer key** via command palette (Ctrl + Shift + P or Command + Shift + P) then typing "Generate a Deverloper Key" amd se;ect Monkey C: Generate a Developer Key
 4.1B. If you have a **developer key** then open Extensions, search **Monkey C**, select the Monkey C 'Manage' :gear: > 'Extension Settings', then update the **Monkey C: Developer Path Key** directory.
 4.2. Create a new project via command palette, then typing "New Project" and select Monkey C: New Project
-4.3. Name your project, for example
+4.3. Name your project, for example "myWatchface".
 
 [] TODO: Complete instructions
