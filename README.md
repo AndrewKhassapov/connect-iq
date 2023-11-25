@@ -34,7 +34,7 @@ Install [Visual Studio Code](https://code.visualstudio.com/Download)
 
 ### 4. Creating your first watch-face
 
-4.1A. Generate your **developer key** via command palette (Ctrl + Shift + P or Command + Shift + P) then typing "Generate a Deverloper Key" amd se;ect Monkey C: Generate a Developer Key
+4.1A. Generate your **developer key** via command palette (Ctrl + Shift + P or Command + Shift + P) then typing "Generate a Deverloper Key" amd select Monkey C: Generate a Developer Key
 
 ![Screenshot 2023-11-26 024554](https://github.com/AndrewKhassapov/connect-iq/assets/53222142/bc510fca-3ff6-4df1-9e97-98a706ee2ef3)
 
