@@ -49,11 +49,22 @@ Install [Visual Studio Code](https://code.visualstudio.com/Download)
 
 ![Screenshot 2023-11-26 030114](https://github.com/AndrewKhassapov/connect-iq/assets/53222142/608971f1-01d9-4917-8a1b-9ec4a26ce1e2)
 
-4.5. In Explorer, open your newly created directory in Visual Studio Code. eg. In 'myWatchFace' directory > Right click > Select Open With Code. Or open the
-monkey.jungle' file in Visual Studio Code.
+4.4. Select 'Watch Face' > Select 'Simple' > Select your target API. eg. 3.0.0
 
-4.6. From the toolbar > Select Run > Run Without Debugging (Ctrl F5 or Command F5)
+![image](https://github.com/AndrewKhassapov/connect-iq/assets/53222142/e3e3aa16-9d0b-4beb-99c1-f3f5327853d7)
 
-4.7. Select your test watch. eg. Venu 3.
+4.5. Select your watches to target. eg. We will select all.
 
-4.8. Congratulations! You have built and tested a working Garmin watch face!
+![Screenshot 2023-11-26 031710](https://github.com/AndrewKhassapov/connect-iq/assets/53222142/ed0474ff-4ec1-4b6b-a0c7-1fb712392d2e)
+
+4.6A. Select a folder to save to. Visual Studio Code will open the new project. ❌ If the project does not open, including 'monkey.jungle' then move to the next step. ⚠️⏩ Otherwise skip the next step.
+
+4.6B. In Explorer, open your newly created directory in Visual Studio Code. eg. In 'myWatchFace' directory > Right click > Select Open With Code. Or open the 'monkey.jungle' file in Visual Studio Code.
+
+4.7. From the toolbar > Select Run > Run Without Debugging (Ctrl F5 or Command F5)
+
+![Screenshot 2023-11-26 032721](https://github.com/AndrewKhassapov/connect-iq/assets/53222142/635c4c97-7b40-4e6e-a558-eb468f901f87)
+
+4.8. Select your test watch. eg. Venu 3.
+
+4.9. Congratulations! You have built and tested a working Garmin watch face!
