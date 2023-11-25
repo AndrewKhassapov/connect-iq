@@ -20,8 +20,9 @@ Install [Visual Studio Code](https://code.visualstudio.com/Download)
 **View > Extensions**
 
 3.2. In the Extensions Marketplace, search box type "**Monkey C**"
-<br>
+
 3.3. Select the Monkey C extension from Garmin.
+
 
 3.4. Use the Install button to install the extension in Visual Studio Code. This will require a restart of Visual Studio Code.
 
@@ -29,14 +30,24 @@ Install [Visual Studio Code](https://code.visualstudio.com/Download)
 
 3.6. Type "Verify Installation" and select Monkey C: Verify Installation
 
+![Screenshot 2023-11-26 024714](https://github.com/AndrewKhassapov/connect-iq/assets/53222142/ef6641dd-2bd2-4006-8368-9f0a3bd3f856)
+
 ### 4. Creating your first watch-face
 
 4.1A. Generate your **developer key** via command palette (Ctrl + Shift + P or Command + Shift + P) then typing "Generate a Deverloper Key" amd se;ect Monkey C: Generate a Developer Key
 
+![Screenshot 2023-11-26 024554](https://github.com/AndrewKhassapov/connect-iq/assets/53222142/bc510fca-3ff6-4df1-9e97-98a706ee2ef3)
+
 4.1B. If you have a **developer key** then open Extensions, search **Monkey C**, select the Monkey C 'Manage' :gear: > 'Extension Settings', then update the **Monkey C: Developer Path Key** directory.
+
+![Screenshot 2023-11-26 025650](https://github.com/AndrewKhassapov/connect-iq/assets/53222142/ed410407-2e04-482d-8982-eabf5c66158e)
 
 4.2. Create a new project via command palette, then typing "New Project" and select Monkey C: New Project
 
+![Screenshot 2023-11-26 025824](https://github.com/AndrewKhassapov/connect-iq/assets/53222142/6316024d-a507-4955-868c-49b7a8987c30)
+
 4.3. Name your project, for example "myWatchface".
 
-[] TODO: Complete instructions
+![Screenshot 2023-11-26 030114](https://github.com/AndrewKhassapov/connect-iq/assets/53222142/608971f1-01d9-4917-8a1b-9ec4a26ce1e2)
+
+[ ] TODO: Complete instructions
