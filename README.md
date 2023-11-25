@@ -23,7 +23,6 @@ Install [Visual Studio Code](https://code.visualstudio.com/Download)
 
 3.3. Select the Monkey C extension from Garmin.
 
-
 3.4. Use the Install button to install the extension in Visual Studio Code. This will require a restart of Visual Studio Code.
 
 3.5. After Visual Studio Code restarts, summon the command palette with Ctrl + Shift + P (Command + Shift + P on Mac).
@@ -50,4 +49,11 @@ Install [Visual Studio Code](https://code.visualstudio.com/Download)
 
 ![Screenshot 2023-11-26 030114](https://github.com/AndrewKhassapov/connect-iq/assets/53222142/608971f1-01d9-4917-8a1b-9ec4a26ce1e2)
 
-[ ] TODO: Complete instructions
+4.5. In Explorer, open your newly created directory in Visual Studio Code. eg. In 'myWatchFace' directory > Right click > Select Open With Code. Or open the
+monkey.jungle' file in Visual Studio Code.
+
+4.6. From the toolbar > Select Run > Run Without Debugging (Ctrl F5 or Command F5)
+
+4.7. Select your test watch. eg. Venu 3.
+
+4.8. Congratulations! You have built and tested a working Garmin watch face!
