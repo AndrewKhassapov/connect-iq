@@ -37,7 +37,9 @@ Install [Visual Studio Code](https://code.visualstudio.com/Download)
 
 ![Screenshot 2023-11-26 024554](https://github.com/AndrewKhassapov/connect-iq/assets/53222142/bc510fca-3ff6-4df1-9e97-98a706ee2ef3)
 
-4.1-B. If you have a **developer key** then open Extensions, search **Monkey C**, select the Monkey C 'Manage' :gear: > 'Extension Settings', then update the **Monkey C: Developer Path Key** directory
+4.1-B.
+>[!NOTE]
+>If you have a **developer key** then open Extensions, search **Monkey C**, select the Monkey C 'Manage' :gear: > 'Extension Settings', then update the **Monkey C: Developer Path Key** directory
 
 ![Screenshot 2023-11-26 025650](https://github.com/AndrewKhassapov/connect-iq/assets/53222142/ed410407-2e04-482d-8982-eabf5c66158e)
 
@@ -57,9 +59,14 @@ Install [Visual Studio Code](https://code.visualstudio.com/Download)
 
 ![Screenshot 2023-11-26 031710](https://github.com/AndrewKhassapov/connect-iq/assets/53222142/ed0474ff-4ec1-4b6b-a0c7-1fb712392d2e)
 
-4.6-A. Select a folder to save to. Visual Studio Code will open the new project. ❌ If the project does not open, including 'monkey.jungle' then move to the next step. ⚠️⏩ Otherwise skip the next step
+4.6-A. Select a folder to save to. Visual Studio Code will open the new project.
+>[!CAUTION]
+>❌ If the project does not open, including 'monkey.jungle' then move to the next step.
+⚠️⏩ Otherwise skip the next step
 
-4.6-B. In Explorer, open your newly created directory in Visual Studio Code. eg. In 'myWatchFace' directory > Right click > Select Open With Code. Or open the 'monkey.jungle' file in Visual Studio Code
+4.6-B.
+>[!NOTE]
+>In Explorer, open your newly created directory in Visual Studio Code. eg. In 'myWatchFace' directory > Right click > Select Open With Code. Or open the 'monkey.jungle' file in Visual Studio Code
 
 4.7. From the toolbar > Select Run > Run Without Debugging (Ctrl F5 or Command F5)
 
@@ -71,7 +78,11 @@ Install [Visual Studio Code](https://code.visualstudio.com/Download)
 
 ### 5. Next steps: Developing your first watch-face 💻
 
-5.1. [ ] TODO: Add most important files to edit
+5.1. To change watch-face visuals > Update the '/resources/layouts/layout.xml' file.
+
+5.2. To add functionality > Update the '/source/\*.mc' files.
+>[!TIP]
+>Refer to the [Monkey-C programming language reference guide](https://developer.garmin.com/connect-iq/reference-guides/monkey-c-reference/).
 
 ### 6. Building your watch-face 🛠️
 
@@ -93,6 +104,10 @@ Install [Visual Studio Code](https://code.visualstudio.com/Download)
 
 6.8. Congratulations! You have built a fully-functioning Garmin watch-face!🎆🎆🎆
 
-[^1]: Valid as of November 26, 2023. Using Visual Studio Code as recommended IDE [^2] by Garmin.
-[^2]: I know Visual Studio Code isn't an "Intergrated Development Environment" itself. Let's call it VS Code with Java JDK, Garmin IQ SDK and Monkey-C extension. OS agnostic.
-[^3]: Official documentation available at [Garmin](https://developer.garmin.com/connect-iq/connect-iq-basics/getting-started/).
+
+-----
+> Footnotes:
+> 
+> [^1]: Valid as of November 26, 2023. Using Visual Studio Code as recommended IDE [^2] by Garmin.
+> [^2]: I know Visual Studio Code isn't an "Intergrated Development Environment" itself. Let's call it VS Code with Java JDK, Garmin IQ SDK and Monkey-C extension. OS agnostic.
+> [^3]: Official documentation available at [Garmin](https://developer.garmin.com/connect-iq/connect-iq-basics/getting-started/).
