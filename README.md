@@ -79,6 +79,11 @@ Install [Visual Studio Code](https://code.visualstudio.com/Download)
 ### 5. Next steps: Developing your first watch-face 💻
 
 5.1. To change watch-face visuals > Update the '/resources/layouts/layout.xml' file.
+>[!TIP]
+>Most Garmin devices set (x, y) = (0, 0) as the top left corner of the stage.
+>With the stage range as **([0, screenWidth], [0, screenHeight])**.
+>
+>![image](https://github.com/AndrewKhassapov/connect-iq/assets/53222142/a3f06502-7dbd-4893-9403-f727c63af5f0)
 
 5.2. To add functionality > Update the '/source/\*.mc' files.
 >[!TIP]
