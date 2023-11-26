@@ -67,7 +67,7 @@ Install [Visual Studio Code](https://code.visualstudio.com/Download)
 
 4.8. Select Debugger > Monkey C. Then select your test watch. eg. Venu 3.
 
-4.9. Congratulations! You have created and tested your watch-face!🎆
+4.9. Congratulations! You have created and tested your watch-face!🎆[^3]
 
 ### 5. Next steps: Developing your first watch-face 💻
 
@@ -95,3 +95,4 @@ Install [Visual Studio Code](https://code.visualstudio.com/Download)
 
 [^1]: Valid as of November 26, 2023. Using Visual Studio Code as recommended IDE [^2] by Garmin.
 [^2]: I know Visual Studio Code isn't an "Intergrated Development Environment" itself. Let's call it VS Code with Java JDK, Garmin IQ SDK and Monkey-C extension. OS agnostic.
+[^3]: Official documentation available at [Garmin](https://developer.garmin.com/connect-iq/connect-iq-basics/getting-started/).
