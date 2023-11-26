@@ -1,6 +1,6 @@
 # connect-iq
 
-### Creating a Garmin watch-face 101
+## Creating a Garmin watch-face 101 [^1]
 
 You've got yourself a fancy new Garmin watch ⌚.
 Hooray!
@@ -31,13 +31,13 @@ Install [Visual Studio Code](https://code.visualstudio.com/Download)
 
 ![Screenshot 2023-11-26 024714](https://github.com/AndrewKhassapov/connect-iq/assets/53222142/ef6641dd-2bd2-4006-8368-9f0a3bd3f856)
 
-### 4. Creating your first watch-face
+### 4. Creating your first watch-face 🔨
 
-4.1A. Generate your **developer key** via command palette (Ctrl + Shift + P or Command + Shift + P) then typing "Generate a Deverloper Key" amd select Monkey C: Generate a Developer Key
+4.1-A. Generate your **developer key** via command palette (Ctrl + Shift + P or Command + Shift + P) then typing "Generate a Deverloper Key" amd select Monkey C: Generate a Developer Key
 
 ![Screenshot 2023-11-26 024554](https://github.com/AndrewKhassapov/connect-iq/assets/53222142/bc510fca-3ff6-4df1-9e97-98a706ee2ef3)
 
-4.1B. If you have a **developer key** then open Extensions, search **Monkey C**, select the Monkey C 'Manage' :gear: > 'Extension Settings', then update the **Monkey C: Developer Path Key** directory.
+4.1-B. If you have a **developer key** then open Extensions, search **Monkey C**, select the Monkey C 'Manage' :gear: > 'Extension Settings', then update the **Monkey C: Developer Path Key** directory
 
 ![Screenshot 2023-11-26 025650](https://github.com/AndrewKhassapov/connect-iq/assets/53222142/ed410407-2e04-482d-8982-eabf5c66158e)
 
@@ -45,7 +45,7 @@ Install [Visual Studio Code](https://code.visualstudio.com/Download)
 
 ![Screenshot 2023-11-26 025824](https://github.com/AndrewKhassapov/connect-iq/assets/53222142/6316024d-a507-4955-868c-49b7a8987c30)
 
-4.3. Name your project, for example "myWatchface".
+4.3. Name your project, for example "myWatchface"
 
 ![Screenshot 2023-11-26 030114](https://github.com/AndrewKhassapov/connect-iq/assets/53222142/608971f1-01d9-4917-8a1b-9ec4a26ce1e2)
 
@@ -57,9 +57,9 @@ Install [Visual Studio Code](https://code.visualstudio.com/Download)
 
 ![Screenshot 2023-11-26 031710](https://github.com/AndrewKhassapov/connect-iq/assets/53222142/ed0474ff-4ec1-4b6b-a0c7-1fb712392d2e)
 
-4.6A. Select a folder to save to. Visual Studio Code will open the new project. ❌ If the project does not open, including 'monkey.jungle' then move to the next step. ⚠️⏩ Otherwise skip the next step.
+4.6-A. Select a folder to save to. Visual Studio Code will open the new project. ❌ If the project does not open, including 'monkey.jungle' then move to the next step. ⚠️⏩ Otherwise skip the next step
 
-4.6B. In Explorer, open your newly created directory in Visual Studio Code. eg. In 'myWatchFace' directory > Right click > Select Open With Code. Or open the 'monkey.jungle' file in Visual Studio Code.
+4.6-B. In Explorer, open your newly created directory in Visual Studio Code. eg. In 'myWatchFace' directory > Right click > Select Open With Code. Or open the 'monkey.jungle' file in Visual Studio Code
 
 4.7. From the toolbar > Select Run > Run Without Debugging (Ctrl F5 or Command F5)
 
@@ -67,7 +67,31 @@ Install [Visual Studio Code](https://code.visualstudio.com/Download)
 
 4.8. Select Debugger > Monkey C. Then select your test watch. eg. Venu 3.
 
-4.9. Congratulations! You have built and tested a working Garmin watch face!
+4.9. Congratulations! You have created and tested your watch-face!🎆
 
-![image](https://github.com/AndrewKhassapov/connect-iq/assets/53222142/d77317ca-ffab-4d22-a490-6552e0434141)
+### 5. Next steps: Developing your first watch-face 💻
 
+5.1. [ ] TODO: Add most important files to edit
+
+### 6. Building your watch-face 🛠️
+
+6.1. In Visual Studio Code > summon the command palette (Ctrl + Shift + P or Command + Shift + P)
+
+6.2. Type 'Build for Device' > select Monkey C: Build for Device
+
+6.3. Select your device. eg Venu 3 > Select a directory to build to. eg. Create a 'build' folder > Select 'build' folder
+
+![image](https://github.com/AndrewKhassapov/connect-iq/assets/53222142/d183617d-265c-4b61-9623-86c550a9c04b)
+
+6.4. In Explorer > Open your 'build' folder > Locate the **.prg** file. eg. myWatchface.prg
+
+6.5. With your Garmin watch > Connect to your device via USB
+
+6.6. Copy your **.prg** watch-face to your Garmin device > 'GARMIN/Apps' folder
+
+6.7. Disconnect your Garmin watch > On your Garmin watch > Select your watch-face
+
+6.8. Congratulations! You have built a fully-functioning Garmin watch-face!🎆🎆🎆
+
+[^1]: Valid as of November 26, 2023. Using Visual Studio Code as recommended IDE [^2] by Garmin.
+[^2]: I know Visual Studio Code isn't an "Intergrated Development Environment" itself. Let's call it VS Code with Java JDK, Garmin IQ SDK and Monkey-C extension. OS agnostic.
