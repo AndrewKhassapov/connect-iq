@@ -1,0 +1,8 @@
+<properties>
+
+    <property id="BackgroundColor" type="number">0xCCCCCC</property>
+    <property id="ForegroundColor" type="number">0x333333</property>
+    <property id="RingColor" type="number">0xCCCCCC</property>
+    <property id="UseMilitaryFormat" type="boolean">false</property>
+
+</properties>

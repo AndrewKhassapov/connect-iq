@@ -1,0 +1,428 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<debugInfo>
+    <manifest filename="F:\Active\Important\Coding\monkey-c\cleanAnalog\manifest.xml"/>
+    <pcToLineNum>
+        <entry filename="F:\\Active\\Important\\Coding\\monkey-c\\cleanAnalog\\source\\cleanAnalogView.mc" id="1" lineNum="7" parent="globals/cleanAnalogView" pc="268435460" symbol="&lt;init&gt;"/>
+        <entry filename="F:\\Active\\Important\\Coding\\monkey-c\\cleanAnalog\\source\\cleanAnalogView.mc" id="4" lineNum="13" parent="globals/cleanAnalogView" pc="268435479" symbol="drawGradient"/>
+        <entry filename="F:\\Active\\Important\\Coding\\monkey-c\\cleanAnalog\\source\\cleanAnalogView.mc" id="4" lineNum="14" parent="globals/cleanAnalogView" pc="268435483" symbol="drawGradient"/>
+        <entry filename="F:\\Active\\Important\\Coding\\monkey-c\\cleanAnalog\\source\\cleanAnalogView.mc" id="4" lineNum="15" parent="globals/cleanAnalogView" pc="268435496" symbol="drawGradient"/>
+        <entry filename="F:\\Active\\Important\\Coding\\monkey-c\\cleanAnalog\\source\\cleanAnalogView.mc" id="4" lineNum="16" parent="globals/cleanAnalogView" pc="268435542" symbol="drawGradient"/>
+        <entry filename="F:\\Active\\Important\\Coding\\monkey-c\\cleanAnalog\\source\\cleanAnalogView.mc" id="4" lineNum="17" parent="globals/cleanAnalogView" pc="268435588" symbol="drawGradient"/>
+        <entry filename="F:\\Active\\Important\\Coding\\monkey-c\\cleanAnalog\\source\\cleanAnalogView.mc" id="4" lineNum="19" parent="globals/cleanAnalogView" pc="268435634" symbol="drawGradient"/>
+        <entry filename="F:\\Active\\Important\\Coding\\monkey-c\\cleanAnalog\\source\\cleanAnalogView.mc" id="4" lineNum="20" parent="globals/cleanAnalogView" pc="268435644" symbol="drawGradient"/>
+        <entry filename="F:\\Active\\Important\\Coding\\monkey-c\\cleanAnalog\\source\\cleanAnalogView.mc" id="4" lineNum="21" parent="globals/cleanAnalogView" pc="268435654" symbol="drawGradient"/>
+        <entry filename="F:\\Active\\Important\\Coding\\monkey-c\\cleanAnalog\\source\\cleanAnalogView.mc" id="4" lineNum="23" parent="globals/cleanAnalogView" pc="268435664" symbol="drawGradient"/>
+        <entry filename="F:\\Active\\Important\\Coding\\monkey-c\\cleanAnalog\\source\\cleanAnalogView.mc" id="4" lineNum="24" parent="globals/cleanAnalogView" pc="268435685" symbol="drawGradient"/>
+        <entry filename="F:\\Active\\Important\\Coding\\monkey-c\\cleanAnalog\\source\\cleanAnalogView.mc" id="4" lineNum="25" parent="globals/cleanAnalogView" pc="268435703" symbol="drawGradient"/>
+        <entry filename="F:\\Active\\Important\\Coding\\monkey-c\\cleanAnalog\\source\\cleanAnalogView.mc" id="4" lineNum="26" parent="globals/cleanAnalogView" pc="268435721" symbol="drawGradient"/>
+        <entry filename="F:\\Active\\Important\\Coding\\monkey-c\\cleanAnalog\\source\\cleanAnalogView.mc" id="4" lineNum="28" parent="globals/cleanAnalogView" pc="268435739" symbol="drawGradient"/>
+        <entry filename="F:\\Active\\Important\\Coding\\monkey-c\\cleanAnalog\\source\\cleanAnalogView.mc" id="4" lineNum="29" parent="globals/cleanAnalogView" pc="268435759" symbol="drawGradient"/>
+        <entry filename="F:\\Active\\Important\\Coding\\monkey-c\\cleanAnalog\\source\\cleanAnalogView.mc" id="4" lineNum="32" parent="globals/cleanAnalogView" pc="268435772" symbol="drawGradient"/>
+        <entry filename="F:\\Active\\Important\\Coding\\monkey-c\\cleanAnalog\\source\\cleanAnalogView.mc" id="4" lineNum="33" parent="globals/cleanAnalogView" pc="268435792" symbol="drawGradient"/>
+        <entry filename="F:\\Active\\Important\\Coding\\monkey-c\\cleanAnalog\\source\\cleanAnalogView.mc" id="4" lineNum="36" parent="globals/cleanAnalogView" pc="268435805" symbol="drawGradient"/>
+        <entry filename="F:\\Active\\Important\\Coding\\monkey-c\\cleanAnalog\\source\\cleanAnalogView.mc" id="4" lineNum="37" parent="globals/cleanAnalogView" pc="268435825" symbol="drawGradient"/>
+        <entry filename="F:\\Active\\Important\\Coding\\monkey-c\\cleanAnalog\\source\\cleanAnalogView.mc" id="4" lineNum="40" parent="globals/cleanAnalogView" pc="268435838" symbol="drawGradient"/>
+        <entry filename="F:\\Active\\Important\\Coding\\monkey-c\\cleanAnalog\\source\\cleanAnalogView.mc" id="4" lineNum="41" parent="globals/cleanAnalogView" pc="268435877" symbol="drawGradient"/>
+        <entry filename="F:\\Active\\Important\\Coding\\monkey-c\\cleanAnalog\\source\\cleanAnalogView.mc" id="4" lineNum="42" parent="globals/cleanAnalogView" pc="268435903" symbol="drawGradient"/>
+        <entry filename="F:\\Active\\Important\\Coding\\monkey-c\\cleanAnalog\\source\\cleanAnalogView.mc" id="4" lineNum="43" parent="globals/cleanAnalogView" pc="268435910" symbol="drawGradient"/>
+        <entry filename="F:\\Active\\Important\\Coding\\monkey-c\\cleanAnalog\\source\\cleanAnalogView.mc" id="4" lineNum="44" parent="globals/cleanAnalogView" pc="268435917" symbol="drawGradient"/>
+        <entry filename="F:\\Active\\Important\\Coding\\monkey-c\\cleanAnalog\\source\\cleanAnalogView.mc" id="5" lineNum="56" parent="globals/cleanAnalogView" pc="268435938" symbol="drawBackground"/>
+        <entry filename="F:\\Active\\Important\\Coding\\monkey-c\\cleanAnalog\\source\\cleanAnalogView.mc" id="5" lineNum="57" parent="globals/cleanAnalogView" pc="268435942" symbol="drawBackground"/>
+        <entry filename="F:\\Active\\Important\\Coding\\monkey-c\\cleanAnalog\\source\\cleanAnalogView.mc" id="5" lineNum="58" parent="globals/cleanAnalogView" pc="268435959" symbol="drawBackground"/>
+        <entry filename="F:\\Active\\Important\\Coding\\monkey-c\\cleanAnalog\\source\\cleanAnalogView.mc" id="5" lineNum="59" parent="globals/cleanAnalogView" pc="268435969" symbol="drawBackground"/>
+        <entry filename="F:\\Active\\Important\\Coding\\monkey-c\\cleanAnalog\\source\\cleanAnalogView.mc" id="5" lineNum="60" parent="globals/cleanAnalogView" pc="268435979" symbol="drawBackground"/>
+        <entry filename="F:\\Active\\Important\\Coding\\monkey-c\\cleanAnalog\\source\\cleanAnalogView.mc" id="5" lineNum="61" parent="globals/cleanAnalogView" pc="268435989" symbol="drawBackground"/>
+        <entry filename="F:\\Active\\Important\\Coding\\monkey-c\\cleanAnalog\\source\\cleanAnalogView.mc" id="5" lineNum="62" parent="globals/cleanAnalogView" pc="268436012" symbol="drawBackground"/>
+        <entry filename="F:\\Active\\Important\\Coding\\monkey-c\\cleanAnalog\\source\\cleanAnalogView.mc" id="5" lineNum="64" parent="globals/cleanAnalogView" pc="268436035" symbol="drawBackground"/>
+        <entry filename="F:\\Active\\Important\\Coding\\monkey-c\\cleanAnalog\\source\\cleanAnalogView.mc" id="5" lineNum="65" parent="globals/cleanAnalogView" pc="268436057" symbol="drawBackground"/>
+        <entry filename="F:\\Active\\Important\\Coding\\monkey-c\\cleanAnalog\\source\\cleanAnalogView.mc" id="5" lineNum="67" parent="globals/cleanAnalogView" pc="268436069" symbol="drawBackground"/>
+        <entry filename="F:\\Active\\Important\\Coding\\monkey-c\\cleanAnalog\\source\\cleanAnalogView.mc" id="6" lineNum="132" parent="globals/cleanAnalogView" pc="268436156" symbol="drawCircle"/>
+        <entry filename="F:\\Active\\Important\\Coding\\monkey-c\\cleanAnalog\\source\\cleanAnalogView.mc" id="6" lineNum="133" parent="globals/cleanAnalogView" pc="268436160" symbol="drawCircle"/>
+        <entry filename="F:\\Active\\Important\\Coding\\monkey-c\\cleanAnalog\\source\\cleanAnalogView.mc" id="6" lineNum="134" parent="globals/cleanAnalogView" pc="268436173" symbol="drawCircle"/>
+        <entry filename="F:\\Active\\Important\\Coding\\monkey-c\\cleanAnalog\\source\\cleanAnalogView.mc" id="6" lineNum="135" parent="globals/cleanAnalogView" pc="268436186" symbol="drawCircle"/>
+        <entry filename="F:\\Active\\Important\\Coding\\monkey-c\\cleanAnalog\\source\\cleanAnalogView.mc" id="6" lineNum="136" parent="globals/cleanAnalogView" pc="268436190" symbol="drawCircle"/>
+        <entry filename="F:\\Active\\Important\\Coding\\monkey-c\\cleanAnalog\\source\\cleanAnalogView.mc" id="6" lineNum="137" parent="globals/cleanAnalogView" pc="268436198" symbol="drawCircle"/>
+        <entry filename="F:\\Active\\Important\\Coding\\monkey-c\\cleanAnalog\\source\\cleanAnalogView.mc" id="6" lineNum="139" parent="globals/cleanAnalogView" pc="268436205" symbol="drawCircle"/>
+        <entry filename="F:\\Active\\Important\\Coding\\monkey-c\\cleanAnalog\\source\\cleanAnalogView.mc" id="6" lineNum="140" parent="globals/cleanAnalogView" pc="268436226" symbol="drawCircle"/>
+        <entry filename="F:\\Active\\Important\\Coding\\monkey-c\\cleanAnalog\\source\\cleanAnalogView.mc" id="6" lineNum="141" parent="globals/cleanAnalogView" pc="268436236" symbol="drawCircle"/>
+        <entry filename="F:\\Active\\Important\\Coding\\monkey-c\\cleanAnalog\\source\\cleanAnalogView.mc" id="6" lineNum="142" parent="globals/cleanAnalogView" pc="268436246" symbol="drawCircle"/>
+        <entry filename="F:\\Active\\Important\\Coding\\monkey-c\\cleanAnalog\\source\\cleanAnalogView.mc" id="6" lineNum="143" parent="globals/cleanAnalogView" pc="268436268" symbol="drawCircle"/>
+        <entry filename="F:\\Active\\Important\\Coding\\monkey-c\\cleanAnalog\\source\\cleanAnalogView.mc" id="6" lineNum="144" parent="globals/cleanAnalogView" pc="268436285" symbol="drawCircle"/>
+        <entry filename="F:\\Active\\Important\\Coding\\monkey-c\\cleanAnalog\\source\\cleanAnalogView.mc" id="7" lineNum="179" parent="globals/cleanAnalogView" pc="268436313" symbol="onLayout"/>
+        <entry filename="F:\\Active\\Important\\Coding\\monkey-c\\cleanAnalog\\source\\cleanAnalogView.mc" id="7" lineNum="180" parent="globals/cleanAnalogView" pc="268436315" symbol="onLayout"/>
+        <entry filename="F:\\Active\\Important\\Coding\\monkey-c\\cleanAnalog\\source\\cleanAnalogView.mc" id="9" lineNum="9" parent="globals/cleanAnalogView" pc="268436357" symbol="initialize"/>
+        <entry filename="F:\\Active\\Important\\Coding\\monkey-c\\cleanAnalog\\source\\cleanAnalogView.mc" id="9" lineNum="10" parent="globals/cleanAnalogView" pc="268436359" symbol="initialize"/>
+        <entry filename="F:\\Active\\Important\\Coding\\monkey-c\\cleanAnalog\\source\\cleanAnalogView.mc" id="11" lineNum="49" parent="globals/cleanAnalogView" pc="268436378" symbol="decimalAsDegree"/>
+        <entry filename="F:\\Active\\Important\\Coding\\monkey-c\\cleanAnalog\\source\\cleanAnalogView.mc" id="11" lineNum="50" parent="globals/cleanAnalogView" pc="268436382" symbol="decimalAsDegree"/>
+        <entry filename="F:\\Active\\Important\\Coding\\monkey-c\\cleanAnalog\\source\\cleanAnalogView.mc" id="11" lineNum="51" parent="globals/cleanAnalogView" pc="268436392" symbol="decimalAsDegree"/>
+        <entry filename="F:\\Active\\Important\\Coding\\monkey-c\\cleanAnalog\\source\\cleanAnalogView.mc" id="11" lineNum="52" parent="globals/cleanAnalogView" pc="268436411" symbol="decimalAsDegree"/>
+        <entry filename="F:\\Active\\Important\\Coding\\monkey-c\\cleanAnalog\\source\\cleanAnalogView.mc" id="11" lineNum="53" parent="globals/cleanAnalogView" pc="268436421" symbol="decimalAsDegree"/>
+        <entry filename="F:\\Active\\Important\\Coding\\monkey-c\\cleanAnalog\\source\\cleanAnalogView.mc" id="12" lineNum="190" parent="globals/cleanAnalogView" pc="268436424" symbol="onUpdate"/>
+        <entry filename="F:\\Active\\Important\\Coding\\monkey-c\\cleanAnalog\\source\\cleanAnalogView.mc" id="12" lineNum="192" parent="globals/cleanAnalogView" pc="268436428" symbol="onUpdate"/>
+        <entry filename="F:\\Active\\Important\\Coding\\monkey-c\\cleanAnalog\\source\\cleanAnalogView.mc" id="12" lineNum="193" parent="globals/cleanAnalogView" pc="268436435" symbol="onUpdate"/>
+        <entry filename="F:\\Active\\Important\\Coding\\monkey-c\\cleanAnalog\\source\\cleanAnalogView.mc" id="12" lineNum="194" parent="globals/cleanAnalogView" pc="268436452" symbol="onUpdate"/>
+        <entry filename="F:\\Active\\Important\\Coding\\monkey-c\\cleanAnalog\\source\\cleanAnalogView.mc" id="12" lineNum="195" parent="globals/cleanAnalogView" pc="268436462" symbol="onUpdate"/>
+        <entry filename="F:\\Active\\Important\\Coding\\monkey-c\\cleanAnalog\\source\\cleanAnalogView.mc" id="12" lineNum="196" parent="globals/cleanAnalogView" pc="268436487" symbol="onUpdate"/>
+        <entry filename="F:\\Active\\Important\\Coding\\monkey-c\\cleanAnalog\\source\\cleanAnalogView.mc" id="12" lineNum="197" parent="globals/cleanAnalogView" pc="268436498" symbol="onUpdate"/>
+        <entry filename="F:\\Active\\Important\\Coding\\monkey-c\\cleanAnalog\\source\\cleanAnalogView.mc" id="12" lineNum="200" parent="globals/cleanAnalogView" pc="268436514" symbol="onUpdate"/>
+        <entry filename="F:\\Active\\Important\\Coding\\monkey-c\\cleanAnalog\\source\\cleanAnalogView.mc" id="12" lineNum="201" parent="globals/cleanAnalogView" pc="268436542" symbol="onUpdate"/>
+        <entry filename="F:\\Active\\Important\\Coding\\monkey-c\\cleanAnalog\\source\\cleanAnalogView.mc" id="12" lineNum="202" parent="globals/cleanAnalogView" pc="268436549" symbol="onUpdate"/>
+        <entry filename="F:\\Active\\Important\\Coding\\monkey-c\\cleanAnalog\\source\\cleanAnalogView.mc" id="12" lineNum="205" parent="globals/cleanAnalogView" pc="268436570" symbol="onUpdate"/>
+        <entry filename="F:\\Active\\Important\\Coding\\monkey-c\\cleanAnalog\\source\\cleanAnalogView.mc" id="12" lineNum="208" parent="globals/cleanAnalogView" pc="268436635" symbol="onUpdate"/>
+        <entry filename="F:\\Active\\Important\\Coding\\monkey-c\\cleanAnalog\\source\\cleanAnalogView.mc" id="12" lineNum="209" parent="globals/cleanAnalogView" pc="268436663" symbol="onUpdate"/>
+        <entry filename="F:\\Active\\Important\\Coding\\monkey-c\\cleanAnalog\\source\\cleanAnalogView.mc" id="12" lineNum="210" parent="globals/cleanAnalogView" pc="268436700" symbol="onUpdate"/>
+        <entry filename="F:\\Active\\Important\\Coding\\monkey-c\\cleanAnalog\\source\\cleanAnalogView.mc" id="12" lineNum="222" parent="globals/cleanAnalogView" pc="268436714" symbol="onUpdate"/>
+        <entry filename="F:\\Active\\Important\\Coding\\monkey-c\\cleanAnalog\\source\\cleanAnalogView.mc" id="12" lineNum="223" parent="globals/cleanAnalogView" pc="268436731" symbol="onUpdate"/>
+        <entry filename="F:\\Active\\Important\\Coding\\monkey-c\\cleanAnalog\\source\\cleanAnalogView.mc" id="12" lineNum="224" parent="globals/cleanAnalogView" pc="268436741" symbol="onUpdate"/>
+        <entry filename="F:\\Active\\Important\\Coding\\monkey-c\\cleanAnalog\\source\\cleanAnalogView.mc" id="12" lineNum="225" parent="globals/cleanAnalogView" pc="268436751" symbol="onUpdate"/>
+        <entry filename="F:\\Active\\Important\\Coding\\monkey-c\\cleanAnalog\\source\\cleanAnalogView.mc" id="12" lineNum="226" parent="globals/cleanAnalogView" pc="268436761" symbol="onUpdate"/>
+        <entry filename="F:\\Active\\Important\\Coding\\monkey-c\\cleanAnalog\\source\\cleanAnalogView.mc" id="12" lineNum="227" parent="globals/cleanAnalogView" pc="268436784" symbol="onUpdate"/>
+        <entry filename="F:\\Active\\Important\\Coding\\monkey-c\\cleanAnalog\\source\\cleanAnalogView.mc" id="12" lineNum="229" parent="globals/cleanAnalogView" pc="268436807" symbol="onUpdate"/>
+        <entry filename="F:\\Active\\Important\\Coding\\monkey-c\\cleanAnalog\\source\\cleanAnalogView.mc" id="12" lineNum="230" parent="globals/cleanAnalogView" pc="268436823" symbol="onUpdate"/>
+        <entry filename="F:\\Active\\Important\\Coding\\monkey-c\\cleanAnalog\\source\\cleanAnalogView.mc" id="12" lineNum="231" parent="globals/cleanAnalogView" pc="268436845" symbol="onUpdate"/>
+        <entry filename="F:\\Active\\Important\\Coding\\monkey-c\\cleanAnalog\\source\\cleanAnalogView.mc" id="12" lineNum="232" parent="globals/cleanAnalogView" pc="268436862" symbol="onUpdate"/>
+        <entry filename="F:\\Active\\Important\\Coding\\monkey-c\\cleanAnalog\\source\\cleanAnalogView.mc" id="12" lineNum="234" parent="globals/cleanAnalogView" pc="268436913" symbol="onUpdate"/>
+        <entry filename="F:\\Active\\Important\\Coding\\monkey-c\\cleanAnalog\\source\\cleanAnalogView.mc" id="12" lineNum="235" parent="globals/cleanAnalogView" pc="268436923" symbol="onUpdate"/>
+        <entry filename="F:\\Active\\Important\\Coding\\monkey-c\\cleanAnalog\\source\\cleanAnalogView.mc" id="12" lineNum="236" parent="globals/cleanAnalogView" pc="268436945" symbol="onUpdate"/>
+        <entry filename="F:\\Active\\Important\\Coding\\monkey-c\\cleanAnalog\\source\\cleanAnalogView.mc" id="12" lineNum="237" parent="globals/cleanAnalogView" pc="268436962" symbol="onUpdate"/>
+        <entry filename="F:\\Active\\Important\\Coding\\monkey-c\\cleanAnalog\\source\\cleanAnalogView.mc" id="12" lineNum="239" parent="globals/cleanAnalogView" pc="268437013" symbol="onUpdate"/>
+        <entry filename="F:\\Active\\Important\\Coding\\monkey-c\\cleanAnalog\\source\\cleanAnalogView.mc" id="12" lineNum="240" parent="globals/cleanAnalogView" pc="268437023" symbol="onUpdate"/>
+        <entry filename="F:\\Active\\Important\\Coding\\monkey-c\\cleanAnalog\\source\\cleanAnalogView.mc" id="12" lineNum="241" parent="globals/cleanAnalogView" pc="268437045" symbol="onUpdate"/>
+        <entry filename="F:\\Active\\Important\\Coding\\monkey-c\\cleanAnalog\\source\\cleanAnalogView.mc" id="12" lineNum="242" parent="globals/cleanAnalogView" pc="268437062" symbol="onUpdate"/>
+        <entry filename="F:\\Active\\Important\\Coding\\monkey-c\\cleanAnalog\\source\\cleanAnalogView.mc" id="12" lineNum="245" parent="globals/cleanAnalogView" pc="268437113" symbol="onUpdate"/>
+        <entry filename="F:\\Active\\Important\\Coding\\monkey-c\\cleanAnalog\\source\\cleanAnalogView.mc" id="13" lineNum="147" parent="globals/cleanAnalogView" pc="268437138" symbol="getRGB"/>
+        <entry filename="F:\\Active\\Important\\Coding\\monkey-c\\cleanAnalog\\source\\cleanAnalogView.mc" id="13" lineNum="148" parent="globals/cleanAnalogView" pc="268437142" symbol="getRGB"/>
+        <entry filename="F:\\Active\\Important\\Coding\\monkey-c\\cleanAnalog\\source\\cleanAnalogView.mc" id="13" lineNum="149" parent="globals/cleanAnalogView" pc="268437160" symbol="getRGB"/>
+        <entry filename="F:\\Active\\Important\\Coding\\monkey-c\\cleanAnalog\\source\\cleanAnalogView.mc" id="13" lineNum="150" parent="globals/cleanAnalogView" pc="268437167" symbol="getRGB"/>
+        <entry filename="F:\\Active\\Important\\Coding\\monkey-c\\cleanAnalog\\source\\cleanAnalogView.mc" id="13" lineNum="151" parent="globals/cleanAnalogView" pc="268437174" symbol="getRGB"/>
+        <entry filename="F:\\Active\\Important\\Coding\\monkey-c\\cleanAnalog\\source\\cleanAnalogView.mc" id="13" lineNum="153" parent="globals/cleanAnalogView" pc="268437181" symbol="getRGB"/>
+        <entry filename="F:\\Active\\Important\\Coding\\monkey-c\\cleanAnalog\\source\\cleanAnalogView.mc" id="13" lineNum="154" parent="globals/cleanAnalogView" pc="268437224" symbol="getRGB"/>
+        <entry filename="F:\\Active\\Important\\Coding\\monkey-c\\cleanAnalog\\source\\cleanAnalogView.mc" id="13" lineNum="155" parent="globals/cleanAnalogView" pc="268437231" symbol="getRGB"/>
+        <entry filename="F:\\Active\\Important\\Coding\\monkey-c\\cleanAnalog\\source\\cleanAnalogView.mc" id="13" lineNum="156" parent="globals/cleanAnalogView" pc="268437238" symbol="getRGB"/>
+        <entry filename="F:\\Active\\Important\\Coding\\monkey-c\\cleanAnalog\\source\\cleanAnalogView.mc" id="13" lineNum="157" parent="globals/cleanAnalogView" pc="268437259" symbol="getRGB"/>
+        <entry filename="F:\\Active\\Important\\Coding\\monkey-c\\cleanAnalog\\source\\cleanAnalogView.mc" id="13" lineNum="158" parent="globals/cleanAnalogView" pc="268437279" symbol="getRGB"/>
+        <entry filename="F:\\Active\\Important\\Coding\\monkey-c\\cleanAnalog\\source\\cleanAnalogView.mc" id="13" lineNum="159" parent="globals/cleanAnalogView" pc="268437286" symbol="getRGB"/>
+        <entry filename="F:\\Active\\Important\\Coding\\monkey-c\\cleanAnalog\\source\\cleanAnalogView.mc" id="13" lineNum="160" parent="globals/cleanAnalogView" pc="268437323" symbol="getRGB"/>
+        <entry filename="F:\\Active\\Important\\Coding\\monkey-c\\cleanAnalog\\source\\cleanAnalogView.mc" id="13" lineNum="161" parent="globals/cleanAnalogView" pc="268437363" symbol="getRGB"/>
+        <entry filename="F:\\Active\\Important\\Coding\\monkey-c\\cleanAnalog\\source\\cleanAnalogView.mc" id="13" lineNum="162" parent="globals/cleanAnalogView" pc="268437383" symbol="getRGB"/>
+        <entry filename="F:\\Active\\Important\\Coding\\monkey-c\\cleanAnalog\\source\\cleanAnalogView.mc" id="13" lineNum="163" parent="globals/cleanAnalogView" pc="268437390" symbol="getRGB"/>
+        <entry filename="F:\\Active\\Important\\Coding\\monkey-c\\cleanAnalog\\source\\cleanAnalogView.mc" id="13" lineNum="164" parent="globals/cleanAnalogView" pc="268437427" symbol="getRGB"/>
+        <entry filename="F:\\Active\\Important\\Coding\\monkey-c\\cleanAnalog\\source\\cleanAnalogView.mc" id="13" lineNum="165" parent="globals/cleanAnalogView" pc="268437467" symbol="getRGB"/>
+        <entry filename="F:\\Active\\Important\\Coding\\monkey-c\\cleanAnalog\\source\\cleanAnalogView.mc" id="13" lineNum="166" parent="globals/cleanAnalogView" pc="268437487" symbol="getRGB"/>
+        <entry filename="F:\\Active\\Important\\Coding\\monkey-c\\cleanAnalog\\source\\cleanAnalogView.mc" id="13" lineNum="167" parent="globals/cleanAnalogView" pc="268437524" symbol="getRGB"/>
+        <entry filename="F:\\Active\\Important\\Coding\\monkey-c\\cleanAnalog\\source\\cleanAnalogView.mc" id="13" lineNum="168" parent="globals/cleanAnalogView" pc="268437561" symbol="getRGB"/>
+        <entry filename="F:\\Active\\Important\\Coding\\monkey-c\\cleanAnalog\\source\\cleanAnalogView.mc" id="13" lineNum="169" parent="globals/cleanAnalogView" pc="268437601" symbol="getRGB"/>
+        <entry filename="F:\\Active\\Important\\Coding\\monkey-c\\cleanAnalog\\source\\cleanAnalogView.mc" id="13" lineNum="170" parent="globals/cleanAnalogView" pc="268437621" symbol="getRGB"/>
+        <entry filename="F:\\Active\\Important\\Coding\\monkey-c\\cleanAnalog\\source\\cleanAnalogView.mc" id="13" lineNum="171" parent="globals/cleanAnalogView" pc="268437658" symbol="getRGB"/>
+        <entry filename="F:\\Active\\Important\\Coding\\monkey-c\\cleanAnalog\\source\\cleanAnalogView.mc" id="13" lineNum="172" parent="globals/cleanAnalogView" pc="268437695" symbol="getRGB"/>
+        <entry filename="F:\\Active\\Important\\Coding\\monkey-c\\cleanAnalog\\source\\cleanAnalogView.mc" id="13" lineNum="175" parent="globals/cleanAnalogView" pc="268437735" symbol="getRGB"/>
+        <entry filename="F:\\Active\\Important\\Coding\\monkey-c\\cleanAnalog\\source\\cleanAnalogApp.mc" id="14" lineNum="31" parent="globals" pc="268437772" symbol="getApp"/>
+        <entry filename="F:\\Active\\Important\\Coding\\monkey-c\\cleanAnalog\\source\\cleanAnalogApp.mc" id="14" lineNum="32" parent="globals" pc="268437782" symbol="getApp"/>
+        <entry filename="F:\\Active\\Important\\Coding\\monkey-c\\cleanAnalog\\source\\cleanAnalogBackground.mc" id="15" lineNum="6" parent="globals/Background" pc="268437798" symbol="&lt;init&gt;"/>
+        <entry filename="F:\\Active\\Important\\Coding\\monkey-c\\cleanAnalog\\source\\cleanAnalogBackground.mc" id="16" lineNum="8" parent="globals/Background" pc="268437817" symbol="initialize"/>
+        <entry filename="F:\\Active\\Important\\Coding\\monkey-c\\cleanAnalog\\source\\cleanAnalogBackground.mc" id="16" lineNum="9" parent="globals/Background" pc="268437821" symbol="initialize"/>
+        <entry filename="F:\\Active\\Important\\Coding\\monkey-c\\cleanAnalog\\source\\cleanAnalogBackground.mc" id="16" lineNum="13" parent="globals/Background" pc="268437842" symbol="initialize"/>
+        <entry filename="F:\\Active\\Important\\Coding\\monkey-c\\cleanAnalog\\source\\cleanAnalogBackground.mc" id="17" lineNum="16" parent="globals/Background" pc="268437863" symbol="draw"/>
+        <entry filename="F:\\Active\\Important\\Coding\\monkey-c\\cleanAnalog\\source\\cleanAnalogBackground.mc" id="17" lineNum="18" parent="globals/Background" pc="268437867" symbol="draw"/>
+        <entry filename="F:\\Active\\Important\\Coding\\monkey-c\\cleanAnalog\\source\\cleanAnalogBackground.mc" id="17" lineNum="19" parent="globals/Background" pc="268437929" symbol="draw"/>
+        <entry filename="F:\\Active\\Important\\Coding\\monkey-c\\cleanAnalog\\source\\cleanAnalogBackground.mc" id="17" lineNum="20" parent="globals/Background" pc="268437941" symbol="draw"/>
+        <entry filename="F:\\Active\\Important\\Coding\\monkey-c\\cleanAnalog\\source\\cleanAnalogBackground.mc" id="17" lineNum="21" parent="globals/Background" pc="268437964" symbol="draw"/>
+        <entry filename="F:\\Active\\Important\\Coding\\monkey-c\\cleanAnalog\\source\\cleanAnalogBackground.mc" id="17" lineNum="23" parent="globals/Background" pc="268437987" symbol="draw"/>
+        <entry filename="F:\\Active\\Important\\Coding\\monkey-c\\cleanAnalog\\source\\cleanAnalogBackground.mc" id="17" lineNum="24" parent="globals/Background" pc="268438009" symbol="draw"/>
+        <entry filename="F:\\Active\\Important\\Coding\\monkey-c\\cleanAnalog\\source\\cleanAnalogBackground.mc" id="17" lineNum="25" parent="globals/Background" pc="268438026" symbol="draw"/>
+        <entry filename="F:\\Active\\Important\\Coding\\monkey-c\\cleanAnalog\\source\\cleanAnalogBackground.mc" id="17" lineNum="27" parent="globals/Background" pc="268438062" symbol="draw"/>
+        <entry filename="F:\\Active\\Important\\Coding\\monkey-c\\cleanAnalog\\source\\cleanAnalogBackground.mc" id="17" lineNum="28" parent="globals/Background" pc="268438084" symbol="draw"/>
+        <entry filename="F:\\Active\\Important\\Coding\\monkey-c\\cleanAnalog\\source\\cleanAnalogBackground.mc" id="17" lineNum="29" parent="globals/Background" pc="268438101" symbol="draw"/>
+        <entry filename="F:\\Active\\Important\\Coding\\monkey-c\\cleanAnalog\\source\\cleanAnalogBackground.mc" id="17" lineNum="31" parent="globals/Background" pc="268438143" symbol="draw"/>
+        <entry filename="F:\\Active\\Important\\Coding\\monkey-c\\cleanAnalog\\source\\cleanAnalogBackground.mc" id="17" lineNum="32" parent="globals/Background" pc="268438165" symbol="draw"/>
+        <entry filename="F:\\Active\\Important\\Coding\\monkey-c\\cleanAnalog\\source\\cleanAnalogBackground.mc" id="17" lineNum="34" parent="globals/Background" pc="268438204" symbol="draw"/>
+        <entry filename="F:\\Active\\Important\\Coding\\monkey-c\\cleanAnalog\\source\\cleanAnalogApp.mc" id="18" lineNum="5" parent="globals/cleanAnalogApp" pc="268438247" symbol="&lt;init&gt;"/>
+        <entry filename="F:\\Active\\Important\\Coding\\monkey-c\\cleanAnalog\\source\\cleanAnalogApp.mc" id="19" lineNum="12" parent="globals/cleanAnalogApp" pc="268438266" symbol="onStart"/>
+        <entry filename="F:\\Active\\Important\\Coding\\monkey-c\\cleanAnalog\\source\\cleanAnalogApp.mc" id="20" lineNum="25" parent="globals/cleanAnalogApp" pc="268438269" symbol="onSettingsChanged"/>
+        <entry filename="F:\\Active\\Important\\Coding\\monkey-c\\cleanAnalog\\source\\cleanAnalogApp.mc" id="20" lineNum="26" parent="globals/cleanAnalogApp" pc="268438271" symbol="onSettingsChanged"/>
+        <entry filename="F:\\Active\\Important\\Coding\\monkey-c\\cleanAnalog\\source\\cleanAnalogApp.mc" id="21" lineNum="20" parent="globals/cleanAnalogApp" pc="268438288" symbol="getInitialView"/>
+        <entry filename="F:\\Active\\Important\\Coding\\monkey-c\\cleanAnalog\\source\\cleanAnalogApp.mc" id="21" lineNum="21" parent="globals/cleanAnalogApp" pc="268438290" symbol="getInitialView"/>
+        <entry filename="F:\\Active\\Important\\Coding\\monkey-c\\cleanAnalog\\source\\cleanAnalogApp.mc" id="22" lineNum="7" parent="globals/cleanAnalogApp" pc="268438331" symbol="initialize"/>
+        <entry filename="F:\\Active\\Important\\Coding\\monkey-c\\cleanAnalog\\source\\cleanAnalogApp.mc" id="22" lineNum="8" parent="globals/cleanAnalogApp" pc="268438333" symbol="initialize"/>
+        <entry filename="F:\\Active\\Important\\Coding\\monkey-c\\cleanAnalog\\source\\cleanAnalogApp.mc" id="23" lineNum="16" parent="globals/cleanAnalogApp" pc="268438352" symbol="onStop"/>
+        <entry filename="F:\\Active\\Important\\Coding\\monkey-c\\cleanAnalog\\bin\\gen\\006-B4260-00\\source\\Rez.mcgen" id="24" lineNum="7" parent="globals/Rez" pc="268438355" symbol="&lt;init&gt;"/>
+        <entry filename="F:\\Active\\Important\\Coding\\monkey-c\\cleanAnalog\\bin\\gen\\006-B4260-00\\source\\Rez.mcgen" id="25" lineNum="23" parent="globals/Rez/Layouts" pc="268438379" symbol="WatchFace"/>
+        <entry filename="F:\\Active\\Important\\Coding\\monkey-c\\cleanAnalog\\bin\\gen\\006-B4260-00\\source\\Rez.mcgen" id="25" lineNum="24" parent="globals/Rez/Layouts" pc="268438391" symbol="WatchFace"/>
+        <entry filename="F:\\Active\\Important\\Coding\\monkey-c\\cleanAnalog\\bin\\gen\\006-B4260-00\\source\\Rez.mcgen" id="25" lineNum="26" parent="globals/Rez/Layouts" pc="268438419" symbol="WatchFace"/>
+        <entry filename="F:\\Active\\Important\\Coding\\monkey-c\\cleanAnalog\\bin\\gen\\006-B4260-00\\source\\Rez.mcgen" id="25" lineNum="28" parent="globals/Rez/Layouts" pc="268438554" symbol="WatchFace"/>
+    </pcToLineNum>
+    <symbolTable>
+        <entry id="8388639" module="true" symbol="Graphics"/>
+        <entry id="8388632" method="true" symbol="&lt;init&gt;"/>
+        <entry field="true" id="18" symbol="BigFont"/>
+        <entry id="7" module="true" symbol="globals/Rez/Menus"/>
+        <entry id="8389683" method="true" symbol="onSettingsChanged"/>
+        <entry field="true" id="28" symbol="ColorRed"/>
+        <entry field="true" id="31" symbol="MilitaryFormatTitle"/>
+        <entry field="true" id="8388611" module="true" symbol="Toybox"/>
+        <entry field="true" id="25" symbol="ColorBlue"/>
+        <entry field="true" id="22" symbol="AppName"/>
+        <entry id="8" module="true" symbol="globals/Rez/Strings"/>
+        <entry id="8388772" module="true" object="true" symbol="Fonts"/>
+        <entry id="8388648" module="true" symbol="WatchUi"/>
+        <entry id="2" module="true" symbol="globals/Rez"/>
+        <entry id="8389124" method="true" symbol="onUpdate"/>
+        <entry id="8389375" method="true" object="true" symbol="WatchFace"/>
+        <entry field="true" id="8389065" symbol="locY"/>
+        <entry field="true" id="8389064" symbol="locX"/>
+        <entry id="8389178" method="true" symbol="drawCircle"/>
+        <entry id="8388771" module="true" object="true" symbol="Drawables"/>
+        <entry id="8389348" symbol="font"/>
+        <entry id="16" module="true" symbol="Menus"/>
+        <entry id="8389275" method="true" symbol="getApp"/>
+        <entry field="true" id="26" symbol="ColorDarkGray"/>
+        <entry id="6" module="true" symbol="globals/Rez/Layouts"/>
+        <entry field="true" id="20" symbol="IconFont"/>
+        <entry id="13" method="true" symbol="drawGradient"/>
+        <entry id="8389122" method="true" symbol="onLayout"/>
+        <entry id="8389376" method="true" symbol="onEnterSleep"/>
+        <entry field="true" id="8389063" symbol="identifier"/>
+        <entry id="11" method="true" symbol="decimalAsDegree"/>
+        <entry id="8389349" symbol="justification"/>
+        <entry field="true" id="29" symbol="ColorWhite"/>
+        <entry id="5" module="true" symbol="globals/Rez/JsonData"/>
+        <entry field="true" id="24" symbol="ColorBlack"/>
+        <entry id="3" module="true" symbol="globals/Rez/Drawables"/>
+        <entry id="12" method="true" symbol="drawBackground"/>
+        <entry id="8389377" method="true" symbol="onExitSleep"/>
+        <entry id="8388644" module="true" symbol="System"/>
+        <entry id="8388769" module="true" object="true" symbol="Rez"/>
+        <entry id="8388640" module="true" symbol="Lang"/>
+        <entry id="8390088" module="true" object="true" symbol="JsonData"/>
+        <entry id="8389068" method="true" symbol="draw"/>
+        <entry field="true" id="17" symbol="LauncherIcon"/>
+        <entry id="8388610" symbol="statics"/>
+        <entry id="8389123" method="true" symbol="onShow"/>
+        <entry id="8389350" module="true" symbol="globals"/>
+        <entry field="true" id="23" symbol="BackgroundColorTitle"/>
+        <entry id="8388770" module="true" object="true" symbol="Strings"/>
+        <entry id="8390146" module="true" object="true" symbol="Background"/>
+        <entry id="8388702" method="true" symbol="initialize"/>
+        <entry id="8389279" method="true" symbol="onStart"/>
+        <entry field="true" id="27" symbol="ColorLightGray"/>
+        <entry id="8389280" method="true" symbol="getInitialView"/>
+        <entry id="8389281" method="true" symbol="onStop"/>
+        <entry field="true" id="19" symbol="BigIconFont"/>
+        <entry id="8389347" symbol="color"/>
+        <entry field="true" id="30" symbol="ForegroundColorTitle"/>
+        <entry id="15" module="true" symbol="Layouts"/>
+        <entry id="10" object="true" symbol="cleanAnalogView"/>
+        <entry id="9" object="true" symbol="cleanAnalogApp"/>
+        <entry id="4" module="true" symbol="globals/Rez/Fonts"/>
+        <entry field="true" id="21" symbol="MainFont"/>
+        <entry id="8389125" method="true" symbol="onHide"/>
+        <entry id="14" method="true" symbol="getRGB"/>
+        <entry id="8388635" module="true" symbol="Application"/>
+    </symbolTable>
+    <localVars>
+        <entry arg="true" endPc="268435937" name="start" stackId="1" startPc="268435479"/>
+        <entry arg="true" endPc="268435937" name="end" stackId="2" startPc="268435479"/>
+        <entry arg="true" endPc="268435937" name="dc" stackId="3" startPc="268435479"/>
+        <entry endPc="268435936" name="width" stackId="4" startPc="268435483"/>
+        <entry endPc="268435936" name="rincrement" stackId="5" startPc="268435483"/>
+        <entry endPc="268435936" name="gincrement" stackId="6" startPc="268435483"/>
+        <entry endPc="268435936" name="bincrement" stackId="7" startPc="268435483"/>
+        <entry endPc="268435936" name="r" stackId="8" startPc="268435483"/>
+        <entry endPc="268435936" name="g" stackId="9" startPc="268435483"/>
+        <entry endPc="268435936" name="b" stackId="10" startPc="268435483"/>
+        <entry endPc="268435936" name="i" stackId="11" startPc="268435685"/>
+        <entry endPc="268435923" name="rstr" stackId="12" startPc="268435685"/>
+        <entry endPc="268435923" name="gstr" stackId="13" startPc="268435685"/>
+        <entry endPc="268435923" name="bstr" stackId="14" startPc="268435685"/>
+        <entry arg="true" endPc="268436155" name="dc" stackId="1" startPc="268435938"/>
+        <entry endPc="268436154" name="clockTime" stackId="2" startPc="268435942"/>
+        <entry endPc="268436154" name="hours" stackId="3" startPc="268435942"/>
+        <entry endPc="268436154" name="minutes" stackId="4" startPc="268435942"/>
+        <entry endPc="268436154" name="seconds" stackId="5" startPc="268435942"/>
+        <entry endPc="268436154" name="width" stackId="6" startPc="268435942"/>
+        <entry endPc="268436154" name="height" stackId="7" startPc="268435942"/>
+        <entry arg="true" endPc="268436312" name="dc" stackId="1" startPc="268436156"/>
+        <entry arg="true" endPc="268436312" name="x" stackId="2" startPc="268436156"/>
+        <entry arg="true" endPc="268436312" name="y" stackId="3" startPc="268436156"/>
+        <entry arg="true" endPc="268436312" name="radius" stackId="4" startPc="268436156"/>
+        <entry endPc="268436311" name="screenWidth" stackId="5" startPc="268436160"/>
+        <entry endPc="268436311" name="screenHeight" stackId="6" startPc="268436160"/>
+        <entry endPc="268436311" name="screenSmallerVal" stackId="7" startPc="268436160"/>
+        <entry endPc="268436311" name="centerX" stackId="8" startPc="268436160"/>
+        <entry endPc="268436311" name="centerY" stackId="9" startPc="268436160"/>
+        <entry arg="true" endPc="268436356" name="dc" stackId="1" startPc="268436313"/>
+        <entry arg="true" endPc="268436423" name="decimal" stackId="1" startPc="268436378"/>
+        <entry arg="true" endPc="268436423" name="width" stackId="2" startPc="268436378"/>
+        <entry endPc="268436423" name="widthPercent" stackId="3" startPc="268436382"/>
+        <entry endPc="268436423" name="degreeOut" stackId="4" startPc="268436382"/>
+        <entry arg="true" endPc="268437137" name="dc" stackId="1" startPc="268436424"/>
+        <entry endPc="268437136" name="timeFormat" stackId="2" startPc="268436428"/>
+        <entry endPc="268437136" name="clockTime" stackId="3" startPc="268436428"/>
+        <entry endPc="268437136" name="hours" stackId="4" startPc="268436428"/>
+        <entry endPc="268437136" name="timeString" stackId="5" startPc="268436428"/>
+        <entry endPc="268437136" name="view" stackId="6" startPc="268436428"/>
+        <entry endPc="268437136" name="clock" stackId="7" startPc="268436428"/>
+        <entry endPc="268437136" name="th" stackId="8" startPc="268436428"/>
+        <entry endPc="268437136" name="tm" stackId="9" startPc="268436428"/>
+        <entry endPc="268437136" name="ts" stackId="10" startPc="268436428"/>
+        <entry endPc="268437136" name="w" stackId="11" startPc="268436428"/>
+        <entry endPc="268437136" name="h" stackId="12" startPc="268436428"/>
+        <entry endPc="268437136" name="hoursArc" stackId="13" startPc="268436428"/>
+        <entry endPc="268437136" name="minutesArc" stackId="14" startPc="268436428"/>
+        <entry endPc="268437136" name="secondArc" stackId="15" startPc="268436428"/>
+        <entry arg="true" endPc="268437771" name="color" stackId="1" startPc="268437138"/>
+        <entry endPc="268437771" name="color1" stackId="2" startPc="268437142"/>
+        <entry endPc="268437771" name="r" stackId="3" startPc="268437142"/>
+        <entry endPc="268437771" name="g" stackId="4" startPc="268437142"/>
+        <entry endPc="268437771" name="b" stackId="5" startPc="268437142"/>
+        <entry endPc="268437861" name="dictionary" stackId="1" startPc="268437821"/>
+        <entry arg="true" endPc="268438246" name="dc" stackId="1" startPc="268437863"/>
+        <entry endPc="268438245" name="w" stackId="2" startPc="268437867"/>
+        <entry endPc="268438245" name="h" stackId="3" startPc="268437867"/>
+        <entry arg="true" endPc="268438580" name="dc" stackId="1" startPc="268438379"/>
+        <entry endPc="268438580" name="rez_cmp_local_custom_drawable_19485193272121984332" stackId="2" startPc="268438391"/>
+        <entry endPc="268438580" name="rez_cmp_local_text_TimeLabel" stackId="3" startPc="268438391"/>
+    </localVars>
+    <annotations>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="MilitaryFormatTitle"/>
+        <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="LauncherIcon"/>
+        <annotationEntry annotation="initialized" class="Fonts" module="globals/Rez" symbol="BigFont"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="ColorWhite"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="ForegroundColorTitle"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="ColorLightGray"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="AppName"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="ColorBlue"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="BackgroundColorTitle"/>
+        <annotationEntry annotation="initialized" class="Fonts" module="globals/Rez" symbol="BigIconFont"/>
+        <annotationEntry annotation="initialized" class="Fonts" module="globals/Rez" symbol="MainFont"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="ColorRed"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="ColorDarkGray"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="ColorBlack"/>
+        <annotationEntry annotation="initialized" class="Fonts" module="globals/Rez" symbol="IconFont"/>
+    </annotations>
+    <dataEntryOffsetMappings>
+        <dataEntry label="globals" offset="87" parentId="" symbolId="globals" type="module"/>
+        <dataEntry label="globals/cleanAnalogView" offset="166" parentId="globals" symbolId="cleanAnalogView" type="class"/>
+        <dataEntry label="globals/Background" offset="301" parentId="globals" symbolId="Background" type="class"/>
+        <dataEntry label="globals/cleanAnalogApp" offset="356" parentId="globals" symbolId="cleanAnalogApp" type="class"/>
+        <dataEntry label="globals/Rez" offset="435" parentId="globals" symbolId="Rez" type="module"/>
+        <dataEntry label="globals/Rez/Drawables" offset="514" parentId="Rez" symbolId="Drawables" type="module"/>
+        <dataEntry label="globals/Rez/Layouts" offset="553" parentId="Rez" symbolId="Layouts" type="module"/>
+        <dataEntry label="globals/Rez/Menus" offset="592" parentId="Rez" symbolId="Menus" type="module"/>
+        <dataEntry label="globals/Rez/Fonts" offset="623" parentId="Rez" symbolId="Fonts" type="module"/>
+        <dataEntry label="globals/Rez/Strings" offset="686" parentId="Rez" symbolId="Strings" type="module"/>
+        <dataEntry label="globals/Rez/JsonData" offset="797" parentId="Rez" symbolId="JsonData" type="module"/>
+    </dataEntryOffsetMappings>
+    <functions>
+        <functionEntry accessMode="public" endPc="268435478" name="&lt;init&gt;" parent="cleanAnalogView" startPc="268435460">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="onExitSleep" parent="cleanAnalogView">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="onShow" parent="cleanAnalogView">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435937" name="drawGradient" parent="cleanAnalogView" startPc="268435479">
+            <param id="start"/>
+            <param id="end"/>
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436155" name="drawBackground" parent="cleanAnalogView" startPc="268435938">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436312" name="drawCircle" parent="cleanAnalogView" startPc="268436156">
+            <param id="dc"/>
+            <param id="x"/>
+            <param id="y"/>
+            <param id="radius"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436356" name="onLayout" parent="cleanAnalogView" startPc="268436313">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="onEnterSleep" parent="cleanAnalogView">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436377" name="initialize" parent="cleanAnalogView" startPc="268436357">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="onHide" parent="cleanAnalogView">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436423" name="decimalAsDegree" parent="cleanAnalogView" startPc="268436378">
+            <param id="decimal"/>
+            <param id="width"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268437137" name="onUpdate" parent="cleanAnalogView" startPc="268436424">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268437771" name="getRGB" parent="cleanAnalogView" startPc="268437138">
+            <param id="color"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268437797" name="getApp" startPc="268437772">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268437816" name="&lt;init&gt;" parent="Background" startPc="268437798">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268437862" name="initialize" parent="Background" startPc="268437817">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268438246" name="draw" parent="Background" startPc="268437863">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268438265" name="&lt;init&gt;" parent="cleanAnalogApp" startPc="268438247">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268438268" name="onStart" parent="cleanAnalogApp" startPc="268438266">
+            <param id="state"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268438287" name="onSettingsChanged" parent="cleanAnalogApp" startPc="268438269">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268438330" name="getInitialView" parent="cleanAnalogApp" startPc="268438288">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268438351" name="initialize" parent="cleanAnalogApp" startPc="268438331">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268438354" name="onStop" parent="cleanAnalogApp" startPc="268438352">
+            <param id="state"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268438378" name="&lt;init&gt;" parent="Rez" startPc="268438355">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="&lt;init&gt;" parent="Drawables">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="&lt;init&gt;" parent="Layouts">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="&lt;init&gt;" parent="Menus">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="&lt;init&gt;" parent="Fonts">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="&lt;init&gt;" parent="Strings">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="&lt;init&gt;" parent="JsonData">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268438580" name="WatchFace" parent="Layouts" startPc="268438379">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+    </functions>
+</debugInfo>

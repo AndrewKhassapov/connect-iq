@@ -1,0 +1,1508 @@
+[ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 1; ]
+import Toybox.Lang;
+[ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 2; ]
+using Toybox.WatchUi;
+[ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 3; ]
+using Toybox.WatchUi as :Ui;
+[ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 4; ]
+using Toybox.Graphics;
+[ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 5; ]
+using Toybox.Graphics as :Gfx;
+[ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 7; ]
+module Rez {
+    [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 7; ]
+    <init> {
+    }
+    [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 8; ]
+    module Drawables {
+        [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 8; ]
+        <init> {
+        }
+        [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 9; @position = 27; initialized = true; ]
+        var LauncherIcon as Symbol;
+    }
+    [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 12; ]
+    module Fonts {
+        [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 12; ]
+        <init> {
+        }
+        [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 13; @position = 27; initialized = true; ]
+        var MainFont as Symbol;
+        [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 14; @position = 27; initialized = true; ]
+        var BigFont as Symbol;
+        [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 15; @position = 27; initialized = true; ]
+        var IconFont as Symbol;
+        [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 16; @position = 27; initialized = true; ]
+        var BigIconFont as Symbol;
+    }
+    [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 19; ]
+    module JsonData {
+        [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 19; ]
+        <init> {
+        }
+    }
+    [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 22; ]
+    module Layouts {
+        [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 22; ]
+        <init> {
+        }
+        [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 23; ]
+        function WatchFace(dc as Graphics.Dc) as Array<WatchUi.Drawable> {
+F_Active_Important_Coding_monkey_c_cleanAnalog_bin_gen_006_B4260_00_source_Rez_mcgen_23_73_start:
+[ "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen" 24 12 ]
+            [ "F_Active_Important_Coding_monkey_c_cleanAnalog_bin_gen_006_B4260_00_source_Rez_mcgen_23_73_start" "F_Active_Important_Coding_monkey_c_cleanAnalog_bin_gen_006_B4260_00_source_Rez_mcgen_23_73_stop" ]
+            %rez_cmp_local_custom_drawable_19485193272121984332.1 = local;
+            %tmp.4 = getv ? :Background;
+            %tmp.1 = newc %tmp.4 ();
+            lputv %rez_cmp_local_custom_drawable_19485193272121984332.1 %tmp.1;
+[ "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen" 26 12 ]
+            [ "F_Active_Important_Coding_monkey_c_cleanAnalog_bin_gen_006_B4260_00_source_Rez_mcgen_23_73_start" "F_Active_Important_Coding_monkey_c_cleanAnalog_bin_gen_006_B4260_00_source_Rez_mcgen_23_73_stop" ]
+            %rez_cmp_local_text_TimeLabel.2 = local;
+            %tmp.7 = getm $.Toybox.WatchUi;
+            %tmp.8 = getv function ? %tmp.7 :Text;
+            %tmp.9 = newd 6;
+            %tmp.11 = const :identifier;
+            %tmp.12 = "TimeLabel";
+            %tmp.13 = dup %tmp.9;
+            %tmp.14 = aputv %tmp.13 %tmp.11 %tmp.12;
+            %tmp.16 = const :color;
+            %tmp.17 = getm $.Toybox.Graphics;
+            %tmp.18 = getv %tmp.17 :COLOR_BLUE;
+            %tmp.19 = dup %tmp.14;
+            %tmp.20 = aputv %tmp.19 %tmp.16 %tmp.18;
+            %tmp.22 = const :locX;
+            %tmp.23 = 454;
+            %tmp.24 = 0.5;
+            %tmp.25 = mul %tmp.23 %tmp.24;
+            %tmp.26 = dup %tmp.20;
+            %tmp.27 = aputv %tmp.26 %tmp.22 %tmp.25;
+            %tmp.29 = const :locY;
+            %tmp.30 = 454;
+            %tmp.31 = lgetv %dc;
+            %tmp.32 = getv function %tmp.31 :getFontHeight;
+            %tmp.33 = getm $.Toybox.Graphics;
+            %tmp.34 = getv %tmp.33 :FONT_LARGE;
+            %tmp.35 = invoke %tmp.31 %tmp.32(%tmp.34);
+            %tmp.36 = sub %tmp.30 %tmp.35;
+            %tmp.37 = 0.5;
+            %tmp.38 = mul %tmp.36 %tmp.37;
+            %tmp.39 = dup %tmp.27;
+            %tmp.40 = aputv %tmp.39 %tmp.29 %tmp.38;
+            %tmp.42 = const :justification;
+            %tmp.43 = getm $.Toybox.Graphics;
+            %tmp.44 = getv %tmp.43 :TEXT_JUSTIFY_CENTER;
+            %tmp.45 = dup %tmp.40;
+            %tmp.46 = aputv %tmp.45 %tmp.42 %tmp.44;
+            %tmp.48 = const :font;
+            %tmp.49 = getm $.Toybox.Graphics;
+            %tmp.50 = getv %tmp.49 :FONT_LARGE;
+            %tmp.51 = dup %tmp.46;
+            %tmp.52 = aputv %tmp.51 %tmp.48 %tmp.50;
+            %tmp.5 = newc %tmp.8 (%tmp.52);
+            lputv %rez_cmp_local_text_TimeLabel.2 %tmp.5;
+[ "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen" 28 12 ]
+            %tmp.53 = newa Array<WatchUi.Drawable> 2;
+            %tmp.55 = lgetv %rez_cmp_local_custom_drawable_19485193272121984332.1;
+            %tmp.56 = dup %tmp.53;
+            %tmp.57 = aputv %tmp.56 0 %tmp.55;
+            %tmp.59 = lgetv %rez_cmp_local_text_TimeLabel.2;
+            %tmp.60 = dup %tmp.57;
+            %tmp.61 = aputv %tmp.60 1 %tmp.59;
+            ret %tmp.61;
+F_Active_Important_Coding_monkey_c_cleanAnalog_bin_gen_006_B4260_00_source_Rez_mcgen_23_73_stop:
+        }
+    }
+    [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 32; ]
+    module Menus {
+        [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 32; ]
+        <init> {
+        }
+    }
+    [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 35; ]
+    module Strings {
+        [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 35; ]
+        <init> {
+        }
+        [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 36; @position = 27; initialized = true; ]
+        var ColorLightGray as Symbol;
+        [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 37; @position = 27; initialized = true; ]
+        var ColorBlue as Symbol;
+        [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 38; @position = 27; initialized = true; ]
+        var ColorRed as Symbol;
+        [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 39; @position = 27; initialized = true; ]
+        var ForegroundColorTitle as Symbol;
+        [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 40; @position = 27; initialized = true; ]
+        var BackgroundColorTitle as Symbol;
+        [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 41; @position = 27; initialized = true; ]
+        var ColorDarkGray as Symbol;
+        [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 42; @position = 27; initialized = true; ]
+        var MilitaryFormatTitle as Symbol;
+        [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 43; @position = 27; initialized = true; ]
+        var ColorBlack as Symbol;
+        [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 44; @position = 27; initialized = true; ]
+        var ColorWhite as Symbol;
+        [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 45; @position = 27; initialized = true; ]
+        var AppName as Symbol;
+    }
+    [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 48; ]
+    module Styles {
+        [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 48; ]
+        <init> {
+        }
+        [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 49; ]
+        module prompt_font_enhanced_readability__body_with_title {
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 49; ]
+            <init> {
+[ "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen" 50 18 ]
+                %tmp.62 = getm $.Toybox.Graphics;
+                %tmp.63 = getv %tmp.62 :TEXT_JUSTIFY_CENTER;
+                putv self :justification %tmp.63;
+[ "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen" 51 18 ]
+                %tmp.64 = getm $.Toybox.Graphics;
+                %tmp.65 = getv %tmp.64 :FONT_SMALL;
+                putv self :font %tmp.65;
+            }
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 50; @position = 18; ]
+            const justification;
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 51; @position = 18; ]
+            const font;
+        }
+        [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 54; ]
+        module system_size__menu_header {
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 54; ]
+            <init> {
+            }
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 55; @position = 18; ]
+            const width as Number = 454;
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 56; @position = 18; ]
+            const height as Number = 105;
+        }
+        [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 59; ]
+        module system_loc__hint_button_left_bottom {
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 59; ]
+            <init> {
+            }
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 60; @position = 18; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 63; ]
+        module prompt_font_enhanced_readability__body_no_title {
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 63; ]
+            <init> {
+[ "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen" 64 18 ]
+                %tmp.66 = getm $.Toybox.Graphics;
+                %tmp.67 = getv %tmp.66 :TEXT_JUSTIFY_CENTER;
+                %tmp.68 = getm $.Toybox.Graphics;
+                %tmp.69 = getv %tmp.68 :TEXT_JUSTIFY_VCENTER;
+                %tmp.70 = bitor %tmp.67 %tmp.69;
+                putv self :justification %tmp.70;
+[ "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen" 65 18 ]
+                %tmp.71 = getm $.Toybox.Graphics;
+                %tmp.72 = getv %tmp.71 :FONT_SMALL;
+                putv self :font %tmp.72;
+            }
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 64; @position = 18; ]
+            const justification;
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 65; @position = 18; ]
+            const font;
+        }
+        [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 68; ]
+        module prompt_loc__body_no_title {
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 68; ]
+            <init> {
+            }
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 69; @position = 18; ]
+            const x as Number = 45;
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 70; @position = 18; ]
+            const y as Number = 68;
+        }
+        [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 73; ]
+        module system_icon_dark__about {
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 73; ]
+            <init> {
+            }
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 74; @position = 18; ]
+            const filename as String = "C:\\Users\\Andrew\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\venu3\\system_icon_dark__about.svg";
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 75; @position = 18; ]
+            const compress as String = "true";
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 76; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 77; @position = 18; ]
+            const automaticPalette as String = "true";
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 78; @position = 18; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 81; ]
+        module system_icon_light__question {
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 81; ]
+            <init> {
+            }
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 82; @position = 18; ]
+            const filename as String = "C:\\Users\\Andrew\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\venu3\\system_icon_light__question.svg";
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 83; @position = 18; ]
+            const compress as String = "true";
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 84; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 85; @position = 18; ]
+            const automaticPalette as String = "true";
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 86; @position = 18; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 89; ]
+        module system_loc__hint_button_left_top {
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 89; ]
+            <init> {
+            }
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 90; @position = 18; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 93; ]
+        module prompt_font__title {
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 93; ]
+            <init> {
+[ "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen" 94 18 ]
+                %tmp.73 = getm $.Toybox.Graphics;
+                %tmp.74 = getv %tmp.73 :TEXT_JUSTIFY_CENTER;
+                %tmp.75 = getm $.Toybox.Graphics;
+                %tmp.76 = getv %tmp.75 :TEXT_JUSTIFY_VCENTER;
+                %tmp.77 = bitor %tmp.74 %tmp.76;
+                putv self :justification %tmp.77;
+[ "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen" 95 18 ]
+                %tmp.78 = getm $.Toybox.Graphics;
+                %tmp.79 = getv %tmp.78 :FONT_XTINY;
+                putv self :font %tmp.79;
+            }
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 94; @position = 18; ]
+            const justification;
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 95; @position = 18; ]
+            const font;
+        }
+        [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 98; ]
+        module system_icon_dark__discard {
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 98; ]
+            <init> {
+            }
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 99; @position = 18; ]
+            const filename as String = "C:\\Users\\Andrew\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\venu3\\system_icon_dark__discard.svg";
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 100; @position = 18; ]
+            const compress as String = "true";
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 101; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 102; @position = 18; ]
+            const automaticPalette as String = "true";
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 103; @position = 18; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 106; ]
+        module system_size__menu_item {
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 106; ]
+            <init> {
+            }
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 107; @position = 18; ]
+            const width as Number = 454;
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 108; @position = 18; ]
+            const height as Number = 116;
+        }
+        [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 111; ]
+        module system_color_dark__text {
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 111; ]
+            <init> {
+[ "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen" 113 18 ]
+                %tmp.80 = getm $.Toybox.Graphics;
+                %tmp.81 = getv %tmp.80 :COLOR_TRANSPARENT;
+                putv self :background %tmp.81;
+            }
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 112; @position = 18; ]
+            const color as Number = 0xFFFFFF;
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 113; @position = 18; ]
+            const background;
+        }
+        [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 116; ]
+        module system_icon_destructive__discard {
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 116; ]
+            <init> {
+            }
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 117; @position = 18; ]
+            const filename as String = "C:\\Users\\Andrew\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\venu3\\system_icon_destructive__discard.svg";
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 118; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 119; @position = 18; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 122; ]
+        module system_icon_dark__hint_action_menu {
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 122; ]
+            <init> {
+            }
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 123; @position = 18; ]
+            const filename as String = "C:\\Users\\Andrew\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\venu3\\system_icon_dark__hint_action_menu.svg";
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 124; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 125; @position = 18; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 128; ]
+        module prompt_size__title {
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 128; ]
+            <init> {
+            }
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 129; @position = 18; ]
+            const width as Number = 192;
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 130; @position = 18; ]
+            const height as Number = 81;
+        }
+        [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 133; ]
+        module confirmation_font__body {
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 133; ]
+            <init> {
+[ "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen" 134 18 ]
+                %tmp.82 = getm $.Toybox.Graphics;
+                %tmp.83 = getv %tmp.82 :TEXT_JUSTIFY_CENTER;
+                %tmp.84 = getm $.Toybox.Graphics;
+                %tmp.85 = getv %tmp.84 :TEXT_JUSTIFY_VCENTER;
+                %tmp.86 = bitor %tmp.83 %tmp.85;
+                putv self :justification %tmp.86;
+[ "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen" 135 18 ]
+                %tmp.87 = getm $.Toybox.Graphics;
+                %tmp.88 = getv %tmp.87 :FONT_TINY;
+                putv self :font %tmp.88;
+            }
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 134; @position = 18; ]
+            const justification;
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 135; @position = 18; ]
+            const font;
+        }
+        [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 138; ]
+        module system_color_dark__background {
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 138; ]
+            <init> {
+            }
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 139; @position = 18; ]
+            const color as Number = 0x000000;
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 140; @position = 18; ]
+            const background as Number = 0x000000;
+        }
+        [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 143; ]
+        module system_icon_destructive__hint_button_left_top {
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 143; ]
+            <init> {
+            }
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 144; @position = 18; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 147; ]
+        module system_size__launch_icon {
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 147; ]
+            <init> {
+            }
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 148; @position = 18; ]
+            const scaleX as Number = 70;
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 149; @position = 18; ]
+            const scaleY as Number = 70;
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 150; @position = 18; ]
+            const scaleRelativeTo as String = "screen";
+        }
+        [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 153; ]
+        module confirmation_input__confirm {
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 153; ]
+            <init> {
+            }
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 154; @position = 18; ]
+            const y1 as Number = 345;
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 155; @position = 18; ]
+            const x1 as Number = 84;
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 156; @position = 18; ]
+            const y2 as Number = 454;
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 157; @position = 18; ]
+            const x2 as Number = 370;
+        }
+        [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 160; ]
+        module prompt_font__body_with_title {
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 160; ]
+            <init> {
+[ "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen" 161 18 ]
+                %tmp.89 = getm $.Toybox.Graphics;
+                %tmp.90 = getv %tmp.89 :TEXT_JUSTIFY_CENTER;
+                putv self :justification %tmp.90;
+[ "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen" 162 18 ]
+                %tmp.91 = getm $.Toybox.Graphics;
+                %tmp.92 = getv %tmp.91 :FONT_TINY;
+                putv self :font %tmp.92;
+            }
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 161; @position = 18; ]
+            const justification;
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 162; @position = 18; ]
+            const font;
+        }
+        [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 165; ]
+        module confirmation_loc__body {
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 165; ]
+            <init> {
+            }
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 166; @position = 18; ]
+            const x as Number = 93;
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 167; @position = 18; ]
+            const y as Number = 91;
+        }
+        [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 170; ]
+        module system_icon_destructive__hint_button_left_bottom {
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 170; ]
+            <init> {
+            }
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 171; @position = 18; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 174; ]
+        module prompt_color_dark__background {
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 174; ]
+            <init> {
+            }
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 175; @position = 18; ]
+            const color as Number = 0x000000;
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 176; @position = 18; ]
+            const background as Number = 0x000000;
+        }
+        [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 179; ]
+        module system_loc__hint_action_menu {
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 179; ]
+            <init> {
+            }
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 180; @position = 18; ]
+            const x as Number = 227;
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 181; @position = 18; ]
+            const horizontalJustification as String = "center";
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 182; @position = 18; ]
+            const y as Number = 370;
+        }
+        [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 185; ]
+        module confirmation_icon__hint_confirm {
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 185; ]
+            <init> {
+            }
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 186; @position = 18; ]
+            const filename as String = "C:\\Users\\Andrew\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\venu3\\confirmation_icon__hint_completion.svg";
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 187; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 188; @position = 18; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 191; ]
+        module system_loc__hint_button_left_middle {
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 191; ]
+            <init> {
+            }
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 192; @position = 18; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 195; ]
+        module prompt_size__body_no_title {
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 195; ]
+            <init> {
+            }
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 196; @position = 18; ]
+            const width as Number = 363;
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 197; @position = 18; ]
+            const height as Number = 295;
+        }
+        [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 200; ]
+        module system_icon_light__hint_button_left_top {
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 200; ]
+            <init> {
+            }
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 201; @position = 18; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 204; ]
+        module prompt_color_light__background {
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 204; ]
+            <init> {
+            }
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 205; @position = 18; ]
+            const color as Number = 0x000000;
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 206; @position = 18; ]
+            const background as Number = 0x000000;
+        }
+        [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 209; ]
+        module confirmation_input__delete {
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 209; ]
+            <init> {
+[ "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen" 210 18 ]
+                %tmp.93 = getm $.Toybox.WatchUi;
+                %tmp.94 = getv %tmp.93 :KEY_ENTER;
+                putv self :button %tmp.94;
+            }
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 210; @position = 18; ]
+            const button;
+        }
+        [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 213; ]
+        module system_icon_dark__hint_button_left_top {
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 213; ]
+            <init> {
+            }
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 214; @position = 18; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 217; ]
+        module system_input__action_menu {
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 217; ]
+            <init> {
+            }
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 218; @position = 18; ]
+            const y1 as Number = 370;
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 219; @position = 18; ]
+            const x1 as Number = 113;
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 220; @position = 18; ]
+            const y2 as Number = 454;
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 221; @position = 18; ]
+            const x2 as Number = 341;
+        }
+        [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 224; ]
+        module system_icon_light__save {
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 224; ]
+            <init> {
+            }
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 225; @position = 18; ]
+            const filename as String = "C:\\Users\\Andrew\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\venu3\\system_icon_light__save.svg";
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 226; @position = 18; ]
+            const compress as String = "true";
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 227; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 228; @position = 18; ]
+            const automaticPalette as String = "true";
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 229; @position = 18; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 232; ]
+        module prompt_color_light__body {
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 232; ]
+            <init> {
+[ "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen" 234 18 ]
+                %tmp.95 = getm $.Toybox.Graphics;
+                %tmp.96 = getv %tmp.95 :COLOR_TRANSPARENT;
+                putv self :background %tmp.96;
+            }
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 233; @position = 18; ]
+            const color as Number = 0xFFFFFF;
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 234; @position = 18; ]
+            const background;
+        }
+        [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 237; ]
+        module system_loc__subwindow {
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 237; ]
+            <init> {
+            }
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 238; @position = 18; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 241; ]
+        module system_icon_light__warning {
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 241; ]
+            <init> {
+            }
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 242; @position = 18; ]
+            const filename as String = "C:\\Users\\Andrew\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\venu3\\system_icon_light__warning.svg";
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 243; @position = 18; ]
+            const compress as String = "true";
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 244; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 245; @position = 18; ]
+            const automaticPalette as String = "true";
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 246; @position = 18; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 249; ]
+        module confirmation_color_light__body {
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 249; ]
+            <init> {
+[ "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen" 251 18 ]
+                %tmp.97 = getm $.Toybox.Graphics;
+                %tmp.98 = getv %tmp.97 :COLOR_TRANSPARENT;
+                putv self :background %tmp.98;
+            }
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 250; @position = 18; ]
+            const color as Number = 0xFFFFFF;
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 251; @position = 18; ]
+            const background;
+        }
+        [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 254; ]
+        module activity_color_light__background {
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 254; ]
+            <init> {
+            }
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 255; @position = 18; ]
+            const color as Number = 0x000000;
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 256; @position = 18; ]
+            const background as Number = 0x000000;
+        }
+        [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 259; ]
+        module system_icon_positive__hint_button_right_top {
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 259; ]
+            <init> {
+            }
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 260; @position = 18; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 263; ]
+        module system_size__screen {
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 263; ]
+            <init> {
+            }
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 264; @position = 18; ]
+            const width as Number = 454;
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 265; @position = 18; ]
+            const height as Number = 454;
+        }
+        [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 268; ]
+        module system_icon_destructive__hint_button_right_bottom {
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 268; ]
+            <init> {
+            }
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 269; @position = 18; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 272; ]
+        module system_color_light__background {
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 272; ]
+            <init> {
+            }
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 273; @position = 18; ]
+            const color as Number = 0x000000;
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 274; @position = 18; ]
+            const background as Number = 0x000000;
+        }
+        [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 277; ]
+        module system_icon_destructive__hint_button_right_top {
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 277; ]
+            <init> {
+            }
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 278; @position = 18; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 281; ]
+        module confirmation_loc__hint_confirm {
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 281; ]
+            <init> {
+            }
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 282; @position = 18; ]
+            const x as Number = 227;
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 283; @position = 18; ]
+            const horizontalJustification as String = "center";
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 284; @position = 18; ]
+            const y as Number = 345;
+        }
+        [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 287; ]
+        module activity_color_dark__text {
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 287; ]
+            <init> {
+[ "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen" 289 18 ]
+                %tmp.99 = getm $.Toybox.Graphics;
+                %tmp.100 = getv %tmp.99 :COLOR_TRANSPARENT;
+                putv self :background %tmp.100;
+            }
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 288; @position = 18; ]
+            const color as Number = 0xFFFFFF;
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 289; @position = 18; ]
+            const background;
+        }
+        [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 292; ]
+        module confirmation_input__keep {
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 292; ]
+            <init> {
+[ "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen" 293 18 ]
+                %tmp.101 = getm $.Toybox.WatchUi;
+                %tmp.102 = getv %tmp.101 :KEY_ESC;
+                putv self :button %tmp.102;
+            }
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 293; @position = 18; ]
+            const button;
+        }
+        [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 296; ]
+        module prompt_loc__body_with_title {
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 296; ]
+            <init> {
+            }
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 297; @position = 18; ]
+            const x as Number = 45;
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 298; @position = 18; ]
+            const y as Number = 114;
+        }
+        [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 301; ]
+        module system_icon_dark__search {
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 301; ]
+            <init> {
+            }
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 302; @position = 18; ]
+            const filename as String = "C:\\Users\\Andrew\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\venu3\\system_icon_dark__search.svg";
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 303; @position = 18; ]
+            const compress as String = "true";
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 304; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 305; @position = 18; ]
+            const automaticPalette as String = "true";
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 306; @position = 18; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 309; ]
+        module activity_color_light__text {
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 309; ]
+            <init> {
+[ "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen" 311 18 ]
+                %tmp.103 = getm $.Toybox.Graphics;
+                %tmp.104 = getv %tmp.103 :COLOR_TRANSPARENT;
+                putv self :background %tmp.104;
+            }
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 310; @position = 18; ]
+            const color as Number = 0xFFFFFF;
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 311; @position = 18; ]
+            const background;
+        }
+        [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 314; ]
+        module confirmation_icon__hint_keep {
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 314; ]
+            <init> {
+            }
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 315; @position = 18; ]
+            const filename as String = "C:\\Users\\Andrew\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\venu3\\confirmation_icon__hint_keep.svg";
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 316; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 317; @position = 18; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 320; ]
+        module system_icon_dark__save {
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 320; ]
+            <init> {
+            }
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 321; @position = 18; ]
+            const filename as String = "C:\\Users\\Andrew\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\venu3\\system_icon_dark__save.svg";
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 322; @position = 18; ]
+            const compress as String = "true";
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 323; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 324; @position = 18; ]
+            const automaticPalette as String = "true";
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 325; @position = 18; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 328; ]
+        module system_icon_destructive__hint_button_left_middle {
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 328; ]
+            <init> {
+            }
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 329; @position = 18; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 332; ]
+        module system_icon_light__search {
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 332; ]
+            <init> {
+            }
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 333; @position = 18; ]
+            const filename as String = "C:\\Users\\Andrew\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\venu3\\system_icon_light__search.svg";
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 334; @position = 18; ]
+            const compress as String = "true";
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 335; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 336; @position = 18; ]
+            const automaticPalette as String = "true";
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 337; @position = 18; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 340; ]
+        module system_icon_dark__hint_button_left_bottom {
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 340; ]
+            <init> {
+            }
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 341; @position = 18; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 344; ]
+        module system_icon_positive__hint_button_left_top {
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 344; ]
+            <init> {
+            }
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 345; @position = 18; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 348; ]
+        module system_loc__hint_button_right_bottom {
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 348; ]
+            <init> {
+            }
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 349; @position = 18; ]
+            const x as Number = 342;
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 350; @position = 18; ]
+            const y as Number = 256;
+        }
+        [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 353; ]
+        module confirmation_color_dark__body {
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 353; ]
+            <init> {
+[ "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen" 355 18 ]
+                %tmp.105 = getm $.Toybox.Graphics;
+                %tmp.106 = getv %tmp.105 :COLOR_TRANSPARENT;
+                putv self :background %tmp.106;
+            }
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 354; @position = 18; ]
+            const color as Number = 0xFFFFFF;
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 355; @position = 18; ]
+            const background;
+        }
+        [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 358; ]
+        module prompt_color_dark__title {
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 358; ]
+            <init> {
+[ "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen" 360 18 ]
+                %tmp.107 = getm $.Toybox.Graphics;
+                %tmp.108 = getv %tmp.107 :COLOR_TRANSPARENT;
+                putv self :background %tmp.108;
+            }
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 359; @position = 18; ]
+            const color as Number = 0xB3B3B3;
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 360; @position = 18; ]
+            const background;
+        }
+        [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 363; ]
+        module system_icon_destructive__cancel {
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 363; ]
+            <init> {
+            }
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 364; @position = 18; ]
+            const filename as String = "C:\\Users\\Andrew\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\venu3\\system_icon_destructive__cancel.svg";
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 365; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 366; @position = 18; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 369; ]
+        module system_icon_light__hint_button_right_bottom {
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 369; ]
+            <init> {
+            }
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 370; @position = 18; ]
+            const filename as String = "C:\\Users\\Andrew\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\venu3\\system_icon_light__hint_button_right_bottom.svg";
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 371; @position = 18; ]
+            const dithering as String = "none";
+        }
+        [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 374; ]
+        module prompt_loc__title {
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 374; ]
+            <init> {
+            }
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 375; @position = 18; ]
+            const x as Number = 138;
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 376; @position = 18; ]
+            const y as Number = 20;
+        }
+        [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 379; ]
+        module confirmation_font_enhanced_readability__body {
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 379; ]
+            <init> {
+[ "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen" 380 18 ]
+                %tmp.109 = getm $.Toybox.Graphics;
+                %tmp.110 = getv %tmp.109 :TEXT_JUSTIFY_CENTER;
+                %tmp.111 = getm $.Toybox.Graphics;
+                %tmp.112 = getv %tmp.111 :TEXT_JUSTIFY_VCENTER;
+                %tmp.113 = bitor %tmp.110 %tmp.112;
+                putv self :justification %tmp.113;
+[ "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen" 381 18 ]
+                %tmp.114 = getm $.Toybox.Graphics;
+                %tmp.115 = getv %tmp.114 :FONT_SMALL;
+                putv self :font %tmp.115;
+            }
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 380; @position = 18; ]
+            const justification;
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 381; @position = 18; ]
+            const font;
+        }
+        [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 384; ]
+        module prompt_color_light__title {
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 384; ]
+            <init> {
+[ "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen" 386 18 ]
+                %tmp.116 = getm $.Toybox.Graphics;
+                %tmp.117 = getv %tmp.116 :COLOR_TRANSPARENT;
+                putv self :background %tmp.117;
+            }
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 385; @position = 18; ]
+            const color as Number = 0xB3B3B3;
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 386; @position = 18; ]
+            const background;
+        }
+        [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 389; ]
+        module system_icon_dark__hint_button_right_top {
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 389; ]
+            <init> {
+            }
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 390; @position = 18; ]
+            const filename as String = "C:\\Users\\Andrew\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\venu3\\system_icon_dark__hint_button_right_top.svg";
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 391; @position = 18; ]
+            const dithering as String = "none";
+        }
+        [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 394; ]
+        module system_icon_dark__hint_button_left_middle {
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 394; ]
+            <init> {
+            }
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 395; @position = 18; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 398; ]
+        module system_icon_light__cancel {
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 398; ]
+            <init> {
+            }
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 399; @position = 18; ]
+            const filename as String = "C:\\Users\\Andrew\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\venu3\\system_icon_light__cancel.svg";
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 400; @position = 18; ]
+            const compress as String = "true";
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 401; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 402; @position = 18; ]
+            const automaticPalette as String = "true";
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 403; @position = 18; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 406; ]
+        module system_icon_light__about {
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 406; ]
+            <init> {
+            }
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 407; @position = 18; ]
+            const filename as String = "C:\\Users\\Andrew\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\venu3\\system_icon_light__about.svg";
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 408; @position = 18; ]
+            const compress as String = "true";
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 409; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 410; @position = 18; ]
+            const automaticPalette as String = "true";
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 411; @position = 18; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 414; ]
+        module system_size__toast_icon {
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 414; ]
+            <init> {
+            }
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 415; @position = 18; ]
+            const scaleX as Number = 38;
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 416; @position = 18; ]
+            const scaleY as Number = 38;
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 417; @position = 18; ]
+            const scaleRelativeTo as String = "screen";
+        }
+        [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 420; ]
+        module system_icon_dark__hint_button_right_middle {
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 420; ]
+            <init> {
+            }
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 421; @position = 18; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 424; ]
+        module confirmation_icon__hint_reject {
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 424; ]
+            <init> {
+            }
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 425; @position = 18; ]
+            const filename as String = "C:\\Users\\Andrew\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\venu3\\confirmation_icon__hint_reject.svg";
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 426; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 427; @position = 18; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 430; ]
+        module system_icon_light__hint_action_menu {
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 430; ]
+            <init> {
+            }
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 431; @position = 18; ]
+            const filename as String = "C:\\Users\\Andrew\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\venu3\\system_icon_light__hint_action_menu.svg";
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 432; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 433; @position = 18; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 436; ]
+        module system_icon_light__hint_button_right_middle {
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 436; ]
+            <init> {
+            }
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 437; @position = 18; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 440; ]
+        module system_icon_destructive__hint_button_right_middle {
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 440; ]
+            <init> {
+            }
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 441; @position = 18; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 444; ]
+        module confirmation_loc__hint_reject {
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 444; ]
+            <init> {
+            }
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 445; @position = 18; ]
+            const x as Number = 227;
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 446; @position = 18; ]
+            const horizontalJustification as String = "center";
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 447; @position = 18; ]
+            const y as Number = 0;
+        }
+        [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 450; ]
+        module activity_color_dark__background {
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 450; ]
+            <init> {
+            }
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 451; @position = 18; ]
+            const color as Number = 0x000000;
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 452; @position = 18; ]
+            const background as Number = 0x000000;
+        }
+        [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 455; ]
+        module system_icon_light__hint_button_left_bottom {
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 455; ]
+            <init> {
+            }
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 456; @position = 18; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 459; ]
+        module system_icon_positive__hint_button_left_middle {
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 459; ]
+            <init> {
+            }
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 460; @position = 18; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 463; ]
+        module system_size__menu_icon {
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 463; ]
+            <init> {
+            }
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 464; @position = 18; ]
+            const scaleX as Number = 55;
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 465; @position = 18; ]
+            const scaleY as Number = 55;
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 466; @position = 18; ]
+            const scaleRelativeTo as String = "screen";
+        }
+        [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 469; ]
+        module system_icon_destructive__warning {
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 469; ]
+            <init> {
+            }
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 470; @position = 18; ]
+            const filename as String = "C:\\Users\\Andrew\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\venu3\\system_icon_destructive__warning.svg";
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 471; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 472; @position = 18; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 475; ]
+        module system_loc__hint_button_right_middle {
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 475; ]
+            <init> {
+            }
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 476; @position = 18; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 479; ]
+        module system_icon_dark__cancel {
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 479; ]
+            <init> {
+            }
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 480; @position = 18; ]
+            const filename as String = "C:\\Users\\Andrew\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\venu3\\system_icon_dark__cancel.svg";
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 481; @position = 18; ]
+            const compress as String = "true";
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 482; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 483; @position = 18; ]
+            const automaticPalette as String = "true";
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 484; @position = 18; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 487; ]
+        module prompt_size__body_with_title {
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 487; ]
+            <init> {
+            }
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 488; @position = 18; ]
+            const width as Number = 363;
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 489; @position = 18; ]
+            const height as Number = 250;
+        }
+        [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 492; ]
+        module system_loc__hint_button_right_top {
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 492; ]
+            <init> {
+            }
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 493; @position = 18; ]
+            const x as Number = 360;
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 494; @position = 18; ]
+            const y as Number = 54;
+        }
+        [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 497; ]
+        module system_color_light__text {
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 497; ]
+            <init> {
+[ "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen" 499 18 ]
+                %tmp.118 = getm $.Toybox.Graphics;
+                %tmp.119 = getv %tmp.118 :COLOR_TRANSPARENT;
+                putv self :background %tmp.119;
+            }
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 498; @position = 18; ]
+            const color as Number = 0xFFFFFF;
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 499; @position = 18; ]
+            const background;
+        }
+        [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 502; ]
+        module system_icon_light__check {
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 502; ]
+            <init> {
+            }
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 503; @position = 18; ]
+            const filename as String = "C:\\Users\\Andrew\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\venu3\\system_icon_light__check.svg";
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 504; @position = 18; ]
+            const compress as String = "true";
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 505; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 506; @position = 18; ]
+            const automaticPalette as String = "true";
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 507; @position = 18; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 510; ]
+        module confirmation_input__reject {
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 510; ]
+            <init> {
+            }
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 511; @position = 18; ]
+            const y1 as Number = 0;
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 512; @position = 18; ]
+            const x1 as Number = 113;
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 513; @position = 18; ]
+            const y2 as Number = 88;
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 514; @position = 18; ]
+            const x2 as Number = 341;
+        }
+        [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 517; ]
+        module system_icon_light__revert {
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 517; ]
+            <init> {
+            }
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 518; @position = 18; ]
+            const filename as String = "C:\\Users\\Andrew\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\venu3\\system_icon_light__revert.svg";
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 519; @position = 18; ]
+            const compress as String = "true";
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 520; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 521; @position = 18; ]
+            const automaticPalette as String = "true";
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 522; @position = 18; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 525; ]
+        module system_size__subwindow {
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 525; ]
+            <init> {
+            }
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 526; @position = 18; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 529; ]
+        module system_icon_positive__hint_button_left_bottom {
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 529; ]
+            <init> {
+            }
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 530; @position = 18; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 533; ]
+        module system_icon_dark__check {
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 533; ]
+            <init> {
+            }
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 534; @position = 18; ]
+            const filename as String = "C:\\Users\\Andrew\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\venu3\\system_icon_dark__check.svg";
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 535; @position = 18; ]
+            const compress as String = "true";
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 536; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 537; @position = 18; ]
+            const automaticPalette as String = "true";
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 538; @position = 18; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 541; ]
+        module confirmation_loc__hint_keep {
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 541; ]
+            <init> {
+            }
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 542; @position = 18; ]
+            const x as Number = 342;
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 543; @position = 18; ]
+            const y as Number = 256;
+        }
+        [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 546; ]
+        module confirmation_loc__hint_delete {
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 546; ]
+            <init> {
+            }
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 547; @position = 18; ]
+            const x as Number = 358;
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 548; @position = 18; ]
+            const y as Number = 54;
+        }
+        [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 551; ]
+        module system_icon_positive__hint_button_right_middle {
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 551; ]
+            <init> {
+            }
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 552; @position = 18; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 555; ]
+        module system_icon_light__hint_button_left_middle {
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 555; ]
+            <init> {
+            }
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 556; @position = 18; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 559; ]
+        module system_icon_dark__hint_button_right_bottom {
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 559; ]
+            <init> {
+            }
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 560; @position = 18; ]
+            const filename as String = "C:\\Users\\Andrew\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\venu3\\system_icon_dark__hint_button_right_bottom.svg";
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 561; @position = 18; ]
+            const dithering as String = "none";
+        }
+        [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 564; ]
+        module system_icon_positive__hint_button_right_bottom {
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 564; ]
+            <init> {
+            }
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 565; @position = 18; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 568; ]
+        module system_icon_dark__revert {
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 568; ]
+            <init> {
+            }
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 569; @position = 18; ]
+            const filename as String = "C:\\Users\\Andrew\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\venu3\\system_icon_dark__revert.svg";
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 570; @position = 18; ]
+            const compress as String = "true";
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 571; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 572; @position = 18; ]
+            const automaticPalette as String = "true";
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 573; @position = 18; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 576; ]
+        module system_icon_dark__question {
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 576; ]
+            <init> {
+            }
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 577; @position = 18; ]
+            const filename as String = "C:\\Users\\Andrew\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\venu3\\system_icon_dark__question.svg";
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 578; @position = 18; ]
+            const compress as String = "true";
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 579; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 580; @position = 18; ]
+            const automaticPalette as String = "true";
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 581; @position = 18; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 584; ]
+        module system_icon_light__discard {
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 584; ]
+            <init> {
+            }
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 585; @position = 18; ]
+            const filename as String = "C:\\Users\\Andrew\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\venu3\\system_icon_light__discard.svg";
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 586; @position = 18; ]
+            const compress as String = "true";
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 587; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 588; @position = 18; ]
+            const automaticPalette as String = "true";
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 589; @position = 18; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 592; ]
+        module device_info {
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 592; ]
+            <init> {
+[ "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen" 594 18 ]
+                %tmp.120 = getm $.Toybox.System;
+                %tmp.121 = getv %tmp.120 :SCREEN_SHAPE_ROUND;
+                putv self :screenShape %tmp.121;
+            }
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 593; @position = 18; ]
+            const screenWidth as Number = 454;
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 594; @position = 18; ]
+            const screenShape;
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 595; @position = 18; ]
+            const hasNightMode as Boolean = false;
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 596; @position = 18; ]
+            const screenHeight as Number = 454;
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 597; @position = 18; ]
+            const hasTouchScreen as Boolean = true;
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 598; @position = 18; ]
+            const hasEnhancedReadabilityMode as Boolean = true;
+        }
+        [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 601; ]
+        module prompt_font__body_no_title {
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 601; ]
+            <init> {
+[ "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen" 602 18 ]
+                %tmp.122 = getm $.Toybox.Graphics;
+                %tmp.123 = getv %tmp.122 :TEXT_JUSTIFY_CENTER;
+                %tmp.124 = getm $.Toybox.Graphics;
+                %tmp.125 = getv %tmp.124 :TEXT_JUSTIFY_VCENTER;
+                %tmp.126 = bitor %tmp.123 %tmp.125;
+                putv self :justification %tmp.126;
+[ "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen" 603 18 ]
+                %tmp.127 = getm $.Toybox.Graphics;
+                %tmp.128 = getv %tmp.127 :FONT_TINY;
+                putv self :font %tmp.128;
+            }
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 602; @position = 18; ]
+            const justification;
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 603; @position = 18; ]
+            const font;
+        }
+        [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 606; ]
+        module prompt_size__title_icon {
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 606; ]
+            <init> {
+            }
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 607; @position = 18; ]
+            const scaleX as Float = 0.14;
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 608; @position = 18; ]
+            const scaleRelativeTo as String = "screen";
+        }
+        [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 611; ]
+        module system_icon_dark__warning {
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 611; ]
+            <init> {
+            }
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 612; @position = 18; ]
+            const filename as String = "C:\\Users\\Andrew\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\venu3\\system_icon_dark__warning.svg";
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 613; @position = 18; ]
+            const compress as String = "true";
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 614; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 615; @position = 18; ]
+            const automaticPalette as String = "true";
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 616; @position = 18; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 619; ]
+        module prompt_loc__title_icon {
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 619; ]
+            <init> {
+            }
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 620; @position = 18; ]
+            const x as Number = 227;
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 621; @position = 18; ]
+            const y as Number = 45;
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 622; @position = 18; ]
+            const horizontalJustification as String = "center";
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 623; @position = 18; ]
+            const verticalJustification as String = "center";
+        }
+        [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 626; ]
+        module prompt_font_enhanced_readability__title {
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 626; ]
+            <init> {
+[ "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen" 627 18 ]
+                %tmp.129 = getm $.Toybox.Graphics;
+                %tmp.130 = getv %tmp.129 :TEXT_JUSTIFY_CENTER;
+                %tmp.131 = getm $.Toybox.Graphics;
+                %tmp.132 = getv %tmp.131 :TEXT_JUSTIFY_VCENTER;
+                %tmp.133 = bitor %tmp.130 %tmp.132;
+                putv self :justification %tmp.133;
+[ "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen" 628 18 ]
+                %tmp.134 = getm $.Toybox.Graphics;
+                %tmp.135 = getv %tmp.134 :FONT_XTINY;
+                putv self :font %tmp.135;
+            }
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 627; @position = 18; ]
+            const justification;
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 628; @position = 18; ]
+            const font;
+        }
+        [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 631; ]
+        module prompt_color_dark__body {
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 631; ]
+            <init> {
+[ "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen" 633 18 ]
+                %tmp.136 = getm $.Toybox.Graphics;
+                %tmp.137 = getv %tmp.136 :COLOR_TRANSPARENT;
+                putv self :background %tmp.137;
+            }
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 632; @position = 18; ]
+            const color as Number = 0xFFFFFF;
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 633; @position = 18; ]
+            const background;
+        }
+        [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 636; ]
+        module confirmation_icon__hint_delete {
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 636; ]
+            <init> {
+            }
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 637; @position = 18; ]
+            const filename as String = "C:\\Users\\Andrew\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\venu3\\confirmation_icon__hint_delete.svg";
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 638; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 639; @position = 18; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 642; ]
+        module system_icon_light__hint_button_right_top {
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 642; ]
+            <init> {
+            }
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 643; @position = 18; ]
+            const filename as String = "C:\\Users\\Andrew\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\venu3\\system_icon_light__hint_button_right_top.svg";
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 644; @position = 18; ]
+            const dithering as String = "none";
+        }
+        [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 647; ]
+        module confirmation_size__body {
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 647; ]
+            <init> {
+            }
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 648; @position = 18; ]
+            const width as Number = 269;
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 649; @position = 18; ]
+            const height as Number = 272;
+        }
+        [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 652; ]
+        module system_icon_positive__check {
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 652; ]
+            <init> {
+            }
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 653; @position = 18; ]
+            const filename as String = "C:\\Users\\Andrew\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\venu3\\system_icon_positive__check.svg";
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 654; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 655; @position = 18; ]
+            const packingFormat as String = "png";
+        }
+    }
+}
+[ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\bin\gen\006-B4260-00\source\Rez.mcgen"; @line = 1; ]
+<init> {
+}

@@ -1,0 +1,7 @@
+<fonts>
+	<font id="MainFont" filename="font_large.fnt" antialias="true" />
+	<font id="IconFont" filename="icon_large.fnt" antialias="true" filter="ABCDEFGHIJK"/>
+	<font id="RomanFont" filename="roman_large.fnt" antialias="true" filter="XIV012369"/>
+	<font id="CambriaFont" filename="cambria_large.fnt" antialias="true" filter="12369"/>
+	<font id="CenturyFont" filename="century_large.fnt" antialias="true" filter="1234567890"/>
+</fonts>

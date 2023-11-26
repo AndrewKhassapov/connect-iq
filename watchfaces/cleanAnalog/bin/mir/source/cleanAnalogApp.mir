@@ -1,0 +1,66 @@
+[ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\source\cleanAnalogApp.mc"; @line = 1; ]
+import Toybox.Application;
+[ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\source\cleanAnalogApp.mc"; @line = 2; ]
+import Toybox.Lang;
+[ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\source\cleanAnalogApp.mc"; @line = 3; ]
+import Toybox.WatchUi;
+[ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\source\cleanAnalogApp.mc"; @line = 5; ]
+class cleanAnalogApp extends Application.AppBase{
+    [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\source\cleanAnalogApp.mc"; @line = 5; ]
+    <init> {
+    }
+    [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\source\cleanAnalogApp.mc"; @line = 5; ]
+    static
+    <init> {
+    }
+    [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\source\cleanAnalogApp.mc"; @line = 7; ]
+    function initialize() as Void {
+F_Active_Important_Coding_monkey_c_cleanAnalog_source_cleanAnalogApp_mc_7_26_start:
+[ "F:\Active\Important\Coding\monkey-c\cleanAnalog\source\cleanAnalogApp.mc" 8 8 ]
+        %tmp.2 = getv ? :AppBase;
+        %tmp.3 = getv function %tmp.2 :initialize;
+        invoke %tmp.2 %tmp.3();
+F_Active_Important_Coding_monkey_c_cleanAnalog_source_cleanAnalogApp_mc_7_26_stop:
+    }
+    [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\source\cleanAnalogApp.mc"; @line = 12; ]
+    function onStart(state as Dictionary or Null) as Void {
+    }
+    [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\source\cleanAnalogApp.mc"; @line = 16; ]
+    function onStop(state as Dictionary or Null) as Void {
+    }
+    [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\source\cleanAnalogApp.mc"; @line = 20; ]
+    function getInitialView() as Array<Views or InputDelegates> or Null {
+F_Active_Important_Coding_monkey_c_cleanAnalog_source_cleanAnalogApp_mc_20_65_start:
+[ "F:\Active\Important\Coding\monkey-c\cleanAnalog\source\cleanAnalogApp.mc" 21 8 ]
+        %tmp.1 = newa Array<Views or InputDelegates> 1;
+        %tmp.5 = getv ? :cleanAnalogView;
+        %tmp.2 = newc %tmp.5 ();
+        %tmp.6 = dup %tmp.1;
+        %tmp.7 = aputv %tmp.6 0 %tmp.2;
+        ret %tmp.7;
+F_Active_Important_Coding_monkey_c_cleanAnalog_source_cleanAnalogApp_mc_20_65_stop:
+    }
+    [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\source\cleanAnalogApp.mc"; @line = 25; ]
+    function onSettingsChanged() as Void {
+F_Active_Important_Coding_monkey_c_cleanAnalog_source_cleanAnalogApp_mc_25_41_start:
+[ "F:\Active\Important\Coding\monkey-c\cleanAnalog\source\cleanAnalogApp.mc" 26 8 ]
+        %tmp.1 = getm $.Toybox.WatchUi;
+        %tmp.2 = getv function %tmp.1 :requestUpdate;
+        invoke %tmp.1 %tmp.2();
+F_Active_Important_Coding_monkey_c_cleanAnalog_source_cleanAnalogApp_mc_25_41_stop:
+    }
+}
+[ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\source\cleanAnalogApp.mc"; @line = 31; ]
+function getApp() as cleanAnalogApp {
+F_Active_Important_Coding_monkey_c_cleanAnalog_source_cleanAnalogApp_mc_31_36_start:
+[ "F:\Active\Important\Coding\monkey-c\cleanAnalog\source\cleanAnalogApp.mc" 32 4 ]
+    %tmp.1 = getm $.Toybox.Application;
+    %tmp.2 = getv function %tmp.1 :getApp;
+    %tmp.3 = invoke %tmp.1 %tmp.2();
+    %tmp.4 = as %tmp.3 cleanAnalogApp;
+    ret %tmp.4;
+F_Active_Important_Coding_monkey_c_cleanAnalog_source_cleanAnalogApp_mc_31_36_stop:
+}
+[ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\source\cleanAnalogApp.mc"; @line = 1; ]
+<init> {
+}

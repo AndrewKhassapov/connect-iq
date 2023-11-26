@@ -1,0 +1,6 @@
+<fonts>
+	<font id="MainFont" filename="font.fnt" antialias="true" />
+	<font id="BigFont" filename="bigFont.fnt" antialias="true"/>
+	<font id="IconFont" filename="icon_medium.fnt" antialias="true" filter="ABCDEFGHIJK"/>
+	<font id="BigIconFont" filename="icon_large.fnt" antialias="true" filter="ABCDEFGHIJK"/>
+</fonts>																																																																																																																												
