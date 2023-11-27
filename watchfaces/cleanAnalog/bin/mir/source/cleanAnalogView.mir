@@ -1,43 +1,43 @@
-[ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\source\cleanAnalogView.mc"; @line = 1; ]
+[ @file = "F:\Active\Important\Coding\monkey-c\connect-iq\watchfaces\cleanAnalog\source\cleanAnalogView.mc"; @line = 1; ]
 import Toybox.Application;
-[ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\source\cleanAnalogView.mc"; @line = 2; ]
+[ @file = "F:\Active\Important\Coding\monkey-c\connect-iq\watchfaces\cleanAnalog\source\cleanAnalogView.mc"; @line = 2; ]
 import Toybox.Graphics;
-[ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\source\cleanAnalogView.mc"; @line = 3; ]
+[ @file = "F:\Active\Important\Coding\monkey-c\connect-iq\watchfaces\cleanAnalog\source\cleanAnalogView.mc"; @line = 3; ]
 import Toybox.Lang;
-[ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\source\cleanAnalogView.mc"; @line = 4; ]
+[ @file = "F:\Active\Important\Coding\monkey-c\connect-iq\watchfaces\cleanAnalog\source\cleanAnalogView.mc"; @line = 4; ]
 import Toybox.System;
-[ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\source\cleanAnalogView.mc"; @line = 5; ]
+[ @file = "F:\Active\Important\Coding\monkey-c\connect-iq\watchfaces\cleanAnalog\source\cleanAnalogView.mc"; @line = 5; ]
 import Toybox.WatchUi;
-[ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\source\cleanAnalogView.mc"; @line = 7; ]
+[ @file = "F:\Active\Important\Coding\monkey-c\connect-iq\watchfaces\cleanAnalog\source\cleanAnalogView.mc"; @line = 7; ]
 class cleanAnalogView extends WatchUi.WatchFace{
-    [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\source\cleanAnalogView.mc"; @line = 7; ]
+    [ @file = "F:\Active\Important\Coding\monkey-c\connect-iq\watchfaces\cleanAnalog\source\cleanAnalogView.mc"; @line = 7; ]
     <init> {
     }
-    [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\source\cleanAnalogView.mc"; @line = 7; ]
+    [ @file = "F:\Active\Important\Coding\monkey-c\connect-iq\watchfaces\cleanAnalog\source\cleanAnalogView.mc"; @line = 7; ]
     static
     <init> {
     }
-    [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\source\cleanAnalogView.mc"; @line = 9; ]
+    [ @file = "F:\Active\Important\Coding\monkey-c\connect-iq\watchfaces\cleanAnalog\source\cleanAnalogView.mc"; @line = 9; ]
     function initialize() as Void {
-F_Active_Important_Coding_monkey_c_cleanAnalog_source_cleanAnalogView_mc_9_26_start:
-[ "F:\Active\Important\Coding\monkey-c\cleanAnalog\source\cleanAnalogView.mc" 10 8 ]
+F_Active_Important_Coding_monkey_c_connect_iq_watchfaces_cleanAnalog_source_cleanAnalogView_mc_9_26_start:
+[ "F:\Active\Important\Coding\monkey-c\connect-iq\watchfaces\cleanAnalog\source\cleanAnalogView.mc" 10 8 ]
         %tmp.2 = getv ? :WatchFace;
         %tmp.3 = getv function %tmp.2 :initialize;
         invoke %tmp.2 %tmp.3();
-F_Active_Important_Coding_monkey_c_cleanAnalog_source_cleanAnalogView_mc_9_26_stop:
+F_Active_Important_Coding_monkey_c_connect_iq_watchfaces_cleanAnalog_source_cleanAnalogView_mc_9_26_stop:
     }
-    [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\source\cleanAnalogView.mc"; @line = 13; ]
+    [ @file = "F:\Active\Important\Coding\monkey-c\connect-iq\watchfaces\cleanAnalog\source\cleanAnalogView.mc"; @line = 13; ]
     function drawGradient(start, end, dc) {
-F_Active_Important_Coding_monkey_c_cleanAnalog_source_cleanAnalogView_mc_13_41_start:
-[ "F:\Active\Important\Coding\monkey-c\cleanAnalog\source\cleanAnalogView.mc" 14 2 ]
-        [ "F_Active_Important_Coding_monkey_c_cleanAnalog_source_cleanAnalogView_mc_13_41_start" "F_Active_Important_Coding_monkey_c_cleanAnalog_source_cleanAnalogView_mc_13_41_stop" ]
+F_Active_Important_Coding_monkey_c_connect_iq_watchfaces_cleanAnalog_source_cleanAnalogView_mc_13_41_start:
+[ "F:\Active\Important\Coding\monkey-c\connect-iq\watchfaces\cleanAnalog\source\cleanAnalogView.mc" 14 2 ]
+        [ "F_Active_Important_Coding_monkey_c_connect_iq_watchfaces_cleanAnalog_source_cleanAnalogView_mc_13_41_start" "F_Active_Important_Coding_monkey_c_connect_iq_watchfaces_cleanAnalog_source_cleanAnalogView_mc_13_41_stop" ]
         %width.1 = local;
         %tmp.1 = lgetv %dc;
         %tmp.2 = getv function %tmp.1 :getWidth;
         %tmp.3 = invoke %tmp.1 %tmp.2();
         lputv %width.1 %tmp.3;
-[ "F:\Active\Important\Coding\monkey-c\cleanAnalog\source\cleanAnalogView.mc" 15 2 ]
-        [ "F_Active_Important_Coding_monkey_c_cleanAnalog_source_cleanAnalogView_mc_13_41_start" "F_Active_Important_Coding_monkey_c_cleanAnalog_source_cleanAnalogView_mc_13_41_stop" ]
+[ "F:\Active\Important\Coding\monkey-c\connect-iq\watchfaces\cleanAnalog\source\cleanAnalogView.mc" 15 2 ]
+        [ "F_Active_Important_Coding_monkey_c_connect_iq_watchfaces_cleanAnalog_source_cleanAnalogView_mc_13_41_start" "F_Active_Important_Coding_monkey_c_connect_iq_watchfaces_cleanAnalog_source_cleanAnalogView_mc_13_41_stop" ]
         %rincrement.2 = local;
         %tmp.5 = lgetv %end;
         %tmp.6 = 0;
@@ -55,8 +55,8 @@ F_Active_Important_Coding_monkey_c_cleanAnalog_source_cleanAnalogView_mc_13_41_s
         %tmp.20 = mul %tmp.18 %tmp.19;
         %tmp.21 = div %tmp.16 %tmp.20;
         lputv %rincrement.2 %tmp.21;
-[ "F:\Active\Important\Coding\monkey-c\cleanAnalog\source\cleanAnalogView.mc" 16 2 ]
-        [ "F_Active_Important_Coding_monkey_c_cleanAnalog_source_cleanAnalogView_mc_13_41_start" "F_Active_Important_Coding_monkey_c_cleanAnalog_source_cleanAnalogView_mc_13_41_stop" ]
+[ "F:\Active\Important\Coding\monkey-c\connect-iq\watchfaces\cleanAnalog\source\cleanAnalogView.mc" 16 2 ]
+        [ "F_Active_Important_Coding_monkey_c_connect_iq_watchfaces_cleanAnalog_source_cleanAnalogView_mc_13_41_start" "F_Active_Important_Coding_monkey_c_connect_iq_watchfaces_cleanAnalog_source_cleanAnalogView_mc_13_41_stop" ]
         %gincrement.3 = local;
         %tmp.23 = lgetv %end;
         %tmp.24 = 1;
@@ -74,8 +74,8 @@ F_Active_Important_Coding_monkey_c_cleanAnalog_source_cleanAnalogView_mc_13_41_s
         %tmp.38 = mul %tmp.36 %tmp.37;
         %tmp.39 = div %tmp.34 %tmp.38;
         lputv %gincrement.3 %tmp.39;
-[ "F:\Active\Important\Coding\monkey-c\cleanAnalog\source\cleanAnalogView.mc" 17 2 ]
-        [ "F_Active_Important_Coding_monkey_c_cleanAnalog_source_cleanAnalogView_mc_13_41_start" "F_Active_Important_Coding_monkey_c_cleanAnalog_source_cleanAnalogView_mc_13_41_stop" ]
+[ "F:\Active\Important\Coding\monkey-c\connect-iq\watchfaces\cleanAnalog\source\cleanAnalogView.mc" 17 2 ]
+        [ "F_Active_Important_Coding_monkey_c_connect_iq_watchfaces_cleanAnalog_source_cleanAnalogView_mc_13_41_start" "F_Active_Important_Coding_monkey_c_connect_iq_watchfaces_cleanAnalog_source_cleanAnalogView_mc_13_41_stop" ]
         %bincrement.4 = local;
         %tmp.41 = lgetv %end;
         %tmp.42 = 2;
@@ -93,125 +93,125 @@ F_Active_Important_Coding_monkey_c_cleanAnalog_source_cleanAnalogView_mc_13_41_s
         %tmp.56 = mul %tmp.54 %tmp.55;
         %tmp.57 = div %tmp.52 %tmp.56;
         lputv %bincrement.4 %tmp.57;
-[ "F:\Active\Important\Coding\monkey-c\cleanAnalog\source\cleanAnalogView.mc" 19 2 ]
-        [ "F_Active_Important_Coding_monkey_c_cleanAnalog_source_cleanAnalogView_mc_13_41_start" "F_Active_Important_Coding_monkey_c_cleanAnalog_source_cleanAnalogView_mc_13_41_stop" ]
+[ "F:\Active\Important\Coding\monkey-c\connect-iq\watchfaces\cleanAnalog\source\cleanAnalogView.mc" 19 2 ]
+        [ "F_Active_Important_Coding_monkey_c_connect_iq_watchfaces_cleanAnalog_source_cleanAnalogView_mc_13_41_start" "F_Active_Important_Coding_monkey_c_connect_iq_watchfaces_cleanAnalog_source_cleanAnalogView_mc_13_41_stop" ]
         %r.5 = local;
         %tmp.59 = lgetv %start;
         %tmp.60 = 0;
         %tmp.61 = agetv %tmp.59 %tmp.60;
         lputv %r.5 %tmp.61;
-[ "F:\Active\Important\Coding\monkey-c\cleanAnalog\source\cleanAnalogView.mc" 20 2 ]
-        [ "F_Active_Important_Coding_monkey_c_cleanAnalog_source_cleanAnalogView_mc_13_41_start" "F_Active_Important_Coding_monkey_c_cleanAnalog_source_cleanAnalogView_mc_13_41_stop" ]
+[ "F:\Active\Important\Coding\monkey-c\connect-iq\watchfaces\cleanAnalog\source\cleanAnalogView.mc" 20 2 ]
+        [ "F_Active_Important_Coding_monkey_c_connect_iq_watchfaces_cleanAnalog_source_cleanAnalogView_mc_13_41_start" "F_Active_Important_Coding_monkey_c_connect_iq_watchfaces_cleanAnalog_source_cleanAnalogView_mc_13_41_stop" ]
         %g.6 = local;
         %tmp.63 = lgetv %start;
         %tmp.64 = 1;
         %tmp.65 = agetv %tmp.63 %tmp.64;
         lputv %g.6 %tmp.65;
-[ "F:\Active\Important\Coding\monkey-c\cleanAnalog\source\cleanAnalogView.mc" 21 2 ]
-        [ "F_Active_Important_Coding_monkey_c_cleanAnalog_source_cleanAnalogView_mc_13_41_start" "F_Active_Important_Coding_monkey_c_cleanAnalog_source_cleanAnalogView_mc_13_41_stop" ]
+[ "F:\Active\Important\Coding\monkey-c\connect-iq\watchfaces\cleanAnalog\source\cleanAnalogView.mc" 21 2 ]
+        [ "F_Active_Important_Coding_monkey_c_connect_iq_watchfaces_cleanAnalog_source_cleanAnalogView_mc_13_41_start" "F_Active_Important_Coding_monkey_c_connect_iq_watchfaces_cleanAnalog_source_cleanAnalogView_mc_13_41_stop" ]
         %b.7 = local;
         %tmp.67 = lgetv %start;
         %tmp.68 = 2;
         %tmp.69 = agetv %tmp.67 %tmp.68;
         lputv %b.7 %tmp.69;
-[ "F:\Active\Important\Coding\monkey-c\cleanAnalog\source\cleanAnalogView.mc" 23 2 ]
-        for @F_Active_Important_Coding_monkey_c_cleanAnalog_source_cleanAnalogView_mc_23_2_for_test @F_Active_Important_Coding_monkey_c_cleanAnalog_source_cleanAnalogView_mc_23_2_for_incr @F_Active_Important_Coding_monkey_c_cleanAnalog_source_cleanAnalogView_mc_23_2_for_end;
-F_Active_Important_Coding_monkey_c_cleanAnalog_source_cleanAnalogView_mc_23_2_for_init:
-        [ "F_Active_Important_Coding_monkey_c_cleanAnalog_source_cleanAnalogView_mc_23_2_for_begin" "F_Active_Important_Coding_monkey_c_cleanAnalog_source_cleanAnalogView_mc_23_2_for_end" ]
+[ "F:\Active\Important\Coding\monkey-c\connect-iq\watchfaces\cleanAnalog\source\cleanAnalogView.mc" 23 2 ]
+        for @F_Active_Important_Coding_monkey_c_connect_iq_watchfaces_cleanAnalog_source_cleanAnalogView_mc_23_2_for_test @F_Active_Important_Coding_monkey_c_connect_iq_watchfaces_cleanAnalog_source_cleanAnalogView_mc_23_2_for_incr @F_Active_Important_Coding_monkey_c_connect_iq_watchfaces_cleanAnalog_source_cleanAnalogView_mc_23_2_for_end;
+F_Active_Important_Coding_monkey_c_connect_iq_watchfaces_cleanAnalog_source_cleanAnalogView_mc_23_2_for_init:
+        [ "F_Active_Important_Coding_monkey_c_connect_iq_watchfaces_cleanAnalog_source_cleanAnalogView_mc_23_2_for_begin" "F_Active_Important_Coding_monkey_c_connect_iq_watchfaces_cleanAnalog_source_cleanAnalogView_mc_23_2_for_end" ]
         %i.8 = local;
         %tmp.70 = 0;
         lputv %i.8 %tmp.70;
-F_Active_Important_Coding_monkey_c_cleanAnalog_source_cleanAnalogView_mc_23_2_for_test:
+F_Active_Important_Coding_monkey_c_connect_iq_watchfaces_cleanAnalog_source_cleanAnalogView_mc_23_2_for_test:
         %tmp.72 = lgetv %i.8;
         %tmp.74 = lgetv %width.1;
         %tmp.75 = 2;
         %tmp.76 = mul %tmp.74 %tmp.75;
         %tmp.77 = lt %tmp.72 %tmp.76;
-        bf %tmp.77 @F_Active_Important_Coding_monkey_c_cleanAnalog_source_cleanAnalogView_mc_23_2_for_end;
-F_Active_Important_Coding_monkey_c_cleanAnalog_source_cleanAnalogView_mc_23_2_for_begin:
-F_Active_Important_Coding_monkey_c_cleanAnalog_source_cleanAnalogView_mc_23_35_start:
-[ "F:\Active\Important\Coding\monkey-c\cleanAnalog\source\cleanAnalogView.mc" 24 3 ]
-        [ "F_Active_Important_Coding_monkey_c_cleanAnalog_source_cleanAnalogView_mc_23_35_start" "F_Active_Important_Coding_monkey_c_cleanAnalog_source_cleanAnalogView_mc_23_35_stop" ]
+        bf %tmp.77 @F_Active_Important_Coding_monkey_c_connect_iq_watchfaces_cleanAnalog_source_cleanAnalogView_mc_23_2_for_end;
+F_Active_Important_Coding_monkey_c_connect_iq_watchfaces_cleanAnalog_source_cleanAnalogView_mc_23_2_for_begin:
+F_Active_Important_Coding_monkey_c_connect_iq_watchfaces_cleanAnalog_source_cleanAnalogView_mc_23_35_start:
+[ "F:\Active\Important\Coding\monkey-c\connect-iq\watchfaces\cleanAnalog\source\cleanAnalogView.mc" 24 3 ]
+        [ "F_Active_Important_Coding_monkey_c_connect_iq_watchfaces_cleanAnalog_source_cleanAnalogView_mc_23_35_start" "F_Active_Important_Coding_monkey_c_connect_iq_watchfaces_cleanAnalog_source_cleanAnalogView_mc_23_35_stop" ]
         %rstr.9 = local;
         %tmp.78 = lgetv %r.5;
         %tmp.79 = getv function %tmp.78 :format;
         %tmp.80 = "%X";
         %tmp.81 = invoke %tmp.78 %tmp.79(%tmp.80);
         lputv %rstr.9 %tmp.81;
-[ "F:\Active\Important\Coding\monkey-c\cleanAnalog\source\cleanAnalogView.mc" 25 3 ]
-        [ "F_Active_Important_Coding_monkey_c_cleanAnalog_source_cleanAnalogView_mc_23_35_start" "F_Active_Important_Coding_monkey_c_cleanAnalog_source_cleanAnalogView_mc_23_35_stop" ]
+[ "F:\Active\Important\Coding\monkey-c\connect-iq\watchfaces\cleanAnalog\source\cleanAnalogView.mc" 25 3 ]
+        [ "F_Active_Important_Coding_monkey_c_connect_iq_watchfaces_cleanAnalog_source_cleanAnalogView_mc_23_35_start" "F_Active_Important_Coding_monkey_c_connect_iq_watchfaces_cleanAnalog_source_cleanAnalogView_mc_23_35_stop" ]
         %gstr.10 = local;
         %tmp.82 = lgetv %g.6;
         %tmp.83 = getv function %tmp.82 :format;
         %tmp.84 = "%X";
         %tmp.85 = invoke %tmp.82 %tmp.83(%tmp.84);
         lputv %gstr.10 %tmp.85;
-[ "F:\Active\Important\Coding\monkey-c\cleanAnalog\source\cleanAnalogView.mc" 26 3 ]
-        [ "F_Active_Important_Coding_monkey_c_cleanAnalog_source_cleanAnalogView_mc_23_35_start" "F_Active_Important_Coding_monkey_c_cleanAnalog_source_cleanAnalogView_mc_23_35_stop" ]
+[ "F:\Active\Important\Coding\monkey-c\connect-iq\watchfaces\cleanAnalog\source\cleanAnalogView.mc" 26 3 ]
+        [ "F_Active_Important_Coding_monkey_c_connect_iq_watchfaces_cleanAnalog_source_cleanAnalogView_mc_23_35_start" "F_Active_Important_Coding_monkey_c_connect_iq_watchfaces_cleanAnalog_source_cleanAnalogView_mc_23_35_stop" ]
         %bstr.11 = local;
         %tmp.86 = lgetv %b.7;
         %tmp.87 = getv function %tmp.86 :format;
         %tmp.88 = "%X";
         %tmp.89 = invoke %tmp.86 %tmp.87(%tmp.88);
         lputv %bstr.11 %tmp.89;
-[ "F:\Active\Important\Coding\monkey-c\cleanAnalog\source\cleanAnalogView.mc" 28 3 ]
-        while @F_Active_Important_Coding_monkey_c_cleanAnalog_source_cleanAnalogView_mc_28_3_while_test @F_Active_Important_Coding_monkey_c_cleanAnalog_source_cleanAnalogView_mc_28_3_while_end;
-F_Active_Important_Coding_monkey_c_cleanAnalog_source_cleanAnalogView_mc_28_3_while_test:
+[ "F:\Active\Important\Coding\monkey-c\connect-iq\watchfaces\cleanAnalog\source\cleanAnalogView.mc" 28 3 ]
+        while @F_Active_Important_Coding_monkey_c_connect_iq_watchfaces_cleanAnalog_source_cleanAnalogView_mc_28_3_while_test @F_Active_Important_Coding_monkey_c_connect_iq_watchfaces_cleanAnalog_source_cleanAnalogView_mc_28_3_while_end;
+F_Active_Important_Coding_monkey_c_connect_iq_watchfaces_cleanAnalog_source_cleanAnalogView_mc_28_3_while_test:
         %tmp.90 = lgetv %rstr.9;
         %tmp.91 = getv function %tmp.90 :length;
         %tmp.92 = invoke %tmp.90 %tmp.91();
         %tmp.93 = 2;
         %tmp.94 = lt %tmp.92 %tmp.93;
-        bf %tmp.94 @F_Active_Important_Coding_monkey_c_cleanAnalog_source_cleanAnalogView_mc_28_3_while_end;
-F_Active_Important_Coding_monkey_c_cleanAnalog_source_cleanAnalogView_mc_28_3_while_begin:
-F_Active_Important_Coding_monkey_c_cleanAnalog_source_cleanAnalogView_mc_28_28_start:
-[ "F:\Active\Important\Coding\monkey-c\cleanAnalog\source\cleanAnalogView.mc" 29 4 ]
+        bf %tmp.94 @F_Active_Important_Coding_monkey_c_connect_iq_watchfaces_cleanAnalog_source_cleanAnalogView_mc_28_3_while_end;
+F_Active_Important_Coding_monkey_c_connect_iq_watchfaces_cleanAnalog_source_cleanAnalogView_mc_28_3_while_begin:
+F_Active_Important_Coding_monkey_c_connect_iq_watchfaces_cleanAnalog_source_cleanAnalogView_mc_28_28_start:
+[ "F:\Active\Important\Coding\monkey-c\connect-iq\watchfaces\cleanAnalog\source\cleanAnalogView.mc" 29 4 ]
         %tmp.95 = "0";
         %tmp.97 = lgetv %rstr.9;
         %tmp.98 = add %tmp.95 %tmp.97;
         lputv %rstr.9 %tmp.98;
-F_Active_Important_Coding_monkey_c_cleanAnalog_source_cleanAnalogView_mc_28_28_stop:
-        goto @F_Active_Important_Coding_monkey_c_cleanAnalog_source_cleanAnalogView_mc_28_3_while_test;
-F_Active_Important_Coding_monkey_c_cleanAnalog_source_cleanAnalogView_mc_28_3_while_end:
-[ "F:\Active\Important\Coding\monkey-c\cleanAnalog\source\cleanAnalogView.mc" 32 3 ]
-        while @F_Active_Important_Coding_monkey_c_cleanAnalog_source_cleanAnalogView_mc_32_3_while_test @F_Active_Important_Coding_monkey_c_cleanAnalog_source_cleanAnalogView_mc_32_3_while_end;
-F_Active_Important_Coding_monkey_c_cleanAnalog_source_cleanAnalogView_mc_32_3_while_test:
+F_Active_Important_Coding_monkey_c_connect_iq_watchfaces_cleanAnalog_source_cleanAnalogView_mc_28_28_stop:
+        goto @F_Active_Important_Coding_monkey_c_connect_iq_watchfaces_cleanAnalog_source_cleanAnalogView_mc_28_3_while_test;
+F_Active_Important_Coding_monkey_c_connect_iq_watchfaces_cleanAnalog_source_cleanAnalogView_mc_28_3_while_end:
+[ "F:\Active\Important\Coding\monkey-c\connect-iq\watchfaces\cleanAnalog\source\cleanAnalogView.mc" 32 3 ]
+        while @F_Active_Important_Coding_monkey_c_connect_iq_watchfaces_cleanAnalog_source_cleanAnalogView_mc_32_3_while_test @F_Active_Important_Coding_monkey_c_connect_iq_watchfaces_cleanAnalog_source_cleanAnalogView_mc_32_3_while_end;
+F_Active_Important_Coding_monkey_c_connect_iq_watchfaces_cleanAnalog_source_cleanAnalogView_mc_32_3_while_test:
         %tmp.99 = lgetv %gstr.10;
         %tmp.100 = getv function %tmp.99 :length;
         %tmp.101 = invoke %tmp.99 %tmp.100();
         %tmp.102 = 2;
         %tmp.103 = lt %tmp.101 %tmp.102;
-        bf %tmp.103 @F_Active_Important_Coding_monkey_c_cleanAnalog_source_cleanAnalogView_mc_32_3_while_end;
-F_Active_Important_Coding_monkey_c_cleanAnalog_source_cleanAnalogView_mc_32_3_while_begin:
-F_Active_Important_Coding_monkey_c_cleanAnalog_source_cleanAnalogView_mc_32_28_start:
-[ "F:\Active\Important\Coding\monkey-c\cleanAnalog\source\cleanAnalogView.mc" 33 4 ]
+        bf %tmp.103 @F_Active_Important_Coding_monkey_c_connect_iq_watchfaces_cleanAnalog_source_cleanAnalogView_mc_32_3_while_end;
+F_Active_Important_Coding_monkey_c_connect_iq_watchfaces_cleanAnalog_source_cleanAnalogView_mc_32_3_while_begin:
+F_Active_Important_Coding_monkey_c_connect_iq_watchfaces_cleanAnalog_source_cleanAnalogView_mc_32_28_start:
+[ "F:\Active\Important\Coding\monkey-c\connect-iq\watchfaces\cleanAnalog\source\cleanAnalogView.mc" 33 4 ]
         %tmp.104 = "0";
         %tmp.106 = lgetv %gstr.10;
         %tmp.107 = add %tmp.104 %tmp.106;
         lputv %gstr.10 %tmp.107;
-F_Active_Important_Coding_monkey_c_cleanAnalog_source_cleanAnalogView_mc_32_28_stop:
-        goto @F_Active_Important_Coding_monkey_c_cleanAnalog_source_cleanAnalogView_mc_32_3_while_test;
-F_Active_Important_Coding_monkey_c_cleanAnalog_source_cleanAnalogView_mc_32_3_while_end:
-[ "F:\Active\Important\Coding\monkey-c\cleanAnalog\source\cleanAnalogView.mc" 36 3 ]
-        while @F_Active_Important_Coding_monkey_c_cleanAnalog_source_cleanAnalogView_mc_36_3_while_test @F_Active_Important_Coding_monkey_c_cleanAnalog_source_cleanAnalogView_mc_36_3_while_end;
-F_Active_Important_Coding_monkey_c_cleanAnalog_source_cleanAnalogView_mc_36_3_while_test:
+F_Active_Important_Coding_monkey_c_connect_iq_watchfaces_cleanAnalog_source_cleanAnalogView_mc_32_28_stop:
+        goto @F_Active_Important_Coding_monkey_c_connect_iq_watchfaces_cleanAnalog_source_cleanAnalogView_mc_32_3_while_test;
+F_Active_Important_Coding_monkey_c_connect_iq_watchfaces_cleanAnalog_source_cleanAnalogView_mc_32_3_while_end:
+[ "F:\Active\Important\Coding\monkey-c\connect-iq\watchfaces\cleanAnalog\source\cleanAnalogView.mc" 36 3 ]
+        while @F_Active_Important_Coding_monkey_c_connect_iq_watchfaces_cleanAnalog_source_cleanAnalogView_mc_36_3_while_test @F_Active_Important_Coding_monkey_c_connect_iq_watchfaces_cleanAnalog_source_cleanAnalogView_mc_36_3_while_end;
+F_Active_Important_Coding_monkey_c_connect_iq_watchfaces_cleanAnalog_source_cleanAnalogView_mc_36_3_while_test:
         %tmp.108 = lgetv %bstr.11;
         %tmp.109 = getv function %tmp.108 :length;
         %tmp.110 = invoke %tmp.108 %tmp.109();
         %tmp.111 = 2;
         %tmp.112 = lt %tmp.110 %tmp.111;
-        bf %tmp.112 @F_Active_Important_Coding_monkey_c_cleanAnalog_source_cleanAnalogView_mc_36_3_while_end;
-F_Active_Important_Coding_monkey_c_cleanAnalog_source_cleanAnalogView_mc_36_3_while_begin:
-F_Active_Important_Coding_monkey_c_cleanAnalog_source_cleanAnalogView_mc_36_28_start:
-[ "F:\Active\Important\Coding\monkey-c\cleanAnalog\source\cleanAnalogView.mc" 37 4 ]
+        bf %tmp.112 @F_Active_Important_Coding_monkey_c_connect_iq_watchfaces_cleanAnalog_source_cleanAnalogView_mc_36_3_while_end;
+F_Active_Important_Coding_monkey_c_connect_iq_watchfaces_cleanAnalog_source_cleanAnalogView_mc_36_3_while_begin:
+F_Active_Important_Coding_monkey_c_connect_iq_watchfaces_cleanAnalog_source_cleanAnalogView_mc_36_28_start:
+[ "F:\Active\Important\Coding\monkey-c\connect-iq\watchfaces\cleanAnalog\source\cleanAnalogView.mc" 37 4 ]
         %tmp.113 = "0";
         %tmp.115 = lgetv %bstr.11;
         %tmp.116 = add %tmp.113 %tmp.115;
         lputv %bstr.11 %tmp.116;
-F_Active_Important_Coding_monkey_c_cleanAnalog_source_cleanAnalogView_mc_36_28_stop:
-        goto @F_Active_Important_Coding_monkey_c_cleanAnalog_source_cleanAnalogView_mc_36_3_while_test;
-F_Active_Important_Coding_monkey_c_cleanAnalog_source_cleanAnalogView_mc_36_3_while_end:
-[ "F:\Active\Important\Coding\monkey-c\cleanAnalog\source\cleanAnalogView.mc" 40 3 ]
+F_Active_Important_Coding_monkey_c_connect_iq_watchfaces_cleanAnalog_source_cleanAnalogView_mc_36_28_stop:
+        goto @F_Active_Important_Coding_monkey_c_connect_iq_watchfaces_cleanAnalog_source_cleanAnalogView_mc_36_3_while_test;
+F_Active_Important_Coding_monkey_c_connect_iq_watchfaces_cleanAnalog_source_cleanAnalogView_mc_36_3_while_end:
+[ "F:\Active\Important\Coding\monkey-c\connect-iq\watchfaces\cleanAnalog\source\cleanAnalogView.mc" 40 3 ]
         %tmp.117 = lgetv %dc;
         %tmp.118 = getv function %tmp.117 :setColor;
         %tmp.120 = lgetv %rstr.9;
@@ -224,7 +224,7 @@ F_Active_Important_Coding_monkey_c_cleanAnalog_source_cleanAnalogView_mc_36_3_wh
         %tmp.129 = invoke %tmp.126 %tmp.127(%tmp.128);
         %tmp.130 = 0x000000;
         invoke %tmp.117 %tmp.118(%tmp.129, %tmp.130);
-[ "F:\Active\Important\Coding\monkey-c\cleanAnalog\source\cleanAnalogView.mc" 41 3 ]
+[ "F:\Active\Important\Coding\monkey-c\connect-iq\watchfaces\cleanAnalog\source\cleanAnalogView.mc" 41 3 ]
         %tmp.131 = lgetv %dc;
         %tmp.132 = getv function %tmp.131 :drawLine;
         %tmp.133 = 0;
@@ -232,43 +232,43 @@ F_Active_Important_Coding_monkey_c_cleanAnalog_source_cleanAnalogView_mc_36_3_wh
         %tmp.137 = lgetv %i.8;
         %tmp.138 = 0;
         invoke %tmp.131 %tmp.132(%tmp.133, %tmp.135, %tmp.137, %tmp.138);
-[ "F:\Active\Important\Coding\monkey-c\cleanAnalog\source\cleanAnalogView.mc" 42 3 ]
+[ "F:\Active\Important\Coding\monkey-c\connect-iq\watchfaces\cleanAnalog\source\cleanAnalogView.mc" 42 3 ]
         %tmp.139 = lgetv %r.5;
         %tmp.141 = lgetv %rincrement.2;
         %tmp.142 = add %tmp.139 %tmp.141;
         lputv %r.5 %tmp.142;
-[ "F:\Active\Important\Coding\monkey-c\cleanAnalog\source\cleanAnalogView.mc" 43 3 ]
+[ "F:\Active\Important\Coding\monkey-c\connect-iq\watchfaces\cleanAnalog\source\cleanAnalogView.mc" 43 3 ]
         %tmp.143 = lgetv %g.6;
         %tmp.145 = lgetv %gincrement.3;
         %tmp.146 = add %tmp.143 %tmp.145;
         lputv %g.6 %tmp.146;
-[ "F:\Active\Important\Coding\monkey-c\cleanAnalog\source\cleanAnalogView.mc" 44 3 ]
+[ "F:\Active\Important\Coding\monkey-c\connect-iq\watchfaces\cleanAnalog\source\cleanAnalogView.mc" 44 3 ]
         %tmp.147 = lgetv %b.7;
         %tmp.149 = lgetv %bincrement.4;
         %tmp.150 = add %tmp.147 %tmp.149;
         lputv %b.7 %tmp.150;
-F_Active_Important_Coding_monkey_c_cleanAnalog_source_cleanAnalogView_mc_23_35_stop:
-F_Active_Important_Coding_monkey_c_cleanAnalog_source_cleanAnalogView_mc_23_2_for_incr:
-[ "F:\Active\Important\Coding\monkey-c\cleanAnalog\source\cleanAnalogView.mc" 23 ]
+F_Active_Important_Coding_monkey_c_connect_iq_watchfaces_cleanAnalog_source_cleanAnalogView_mc_23_35_stop:
+F_Active_Important_Coding_monkey_c_connect_iq_watchfaces_cleanAnalog_source_cleanAnalogView_mc_23_2_for_incr:
+[ "F:\Active\Important\Coding\monkey-c\connect-iq\watchfaces\cleanAnalog\source\cleanAnalogView.mc" 23 ]
         %tmp.153 = lgetv %i.8;
         %tmp.154 = add %tmp.153 1;
         lputv %i.8 %tmp.154;
-        goto @F_Active_Important_Coding_monkey_c_cleanAnalog_source_cleanAnalogView_mc_23_2_for_test;
-F_Active_Important_Coding_monkey_c_cleanAnalog_source_cleanAnalogView_mc_23_2_for_end:
-F_Active_Important_Coding_monkey_c_cleanAnalog_source_cleanAnalogView_mc_13_41_stop:
+        goto @F_Active_Important_Coding_monkey_c_connect_iq_watchfaces_cleanAnalog_source_cleanAnalogView_mc_23_2_for_test;
+F_Active_Important_Coding_monkey_c_connect_iq_watchfaces_cleanAnalog_source_cleanAnalogView_mc_23_2_for_end:
+F_Active_Important_Coding_monkey_c_connect_iq_watchfaces_cleanAnalog_source_cleanAnalogView_mc_13_41_stop:
     }
-    [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\source\cleanAnalogView.mc"; @line = 49; ]
+    [ @file = "F:\Active\Important\Coding\monkey-c\connect-iq\watchfaces\cleanAnalog\source\cleanAnalogView.mc"; @line = 49; ]
     function decimalAsDegree(decimal as Double, width as Double) as Number {
-F_Active_Important_Coding_monkey_c_cleanAnalog_source_cleanAnalogView_mc_49_72_start:
-[ "F:\Active\Important\Coding\monkey-c\cleanAnalog\source\cleanAnalogView.mc" 50 2 ]
-        [ "F_Active_Important_Coding_monkey_c_cleanAnalog_source_cleanAnalogView_mc_49_72_start" "F_Active_Important_Coding_monkey_c_cleanAnalog_source_cleanAnalogView_mc_49_72_stop" ]
+F_Active_Important_Coding_monkey_c_connect_iq_watchfaces_cleanAnalog_source_cleanAnalogView_mc_49_72_start:
+[ "F:\Active\Important\Coding\monkey-c\connect-iq\watchfaces\cleanAnalog\source\cleanAnalogView.mc" 50 2 ]
+        [ "F_Active_Important_Coding_monkey_c_connect_iq_watchfaces_cleanAnalog_source_cleanAnalogView_mc_49_72_start" "F_Active_Important_Coding_monkey_c_connect_iq_watchfaces_cleanAnalog_source_cleanAnalogView_mc_49_72_stop" ]
         %widthPercent.1 = local;
         %tmp.2 = lgetv %width;
         %tmp.3 = 360;
         %tmp.4 = div %tmp.2 %tmp.3;
         lputv %widthPercent.1 %tmp.4;
-[ "F:\Active\Important\Coding\monkey-c\cleanAnalog\source\cleanAnalogView.mc" 51 2 ]
-        [ "F_Active_Important_Coding_monkey_c_cleanAnalog_source_cleanAnalogView_mc_49_72_start" "F_Active_Important_Coding_monkey_c_cleanAnalog_source_cleanAnalogView_mc_49_72_stop" ]
+[ "F:\Active\Important\Coding\monkey-c\connect-iq\watchfaces\cleanAnalog\source\cleanAnalogView.mc" 51 2 ]
+        [ "F_Active_Important_Coding_monkey_c_connect_iq_watchfaces_cleanAnalog_source_cleanAnalogView_mc_49_72_start" "F_Active_Important_Coding_monkey_c_connect_iq_watchfaces_cleanAnalog_source_cleanAnalogView_mc_49_72_stop" ]
         %degreeOut.2 = local;
         %tmp.5 = 360;
         %tmp.7 = lgetv %decimal;
@@ -279,61 +279,61 @@ F_Active_Important_Coding_monkey_c_cleanAnalog_source_cleanAnalogView_mc_49_72_s
         %tmp.13 = as %tmp.12 Number;
         %tmp.14 = mul %tmp.5 %tmp.13;
         lputv %degreeOut.2 %tmp.14;
-[ "F:\Active\Important\Coding\monkey-c\cleanAnalog\source\cleanAnalogView.mc" 52 2 ]
+[ "F:\Active\Important\Coding\monkey-c\connect-iq\watchfaces\cleanAnalog\source\cleanAnalogView.mc" 52 2 ]
         %tmp.16 = lgetv %degreeOut.2;
         %tmp.17 = 360;
         %tmp.18 = mod %tmp.16 %tmp.17;
         lputv %degreeOut.2 %tmp.18;
-[ "F:\Active\Important\Coding\monkey-c\cleanAnalog\source\cleanAnalogView.mc" 53 2 ]
+[ "F:\Active\Important\Coding\monkey-c\connect-iq\watchfaces\cleanAnalog\source\cleanAnalogView.mc" 53 2 ]
         %tmp.20 = lgetv %degreeOut.2;
         ret %tmp.20;
-F_Active_Important_Coding_monkey_c_cleanAnalog_source_cleanAnalogView_mc_49_72_stop:
+F_Active_Important_Coding_monkey_c_connect_iq_watchfaces_cleanAnalog_source_cleanAnalogView_mc_49_72_stop:
     }
-    [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\source\cleanAnalogView.mc"; @line = 56; ]
+    [ @file = "F:\Active\Important\Coding\monkey-c\connect-iq\watchfaces\cleanAnalog\source\cleanAnalogView.mc"; @line = 56; ]
     function drawBackground(dc) {
-F_Active_Important_Coding_monkey_c_cleanAnalog_source_cleanAnalogView_mc_56_32_start:
-[ "F:\Active\Important\Coding\monkey-c\cleanAnalog\source\cleanAnalogView.mc" 57 2 ]
-        [ "F_Active_Important_Coding_monkey_c_cleanAnalog_source_cleanAnalogView_mc_56_32_start" "F_Active_Important_Coding_monkey_c_cleanAnalog_source_cleanAnalogView_mc_56_32_stop" ]
+F_Active_Important_Coding_monkey_c_connect_iq_watchfaces_cleanAnalog_source_cleanAnalogView_mc_56_32_start:
+[ "F:\Active\Important\Coding\monkey-c\connect-iq\watchfaces\cleanAnalog\source\cleanAnalogView.mc" 57 2 ]
+        [ "F_Active_Important_Coding_monkey_c_connect_iq_watchfaces_cleanAnalog_source_cleanAnalogView_mc_56_32_start" "F_Active_Important_Coding_monkey_c_connect_iq_watchfaces_cleanAnalog_source_cleanAnalogView_mc_56_32_stop" ]
         %clockTime.1 = local;
         %tmp.1 = getm $.Toybox.System;
         %tmp.2 = getv function %tmp.1 :getClockTime;
         %tmp.3 = invoke %tmp.1 %tmp.2();
         lputv %clockTime.1 %tmp.3;
-[ "F:\Active\Important\Coding\monkey-c\cleanAnalog\source\cleanAnalogView.mc" 58 8 ]
-        [ "F_Active_Important_Coding_monkey_c_cleanAnalog_source_cleanAnalogView_mc_56_32_start" "F_Active_Important_Coding_monkey_c_cleanAnalog_source_cleanAnalogView_mc_56_32_stop" ]
+[ "F:\Active\Important\Coding\monkey-c\connect-iq\watchfaces\cleanAnalog\source\cleanAnalogView.mc" 58 8 ]
+        [ "F_Active_Important_Coding_monkey_c_connect_iq_watchfaces_cleanAnalog_source_cleanAnalogView_mc_56_32_start" "F_Active_Important_Coding_monkey_c_connect_iq_watchfaces_cleanAnalog_source_cleanAnalogView_mc_56_32_stop" ]
         %hours.2 = local;
         %tmp.4 = lgetv %clockTime.1;
         %tmp.5 = getv %tmp.4 :hour;
         lputv %hours.2 %tmp.5;
-[ "F:\Active\Important\Coding\monkey-c\cleanAnalog\source\cleanAnalogView.mc" 59 8 ]
-        [ "F_Active_Important_Coding_monkey_c_cleanAnalog_source_cleanAnalogView_mc_56_32_start" "F_Active_Important_Coding_monkey_c_cleanAnalog_source_cleanAnalogView_mc_56_32_stop" ]
+[ "F:\Active\Important\Coding\monkey-c\connect-iq\watchfaces\cleanAnalog\source\cleanAnalogView.mc" 59 8 ]
+        [ "F_Active_Important_Coding_monkey_c_connect_iq_watchfaces_cleanAnalog_source_cleanAnalogView_mc_56_32_start" "F_Active_Important_Coding_monkey_c_connect_iq_watchfaces_cleanAnalog_source_cleanAnalogView_mc_56_32_stop" ]
         %minutes.3 = local;
         %tmp.6 = lgetv %clockTime.1;
         %tmp.7 = getv %tmp.6 :min;
         lputv %minutes.3 %tmp.7;
-[ "F:\Active\Important\Coding\monkey-c\cleanAnalog\source\cleanAnalogView.mc" 60 8 ]
-        [ "F_Active_Important_Coding_monkey_c_cleanAnalog_source_cleanAnalogView_mc_56_32_start" "F_Active_Important_Coding_monkey_c_cleanAnalog_source_cleanAnalogView_mc_56_32_stop" ]
+[ "F:\Active\Important\Coding\monkey-c\connect-iq\watchfaces\cleanAnalog\source\cleanAnalogView.mc" 60 8 ]
+        [ "F_Active_Important_Coding_monkey_c_connect_iq_watchfaces_cleanAnalog_source_cleanAnalogView_mc_56_32_start" "F_Active_Important_Coding_monkey_c_connect_iq_watchfaces_cleanAnalog_source_cleanAnalogView_mc_56_32_stop" ]
         %seconds.4 = local;
         %tmp.8 = lgetv %clockTime.1;
         %tmp.9 = getv %tmp.8 :sec;
         lputv %seconds.4 %tmp.9;
-[ "F:\Active\Important\Coding\monkey-c\cleanAnalog\source\cleanAnalogView.mc" 61 8 ]
-        [ "F_Active_Important_Coding_monkey_c_cleanAnalog_source_cleanAnalogView_mc_56_32_start" "F_Active_Important_Coding_monkey_c_cleanAnalog_source_cleanAnalogView_mc_56_32_stop" ]
+[ "F:\Active\Important\Coding\monkey-c\connect-iq\watchfaces\cleanAnalog\source\cleanAnalogView.mc" 61 8 ]
+        [ "F_Active_Important_Coding_monkey_c_connect_iq_watchfaces_cleanAnalog_source_cleanAnalogView_mc_56_32_start" "F_Active_Important_Coding_monkey_c_connect_iq_watchfaces_cleanAnalog_source_cleanAnalogView_mc_56_32_stop" ]
         %width.5 = local;
         %tmp.10 = getm $.Toybox.System;
         %tmp.11 = getv function %tmp.10 :getDeviceSettings;
         %tmp.12 = invoke %tmp.10 %tmp.11();
         %tmp.13 = getv %tmp.12 :screenWidth;
         lputv %width.5 %tmp.13;
-[ "F:\Active\Important\Coding\monkey-c\cleanAnalog\source\cleanAnalogView.mc" 62 8 ]
-        [ "F_Active_Important_Coding_monkey_c_cleanAnalog_source_cleanAnalogView_mc_56_32_start" "F_Active_Important_Coding_monkey_c_cleanAnalog_source_cleanAnalogView_mc_56_32_stop" ]
+[ "F:\Active\Important\Coding\monkey-c\connect-iq\watchfaces\cleanAnalog\source\cleanAnalogView.mc" 62 8 ]
+        [ "F_Active_Important_Coding_monkey_c_connect_iq_watchfaces_cleanAnalog_source_cleanAnalogView_mc_56_32_start" "F_Active_Important_Coding_monkey_c_connect_iq_watchfaces_cleanAnalog_source_cleanAnalogView_mc_56_32_stop" ]
         %height.6 = local;
         %tmp.14 = getm $.Toybox.System;
         %tmp.15 = getv function %tmp.14 :getDeviceSettings;
         %tmp.16 = invoke %tmp.14 %tmp.15();
         %tmp.17 = getv %tmp.16 :screenHeight;
         lputv %height.6 %tmp.17;
-[ "F:\Active\Important\Coding\monkey-c\cleanAnalog\source\cleanAnalogView.mc" 64 5 ]
+[ "F:\Active\Important\Coding\monkey-c\connect-iq\watchfaces\cleanAnalog\source\cleanAnalogView.mc" 64 5 ]
         %tmp.18 = lgetv %dc;
         %tmp.19 = getv function %tmp.18 :setColor;
         %tmp.20 = getm $.Toybox.Graphics;
@@ -341,11 +341,11 @@ F_Active_Important_Coding_monkey_c_cleanAnalog_source_cleanAnalogView_mc_56_32_s
         %tmp.22 = getm $.Toybox.Graphics;
         %tmp.23 = getv %tmp.22 :COLOR_BLACK;
         invoke %tmp.18 %tmp.19(%tmp.21, %tmp.23);
-[ "F:\Active\Important\Coding\monkey-c\cleanAnalog\source\cleanAnalogView.mc" 65 5 ]
+[ "F:\Active\Important\Coding\monkey-c\connect-iq\watchfaces\cleanAnalog\source\cleanAnalogView.mc" 65 5 ]
         %tmp.24 = lgetv %dc;
         %tmp.25 = getv function %tmp.24 :clear;
         invoke %tmp.24 %tmp.25();
-[ "F:\Active\Important\Coding\monkey-c\cleanAnalog\source\cleanAnalogView.mc" 67 2 ]
+[ "F:\Active\Important\Coding\monkey-c\connect-iq\watchfaces\cleanAnalog\source\cleanAnalogView.mc" 67 2 ]
         %tmp.26 = self;
         %tmp.27 = getv function %tmp.26 :drawGradient;
         %tmp.28 = self;
@@ -370,64 +370,64 @@ F_Active_Important_Coding_monkey_c_cleanAnalog_source_cleanAnalogView_mc_56_32_s
         %tmp.47 = invoke %tmp.38 %tmp.39(%tmp.46);
         %tmp.49 = lgetv %dc;
         invoke %tmp.26 %tmp.27(%tmp.37, %tmp.47, %tmp.49);
-F_Active_Important_Coding_monkey_c_cleanAnalog_source_cleanAnalogView_mc_56_32_stop:
+F_Active_Important_Coding_monkey_c_connect_iq_watchfaces_cleanAnalog_source_cleanAnalogView_mc_56_32_stop:
     }
-    [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\source\cleanAnalogView.mc"; @line = 132; ]
+    [ @file = "F:\Active\Important\Coding\monkey-c\connect-iq\watchfaces\cleanAnalog\source\cleanAnalogView.mc"; @line = 132; ]
     function drawCircle(dc, x, y, radius) {
-F_Active_Important_Coding_monkey_c_cleanAnalog_source_cleanAnalogView_mc_132_41_start:
-[ "F:\Active\Important\Coding\monkey-c\cleanAnalog\source\cleanAnalogView.mc" 133 8 ]
-        [ "F_Active_Important_Coding_monkey_c_cleanAnalog_source_cleanAnalogView_mc_132_41_start" "F_Active_Important_Coding_monkey_c_cleanAnalog_source_cleanAnalogView_mc_132_41_stop" ]
+F_Active_Important_Coding_monkey_c_connect_iq_watchfaces_cleanAnalog_source_cleanAnalogView_mc_132_41_start:
+[ "F:\Active\Important\Coding\monkey-c\connect-iq\watchfaces\cleanAnalog\source\cleanAnalogView.mc" 133 8 ]
+        [ "F_Active_Important_Coding_monkey_c_connect_iq_watchfaces_cleanAnalog_source_cleanAnalogView_mc_132_41_start" "F_Active_Important_Coding_monkey_c_connect_iq_watchfaces_cleanAnalog_source_cleanAnalogView_mc_132_41_stop" ]
         %screenWidth.1 = local;
         %tmp.1 = lgetv %dc;
         %tmp.2 = getv function %tmp.1 :getWidth;
         %tmp.3 = invoke %tmp.1 %tmp.2();
         lputv %screenWidth.1 %tmp.3;
-[ "F:\Active\Important\Coding\monkey-c\cleanAnalog\source\cleanAnalogView.mc" 134 8 ]
-        [ "F_Active_Important_Coding_monkey_c_cleanAnalog_source_cleanAnalogView_mc_132_41_start" "F_Active_Important_Coding_monkey_c_cleanAnalog_source_cleanAnalogView_mc_132_41_stop" ]
+[ "F:\Active\Important\Coding\monkey-c\connect-iq\watchfaces\cleanAnalog\source\cleanAnalogView.mc" 134 8 ]
+        [ "F_Active_Important_Coding_monkey_c_connect_iq_watchfaces_cleanAnalog_source_cleanAnalogView_mc_132_41_start" "F_Active_Important_Coding_monkey_c_connect_iq_watchfaces_cleanAnalog_source_cleanAnalogView_mc_132_41_stop" ]
         %screenHeight.2 = local;
         %tmp.4 = lgetv %dc;
         %tmp.5 = getv function %tmp.4 :getHeight;
         %tmp.6 = invoke %tmp.4 %tmp.5();
         lputv %screenHeight.2 %tmp.6;
-[ "F:\Active\Important\Coding\monkey-c\cleanAnalog\source\cleanAnalogView.mc" 135 8 ]
-        [ "F_Active_Important_Coding_monkey_c_cleanAnalog_source_cleanAnalogView_mc_132_41_start" "F_Active_Important_Coding_monkey_c_cleanAnalog_source_cleanAnalogView_mc_132_41_stop" ]
+[ "F:\Active\Important\Coding\monkey-c\connect-iq\watchfaces\cleanAnalog\source\cleanAnalogView.mc" 135 8 ]
+        [ "F_Active_Important_Coding_monkey_c_connect_iq_watchfaces_cleanAnalog_source_cleanAnalogView_mc_132_41_start" "F_Active_Important_Coding_monkey_c_connect_iq_watchfaces_cleanAnalog_source_cleanAnalogView_mc_132_41_stop" ]
         %screenSmallerVal.3 = local;
         %tmp.8 = lgetv %screenHeight.2;
         lputv %screenSmallerVal.3 %tmp.8;
-[ "F:\Active\Important\Coding\monkey-c\cleanAnalog\source\cleanAnalogView.mc" 136 8 ]
-F_Active_Important_Coding_monkey_c_cleanAnalog_source_cleanAnalogView_mc_136_8_if_stmt:
+[ "F:\Active\Important\Coding\monkey-c\connect-iq\watchfaces\cleanAnalog\source\cleanAnalogView.mc" 136 8 ]
+F_Active_Important_Coding_monkey_c_connect_iq_watchfaces_cleanAnalog_source_cleanAnalogView_mc_136_8_if_stmt:
         %tmp.10 = lgetv %screenHeight.2;
         %tmp.12 = lgetv %screenWidth.1;
         %tmp.13 = gt %tmp.10 %tmp.12;
-        bf %tmp.13 @F_Active_Important_Coding_monkey_c_cleanAnalog_source_cleanAnalogView_mc_136_8_if_end;
-F_Active_Important_Coding_monkey_c_cleanAnalog_source_cleanAnalogView_mc_136_8_if_true:
-F_Active_Important_Coding_monkey_c_cleanAnalog_source_cleanAnalogView_mc_136_38_start:
-[ "F:\Active\Important\Coding\monkey-c\cleanAnalog\source\cleanAnalogView.mc" 137 12 ]
+        bf %tmp.13 @F_Active_Important_Coding_monkey_c_connect_iq_watchfaces_cleanAnalog_source_cleanAnalogView_mc_136_8_if_end;
+F_Active_Important_Coding_monkey_c_connect_iq_watchfaces_cleanAnalog_source_cleanAnalogView_mc_136_8_if_true:
+F_Active_Important_Coding_monkey_c_connect_iq_watchfaces_cleanAnalog_source_cleanAnalogView_mc_136_38_start:
+[ "F:\Active\Important\Coding\monkey-c\connect-iq\watchfaces\cleanAnalog\source\cleanAnalogView.mc" 137 12 ]
         %tmp.15 = lgetv %screenWidth.1;
         lputv %screenSmallerVal.3 %tmp.15;
-F_Active_Important_Coding_monkey_c_cleanAnalog_source_cleanAnalogView_mc_136_38_stop:
-        goto @F_Active_Important_Coding_monkey_c_cleanAnalog_source_cleanAnalogView_mc_136_8_if_end;
-F_Active_Important_Coding_monkey_c_cleanAnalog_source_cleanAnalogView_mc_136_8_if_end:
-[ "F:\Active\Important\Coding\monkey-c\cleanAnalog\source\cleanAnalogView.mc" 139 8 ]
+F_Active_Important_Coding_monkey_c_connect_iq_watchfaces_cleanAnalog_source_cleanAnalogView_mc_136_38_stop:
+        goto @F_Active_Important_Coding_monkey_c_connect_iq_watchfaces_cleanAnalog_source_cleanAnalogView_mc_136_8_if_end;
+F_Active_Important_Coding_monkey_c_connect_iq_watchfaces_cleanAnalog_source_cleanAnalogView_mc_136_8_if_end:
+[ "F:\Active\Important\Coding\monkey-c\connect-iq\watchfaces\cleanAnalog\source\cleanAnalogView.mc" 139 8 ]
         %tmp.16 = getm $.Toybox.System;
         %tmp.17 = getv function %tmp.16 :println;
         %tmp.18 = "WORK!";
         invoke %tmp.16 %tmp.17(%tmp.18);
-[ "F:\Active\Important\Coding\monkey-c\cleanAnalog\source\cleanAnalogView.mc" 140 8 ]
-        [ "F_Active_Important_Coding_monkey_c_cleanAnalog_source_cleanAnalogView_mc_132_41_start" "F_Active_Important_Coding_monkey_c_cleanAnalog_source_cleanAnalogView_mc_132_41_stop" ]
+[ "F:\Active\Important\Coding\monkey-c\connect-iq\watchfaces\cleanAnalog\source\cleanAnalogView.mc" 140 8 ]
+        [ "F_Active_Important_Coding_monkey_c_connect_iq_watchfaces_cleanAnalog_source_cleanAnalogView_mc_132_41_start" "F_Active_Important_Coding_monkey_c_connect_iq_watchfaces_cleanAnalog_source_cleanAnalogView_mc_132_41_stop" ]
         %centerX.4 = local;
         %tmp.20 = lgetv %screenWidth.1;
         %tmp.21 = 2;
         %tmp.22 = div %tmp.20 %tmp.21;
         lputv %centerX.4 %tmp.22;
-[ "F:\Active\Important\Coding\monkey-c\cleanAnalog\source\cleanAnalogView.mc" 141 8 ]
-        [ "F_Active_Important_Coding_monkey_c_cleanAnalog_source_cleanAnalogView_mc_132_41_start" "F_Active_Important_Coding_monkey_c_cleanAnalog_source_cleanAnalogView_mc_132_41_stop" ]
+[ "F:\Active\Important\Coding\monkey-c\connect-iq\watchfaces\cleanAnalog\source\cleanAnalogView.mc" 141 8 ]
+        [ "F_Active_Important_Coding_monkey_c_connect_iq_watchfaces_cleanAnalog_source_cleanAnalogView_mc_132_41_start" "F_Active_Important_Coding_monkey_c_connect_iq_watchfaces_cleanAnalog_source_cleanAnalogView_mc_132_41_stop" ]
         %centerY.5 = local;
         %tmp.24 = lgetv %screenHeight.2;
         %tmp.25 = 2;
         %tmp.26 = div %tmp.24 %tmp.25;
         lputv %centerY.5 %tmp.26;
-[ "F:\Active\Important\Coding\monkey-c\cleanAnalog\source\cleanAnalogView.mc" 142 8 ]
+[ "F:\Active\Important\Coding\monkey-c\connect-iq\watchfaces\cleanAnalog\source\cleanAnalogView.mc" 142 8 ]
         %tmp.27 = lgetv %dc;
         %tmp.28 = getv function %tmp.27 :setColor;
         %tmp.29 = getm $.Toybox.Graphics;
@@ -435,12 +435,12 @@ F_Active_Important_Coding_monkey_c_cleanAnalog_source_cleanAnalogView_mc_136_8_i
         %tmp.31 = getm $.Toybox.Graphics;
         %tmp.32 = getv %tmp.31 :COLOR_TRANSPARENT;
         invoke %tmp.27 %tmp.28(%tmp.30, %tmp.32);
-[ "F:\Active\Important\Coding\monkey-c\cleanAnalog\source\cleanAnalogView.mc" 143 8 ]
+[ "F:\Active\Important\Coding\monkey-c\connect-iq\watchfaces\cleanAnalog\source\cleanAnalogView.mc" 143 8 ]
         %tmp.33 = lgetv %dc;
         %tmp.34 = getv function %tmp.33 :setPenWidth;
         %tmp.35 = 10;
         invoke %tmp.33 %tmp.34(%tmp.35);
-[ "F:\Active\Important\Coding\monkey-c\cleanAnalog\source\cleanAnalogView.mc" 144 8 ]
+[ "F:\Active\Important\Coding\monkey-c\connect-iq\watchfaces\cleanAnalog\source\cleanAnalogView.mc" 144 8 ]
         %tmp.36 = lgetv %dc;
         %tmp.37 = getv function %tmp.36 :drawCircle;
         %tmp.39 = lgetv %centerX.4;
@@ -453,45 +453,45 @@ F_Active_Important_Coding_monkey_c_cleanAnalog_source_cleanAnalogView_mc_136_8_i
         %tmp.51 = lgetv %radius;
         %tmp.52 = mul %tmp.49 %tmp.51;
         invoke %tmp.36 %tmp.37(%tmp.42, %tmp.47, %tmp.52);
-F_Active_Important_Coding_monkey_c_cleanAnalog_source_cleanAnalogView_mc_132_41_stop:
+F_Active_Important_Coding_monkey_c_connect_iq_watchfaces_cleanAnalog_source_cleanAnalogView_mc_132_41_stop:
     }
-    [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\source\cleanAnalogView.mc"; @line = 147; ]
+    [ @file = "F:\Active\Important\Coding\monkey-c\connect-iq\watchfaces\cleanAnalog\source\cleanAnalogView.mc"; @line = 147; ]
     function getRGB(color) {
-F_Active_Important_Coding_monkey_c_cleanAnalog_source_cleanAnalogView_mc_147_27_start:
-[ "F:\Active\Important\Coding\monkey-c\cleanAnalog\source\cleanAnalogView.mc" 148 2 ]
-        [ "F_Active_Important_Coding_monkey_c_cleanAnalog_source_cleanAnalogView_mc_147_27_start" "F_Active_Important_Coding_monkey_c_cleanAnalog_source_cleanAnalogView_mc_147_27_stop" ]
+F_Active_Important_Coding_monkey_c_connect_iq_watchfaces_cleanAnalog_source_cleanAnalogView_mc_147_27_start:
+[ "F:\Active\Important\Coding\monkey-c\connect-iq\watchfaces\cleanAnalog\source\cleanAnalogView.mc" 148 2 ]
+        [ "F_Active_Important_Coding_monkey_c_connect_iq_watchfaces_cleanAnalog_source_cleanAnalogView_mc_147_27_start" "F_Active_Important_Coding_monkey_c_connect_iq_watchfaces_cleanAnalog_source_cleanAnalogView_mc_147_27_stop" ]
         %color1.1 = local;
         %tmp.1 = lgetv %color;
         %tmp.2 = getv function %tmp.1 :format;
         %tmp.3 = "%X";
         %tmp.4 = invoke %tmp.1 %tmp.2(%tmp.3);
         lputv %color1.1 %tmp.4;
-[ "F:\Active\Important\Coding\monkey-c\cleanAnalog\source\cleanAnalogView.mc" 149 2 ]
-        [ "F_Active_Important_Coding_monkey_c_cleanAnalog_source_cleanAnalogView_mc_147_27_start" "F_Active_Important_Coding_monkey_c_cleanAnalog_source_cleanAnalogView_mc_147_27_stop" ]
+[ "F:\Active\Important\Coding\monkey-c\connect-iq\watchfaces\cleanAnalog\source\cleanAnalogView.mc" 149 2 ]
+        [ "F_Active_Important_Coding_monkey_c_connect_iq_watchfaces_cleanAnalog_source_cleanAnalogView_mc_147_27_start" "F_Active_Important_Coding_monkey_c_connect_iq_watchfaces_cleanAnalog_source_cleanAnalogView_mc_147_27_stop" ]
         %r.2 = local;
         %tmp.5 = 0;
         lputv %r.2 %tmp.5;
-[ "F:\Active\Important\Coding\monkey-c\cleanAnalog\source\cleanAnalogView.mc" 150 2 ]
-        [ "F_Active_Important_Coding_monkey_c_cleanAnalog_source_cleanAnalogView_mc_147_27_start" "F_Active_Important_Coding_monkey_c_cleanAnalog_source_cleanAnalogView_mc_147_27_stop" ]
+[ "F:\Active\Important\Coding\monkey-c\connect-iq\watchfaces\cleanAnalog\source\cleanAnalogView.mc" 150 2 ]
+        [ "F_Active_Important_Coding_monkey_c_connect_iq_watchfaces_cleanAnalog_source_cleanAnalogView_mc_147_27_start" "F_Active_Important_Coding_monkey_c_connect_iq_watchfaces_cleanAnalog_source_cleanAnalogView_mc_147_27_stop" ]
         %g.3 = local;
         %tmp.6 = 0;
         lputv %g.3 %tmp.6;
-[ "F:\Active\Important\Coding\monkey-c\cleanAnalog\source\cleanAnalogView.mc" 151 2 ]
-        [ "F_Active_Important_Coding_monkey_c_cleanAnalog_source_cleanAnalogView_mc_147_27_start" "F_Active_Important_Coding_monkey_c_cleanAnalog_source_cleanAnalogView_mc_147_27_stop" ]
+[ "F:\Active\Important\Coding\monkey-c\connect-iq\watchfaces\cleanAnalog\source\cleanAnalogView.mc" 151 2 ]
+        [ "F_Active_Important_Coding_monkey_c_connect_iq_watchfaces_cleanAnalog_source_cleanAnalogView_mc_147_27_start" "F_Active_Important_Coding_monkey_c_connect_iq_watchfaces_cleanAnalog_source_cleanAnalogView_mc_147_27_stop" ]
         %b.4 = local;
         %tmp.7 = 0;
         lputv %b.4 %tmp.7;
-[ "F:\Active\Important\Coding\monkey-c\cleanAnalog\source\cleanAnalogView.mc" 153 2 ]
-F_Active_Important_Coding_monkey_c_cleanAnalog_source_cleanAnalogView_mc_153_2_if_stmt:
-F_Active_Important_Coding_monkey_c_cleanAnalog_source_cleanAnalogView_mc_153_5_begin:
+[ "F:\Active\Important\Coding\monkey-c\connect-iq\watchfaces\cleanAnalog\source\cleanAnalogView.mc" 153 2 ]
+F_Active_Important_Coding_monkey_c_connect_iq_watchfaces_cleanAnalog_source_cleanAnalogView_mc_153_2_if_stmt:
+F_Active_Important_Coding_monkey_c_connect_iq_watchfaces_cleanAnalog_source_cleanAnalogView_mc_153_5_begin:
         %tmp.8 = lgetv %color1.1;
         %tmp.9 = getv function %tmp.8 :length;
         %tmp.10 = invoke %tmp.8 %tmp.9();
         %tmp.11 = 2;
         %tmp.12 = lte %tmp.10 %tmp.11;
         %tmp.13 = dup %tmp.12;
-        bf %tmp.13 @F_Active_Important_Coding_monkey_c_cleanAnalog_source_cleanAnalogView_mc_153_29_end;
-F_Active_Important_Coding_monkey_c_cleanAnalog_source_cleanAnalogView_mc_153_29_true:
+        bf %tmp.13 @F_Active_Important_Coding_monkey_c_connect_iq_watchfaces_cleanAnalog_source_cleanAnalogView_mc_153_29_end;
+F_Active_Important_Coding_monkey_c_connect_iq_watchfaces_cleanAnalog_source_cleanAnalogView_mc_153_29_true:
         %tmp.14 = lgetv %color1.1;
         %tmp.15 = getv function %tmp.14 :length;
         %tmp.16 = invoke %tmp.14 %tmp.15();
@@ -499,40 +499,40 @@ F_Active_Important_Coding_monkey_c_cleanAnalog_source_cleanAnalogView_mc_153_29_
         %tmp.18 = gt %tmp.16 %tmp.17;
         %tmp.19 = and %tmp.12 %tmp.18;
         push %tmp.19;
-F_Active_Important_Coding_monkey_c_cleanAnalog_source_cleanAnalogView_mc_153_29_end:
-        %tmp.20 = phi [%tmp.13 @F_Active_Important_Coding_monkey_c_cleanAnalog_source_cleanAnalogView_mc_153_5_begin] [%tmp.19 @F_Active_Important_Coding_monkey_c_cleanAnalog_source_cleanAnalogView_mc_153_29_true] [%tmp.20 @F_Active_Important_Coding_monkey_c_cleanAnalog_source_cleanAnalogView_mc_153_29_end];
-        bf %tmp.20 @F_Active_Important_Coding_monkey_c_cleanAnalog_source_cleanAnalogView_mc_153_2_if_false;
-F_Active_Important_Coding_monkey_c_cleanAnalog_source_cleanAnalogView_mc_153_2_if_true:
-F_Active_Important_Coding_monkey_c_cleanAnalog_source_cleanAnalogView_mc_153_50_start:
-[ "F:\Active\Important\Coding\monkey-c\cleanAnalog\source\cleanAnalogView.mc" 154 3 ]
+F_Active_Important_Coding_monkey_c_connect_iq_watchfaces_cleanAnalog_source_cleanAnalogView_mc_153_29_end:
+        %tmp.20 = phi [%tmp.13 @F_Active_Important_Coding_monkey_c_connect_iq_watchfaces_cleanAnalog_source_cleanAnalogView_mc_153_5_begin] [%tmp.19 @F_Active_Important_Coding_monkey_c_connect_iq_watchfaces_cleanAnalog_source_cleanAnalogView_mc_153_29_true] [%tmp.20 @F_Active_Important_Coding_monkey_c_connect_iq_watchfaces_cleanAnalog_source_cleanAnalogView_mc_153_29_end];
+        bf %tmp.20 @F_Active_Important_Coding_monkey_c_connect_iq_watchfaces_cleanAnalog_source_cleanAnalogView_mc_153_2_if_false;
+F_Active_Important_Coding_monkey_c_connect_iq_watchfaces_cleanAnalog_source_cleanAnalogView_mc_153_2_if_true:
+F_Active_Important_Coding_monkey_c_connect_iq_watchfaces_cleanAnalog_source_cleanAnalogView_mc_153_50_start:
+[ "F:\Active\Important\Coding\monkey-c\connect-iq\watchfaces\cleanAnalog\source\cleanAnalogView.mc" 154 3 ]
         %tmp.21 = 0;
         lputv %r.2 %tmp.21;
-[ "F:\Active\Important\Coding\monkey-c\cleanAnalog\source\cleanAnalogView.mc" 155 3 ]
+[ "F:\Active\Important\Coding\monkey-c\connect-iq\watchfaces\cleanAnalog\source\cleanAnalogView.mc" 155 3 ]
         %tmp.22 = 0;
         lputv %g.3 %tmp.22;
-[ "F:\Active\Important\Coding\monkey-c\cleanAnalog\source\cleanAnalogView.mc" 156 3 ]
+[ "F:\Active\Important\Coding\monkey-c\connect-iq\watchfaces\cleanAnalog\source\cleanAnalogView.mc" 156 3 ]
         %tmp.23 = lgetv %color1.1;
         %tmp.24 = getv function %tmp.23 :toLongWithBase;
         %tmp.25 = 16;
         %tmp.26 = invoke %tmp.23 %tmp.24(%tmp.25);
         lputv %b.4 %tmp.26;
-F_Active_Important_Coding_monkey_c_cleanAnalog_source_cleanAnalogView_mc_153_50_stop:
-        goto @F_Active_Important_Coding_monkey_c_cleanAnalog_source_cleanAnalogView_mc_153_2_if_end;
-F_Active_Important_Coding_monkey_c_cleanAnalog_source_cleanAnalogView_mc_153_2_if_false:
-[ "F:\Active\Important\Coding\monkey-c\cleanAnalog\source\cleanAnalogView.mc" 157 9 ]
-F_Active_Important_Coding_monkey_c_cleanAnalog_source_cleanAnalogView_mc_157_9_if_stmt:
+F_Active_Important_Coding_monkey_c_connect_iq_watchfaces_cleanAnalog_source_cleanAnalogView_mc_153_50_stop:
+        goto @F_Active_Important_Coding_monkey_c_connect_iq_watchfaces_cleanAnalog_source_cleanAnalogView_mc_153_2_if_end;
+F_Active_Important_Coding_monkey_c_connect_iq_watchfaces_cleanAnalog_source_cleanAnalogView_mc_153_2_if_false:
+[ "F:\Active\Important\Coding\monkey-c\connect-iq\watchfaces\cleanAnalog\source\cleanAnalogView.mc" 157 9 ]
+F_Active_Important_Coding_monkey_c_connect_iq_watchfaces_cleanAnalog_source_cleanAnalogView_mc_157_9_if_stmt:
         %tmp.27 = lgetv %color1.1;
         %tmp.28 = getv function %tmp.27 :length;
         %tmp.29 = invoke %tmp.27 %tmp.28();
         %tmp.30 = 3;
         %tmp.31 = eq %tmp.29 %tmp.30;
-        bf %tmp.31 @F_Active_Important_Coding_monkey_c_cleanAnalog_source_cleanAnalogView_mc_157_9_if_false;
-F_Active_Important_Coding_monkey_c_cleanAnalog_source_cleanAnalogView_mc_157_9_if_true:
-F_Active_Important_Coding_monkey_c_cleanAnalog_source_cleanAnalogView_mc_157_34_start:
-[ "F:\Active\Important\Coding\monkey-c\cleanAnalog\source\cleanAnalogView.mc" 158 3 ]
+        bf %tmp.31 @F_Active_Important_Coding_monkey_c_connect_iq_watchfaces_cleanAnalog_source_cleanAnalogView_mc_157_9_if_false;
+F_Active_Important_Coding_monkey_c_connect_iq_watchfaces_cleanAnalog_source_cleanAnalogView_mc_157_9_if_true:
+F_Active_Important_Coding_monkey_c_connect_iq_watchfaces_cleanAnalog_source_cleanAnalogView_mc_157_34_start:
+[ "F:\Active\Important\Coding\monkey-c\connect-iq\watchfaces\cleanAnalog\source\cleanAnalogView.mc" 158 3 ]
         %tmp.32 = 0;
         lputv %r.2 %tmp.32;
-[ "F:\Active\Important\Coding\monkey-c\cleanAnalog\source\cleanAnalogView.mc" 159 3 ]
+[ "F:\Active\Important\Coding\monkey-c\connect-iq\watchfaces\cleanAnalog\source\cleanAnalogView.mc" 159 3 ]
         %tmp.33 = lgetv %color1.1;
         %tmp.34 = getv function %tmp.33 :substring;
         %tmp.35 = 0;
@@ -542,7 +542,7 @@ F_Active_Important_Coding_monkey_c_cleanAnalog_source_cleanAnalogView_mc_157_34_
         %tmp.39 = 16;
         %tmp.40 = invoke %tmp.37 %tmp.38(%tmp.39);
         lputv %g.3 %tmp.40;
-[ "F:\Active\Important\Coding\monkey-c\cleanAnalog\source\cleanAnalogView.mc" 160 3 ]
+[ "F:\Active\Important\Coding\monkey-c\connect-iq\watchfaces\cleanAnalog\source\cleanAnalogView.mc" 160 3 ]
         %tmp.41 = lgetv %color1.1;
         %tmp.42 = getv function %tmp.41 :substring;
         %tmp.43 = 1;
@@ -552,23 +552,23 @@ F_Active_Important_Coding_monkey_c_cleanAnalog_source_cleanAnalogView_mc_157_34_
         %tmp.47 = 16;
         %tmp.48 = invoke %tmp.45 %tmp.46(%tmp.47);
         lputv %b.4 %tmp.48;
-F_Active_Important_Coding_monkey_c_cleanAnalog_source_cleanAnalogView_mc_157_34_stop:
-        goto @F_Active_Important_Coding_monkey_c_cleanAnalog_source_cleanAnalogView_mc_157_9_if_end;
-F_Active_Important_Coding_monkey_c_cleanAnalog_source_cleanAnalogView_mc_157_9_if_false:
-[ "F:\Active\Important\Coding\monkey-c\cleanAnalog\source\cleanAnalogView.mc" 161 9 ]
-F_Active_Important_Coding_monkey_c_cleanAnalog_source_cleanAnalogView_mc_161_9_if_stmt:
+F_Active_Important_Coding_monkey_c_connect_iq_watchfaces_cleanAnalog_source_cleanAnalogView_mc_157_34_stop:
+        goto @F_Active_Important_Coding_monkey_c_connect_iq_watchfaces_cleanAnalog_source_cleanAnalogView_mc_157_9_if_end;
+F_Active_Important_Coding_monkey_c_connect_iq_watchfaces_cleanAnalog_source_cleanAnalogView_mc_157_9_if_false:
+[ "F:\Active\Important\Coding\monkey-c\connect-iq\watchfaces\cleanAnalog\source\cleanAnalogView.mc" 161 9 ]
+F_Active_Important_Coding_monkey_c_connect_iq_watchfaces_cleanAnalog_source_cleanAnalogView_mc_161_9_if_stmt:
         %tmp.49 = lgetv %color1.1;
         %tmp.50 = getv function %tmp.49 :length;
         %tmp.51 = invoke %tmp.49 %tmp.50();
         %tmp.52 = 4;
         %tmp.53 = eq %tmp.51 %tmp.52;
-        bf %tmp.53 @F_Active_Important_Coding_monkey_c_cleanAnalog_source_cleanAnalogView_mc_161_9_if_false;
-F_Active_Important_Coding_monkey_c_cleanAnalog_source_cleanAnalogView_mc_161_9_if_true:
-F_Active_Important_Coding_monkey_c_cleanAnalog_source_cleanAnalogView_mc_161_33_start:
-[ "F:\Active\Important\Coding\monkey-c\cleanAnalog\source\cleanAnalogView.mc" 162 3 ]
+        bf %tmp.53 @F_Active_Important_Coding_monkey_c_connect_iq_watchfaces_cleanAnalog_source_cleanAnalogView_mc_161_9_if_false;
+F_Active_Important_Coding_monkey_c_connect_iq_watchfaces_cleanAnalog_source_cleanAnalogView_mc_161_9_if_true:
+F_Active_Important_Coding_monkey_c_connect_iq_watchfaces_cleanAnalog_source_cleanAnalogView_mc_161_33_start:
+[ "F:\Active\Important\Coding\monkey-c\connect-iq\watchfaces\cleanAnalog\source\cleanAnalogView.mc" 162 3 ]
         %tmp.54 = 0;
         lputv %r.2 %tmp.54;
-[ "F:\Active\Important\Coding\monkey-c\cleanAnalog\source\cleanAnalogView.mc" 163 3 ]
+[ "F:\Active\Important\Coding\monkey-c\connect-iq\watchfaces\cleanAnalog\source\cleanAnalogView.mc" 163 3 ]
         %tmp.55 = lgetv %color1.1;
         %tmp.56 = getv function %tmp.55 :substring;
         %tmp.57 = 0;
@@ -578,7 +578,7 @@ F_Active_Important_Coding_monkey_c_cleanAnalog_source_cleanAnalogView_mc_161_33_
         %tmp.61 = 16;
         %tmp.62 = invoke %tmp.59 %tmp.60(%tmp.61);
         lputv %g.3 %tmp.62;
-[ "F:\Active\Important\Coding\monkey-c\cleanAnalog\source\cleanAnalogView.mc" 164 3 ]
+[ "F:\Active\Important\Coding\monkey-c\connect-iq\watchfaces\cleanAnalog\source\cleanAnalogView.mc" 164 3 ]
         %tmp.63 = lgetv %color1.1;
         %tmp.64 = getv function %tmp.63 :substring;
         %tmp.65 = 2;
@@ -588,20 +588,20 @@ F_Active_Important_Coding_monkey_c_cleanAnalog_source_cleanAnalogView_mc_161_33_
         %tmp.69 = 16;
         %tmp.70 = invoke %tmp.67 %tmp.68(%tmp.69);
         lputv %b.4 %tmp.70;
-F_Active_Important_Coding_monkey_c_cleanAnalog_source_cleanAnalogView_mc_161_33_stop:
-        goto @F_Active_Important_Coding_monkey_c_cleanAnalog_source_cleanAnalogView_mc_161_9_if_end;
-F_Active_Important_Coding_monkey_c_cleanAnalog_source_cleanAnalogView_mc_161_9_if_false:
-[ "F:\Active\Important\Coding\monkey-c\cleanAnalog\source\cleanAnalogView.mc" 165 9 ]
-F_Active_Important_Coding_monkey_c_cleanAnalog_source_cleanAnalogView_mc_165_9_if_stmt:
+F_Active_Important_Coding_monkey_c_connect_iq_watchfaces_cleanAnalog_source_cleanAnalogView_mc_161_33_stop:
+        goto @F_Active_Important_Coding_monkey_c_connect_iq_watchfaces_cleanAnalog_source_cleanAnalogView_mc_161_9_if_end;
+F_Active_Important_Coding_monkey_c_connect_iq_watchfaces_cleanAnalog_source_cleanAnalogView_mc_161_9_if_false:
+[ "F:\Active\Important\Coding\monkey-c\connect-iq\watchfaces\cleanAnalog\source\cleanAnalogView.mc" 165 9 ]
+F_Active_Important_Coding_monkey_c_connect_iq_watchfaces_cleanAnalog_source_cleanAnalogView_mc_165_9_if_stmt:
         %tmp.71 = lgetv %color1.1;
         %tmp.72 = getv function %tmp.71 :length;
         %tmp.73 = invoke %tmp.71 %tmp.72();
         %tmp.74 = 5;
         %tmp.75 = eq %tmp.73 %tmp.74;
-        bf %tmp.75 @F_Active_Important_Coding_monkey_c_cleanAnalog_source_cleanAnalogView_mc_165_9_if_false;
-F_Active_Important_Coding_monkey_c_cleanAnalog_source_cleanAnalogView_mc_165_9_if_true:
-F_Active_Important_Coding_monkey_c_cleanAnalog_source_cleanAnalogView_mc_165_34_start:
-[ "F:\Active\Important\Coding\monkey-c\cleanAnalog\source\cleanAnalogView.mc" 166 3 ]
+        bf %tmp.75 @F_Active_Important_Coding_monkey_c_connect_iq_watchfaces_cleanAnalog_source_cleanAnalogView_mc_165_9_if_false;
+F_Active_Important_Coding_monkey_c_connect_iq_watchfaces_cleanAnalog_source_cleanAnalogView_mc_165_9_if_true:
+F_Active_Important_Coding_monkey_c_connect_iq_watchfaces_cleanAnalog_source_cleanAnalogView_mc_165_34_start:
+[ "F:\Active\Important\Coding\monkey-c\connect-iq\watchfaces\cleanAnalog\source\cleanAnalogView.mc" 166 3 ]
         %tmp.76 = lgetv %color1.1;
         %tmp.77 = getv function %tmp.76 :substring;
         %tmp.78 = 0;
@@ -611,7 +611,7 @@ F_Active_Important_Coding_monkey_c_cleanAnalog_source_cleanAnalogView_mc_165_34_
         %tmp.82 = 16;
         %tmp.83 = invoke %tmp.80 %tmp.81(%tmp.82);
         lputv %r.2 %tmp.83;
-[ "F:\Active\Important\Coding\monkey-c\cleanAnalog\source\cleanAnalogView.mc" 167 3 ]
+[ "F:\Active\Important\Coding\monkey-c\connect-iq\watchfaces\cleanAnalog\source\cleanAnalogView.mc" 167 3 ]
         %tmp.84 = lgetv %color1.1;
         %tmp.85 = getv function %tmp.84 :substring;
         %tmp.86 = 1;
@@ -621,7 +621,7 @@ F_Active_Important_Coding_monkey_c_cleanAnalog_source_cleanAnalogView_mc_165_34_
         %tmp.90 = 16;
         %tmp.91 = invoke %tmp.88 %tmp.89(%tmp.90);
         lputv %g.3 %tmp.91;
-[ "F:\Active\Important\Coding\monkey-c\cleanAnalog\source\cleanAnalogView.mc" 168 3 ]
+[ "F:\Active\Important\Coding\monkey-c\connect-iq\watchfaces\cleanAnalog\source\cleanAnalogView.mc" 168 3 ]
         %tmp.92 = lgetv %color1.1;
         %tmp.93 = getv function %tmp.92 :substring;
         %tmp.94 = 3;
@@ -631,20 +631,20 @@ F_Active_Important_Coding_monkey_c_cleanAnalog_source_cleanAnalogView_mc_165_34_
         %tmp.98 = 16;
         %tmp.99 = invoke %tmp.96 %tmp.97(%tmp.98);
         lputv %b.4 %tmp.99;
-F_Active_Important_Coding_monkey_c_cleanAnalog_source_cleanAnalogView_mc_165_34_stop:
-        goto @F_Active_Important_Coding_monkey_c_cleanAnalog_source_cleanAnalogView_mc_165_9_if_end;
-F_Active_Important_Coding_monkey_c_cleanAnalog_source_cleanAnalogView_mc_165_9_if_false:
-[ "F:\Active\Important\Coding\monkey-c\cleanAnalog\source\cleanAnalogView.mc" 169 9 ]
-F_Active_Important_Coding_monkey_c_cleanAnalog_source_cleanAnalogView_mc_169_9_if_stmt:
+F_Active_Important_Coding_monkey_c_connect_iq_watchfaces_cleanAnalog_source_cleanAnalogView_mc_165_34_stop:
+        goto @F_Active_Important_Coding_monkey_c_connect_iq_watchfaces_cleanAnalog_source_cleanAnalogView_mc_165_9_if_end;
+F_Active_Important_Coding_monkey_c_connect_iq_watchfaces_cleanAnalog_source_cleanAnalogView_mc_165_9_if_false:
+[ "F:\Active\Important\Coding\monkey-c\connect-iq\watchfaces\cleanAnalog\source\cleanAnalogView.mc" 169 9 ]
+F_Active_Important_Coding_monkey_c_connect_iq_watchfaces_cleanAnalog_source_cleanAnalogView_mc_169_9_if_stmt:
         %tmp.100 = lgetv %color1.1;
         %tmp.101 = getv function %tmp.100 :length;
         %tmp.102 = invoke %tmp.100 %tmp.101();
         %tmp.103 = 6;
         %tmp.104 = eq %tmp.102 %tmp.103;
-        bf %tmp.104 @F_Active_Important_Coding_monkey_c_cleanAnalog_source_cleanAnalogView_mc_169_9_if_end;
-F_Active_Important_Coding_monkey_c_cleanAnalog_source_cleanAnalogView_mc_169_9_if_true:
-F_Active_Important_Coding_monkey_c_cleanAnalog_source_cleanAnalogView_mc_169_34_start:
-[ "F:\Active\Important\Coding\monkey-c\cleanAnalog\source\cleanAnalogView.mc" 170 3 ]
+        bf %tmp.104 @F_Active_Important_Coding_monkey_c_connect_iq_watchfaces_cleanAnalog_source_cleanAnalogView_mc_169_9_if_end;
+F_Active_Important_Coding_monkey_c_connect_iq_watchfaces_cleanAnalog_source_cleanAnalogView_mc_169_9_if_true:
+F_Active_Important_Coding_monkey_c_connect_iq_watchfaces_cleanAnalog_source_cleanAnalogView_mc_169_34_start:
+[ "F:\Active\Important\Coding\monkey-c\connect-iq\watchfaces\cleanAnalog\source\cleanAnalogView.mc" 170 3 ]
         %tmp.105 = lgetv %color1.1;
         %tmp.106 = getv function %tmp.105 :substring;
         %tmp.107 = 0;
@@ -654,7 +654,7 @@ F_Active_Important_Coding_monkey_c_cleanAnalog_source_cleanAnalogView_mc_169_34_
         %tmp.111 = 16;
         %tmp.112 = invoke %tmp.109 %tmp.110(%tmp.111);
         lputv %r.2 %tmp.112;
-[ "F:\Active\Important\Coding\monkey-c\cleanAnalog\source\cleanAnalogView.mc" 171 3 ]
+[ "F:\Active\Important\Coding\monkey-c\connect-iq\watchfaces\cleanAnalog\source\cleanAnalogView.mc" 171 3 ]
         %tmp.113 = lgetv %color1.1;
         %tmp.114 = getv function %tmp.113 :substring;
         %tmp.115 = 2;
@@ -664,7 +664,7 @@ F_Active_Important_Coding_monkey_c_cleanAnalog_source_cleanAnalogView_mc_169_34_
         %tmp.119 = 16;
         %tmp.120 = invoke %tmp.117 %tmp.118(%tmp.119);
         lputv %g.3 %tmp.120;
-[ "F:\Active\Important\Coding\monkey-c\cleanAnalog\source\cleanAnalogView.mc" 172 3 ]
+[ "F:\Active\Important\Coding\monkey-c\connect-iq\watchfaces\cleanAnalog\source\cleanAnalogView.mc" 172 3 ]
         %tmp.121 = lgetv %color1.1;
         %tmp.122 = getv function %tmp.121 :substring;
         %tmp.123 = 4;
@@ -674,14 +674,14 @@ F_Active_Important_Coding_monkey_c_cleanAnalog_source_cleanAnalogView_mc_169_34_
         %tmp.127 = 16;
         %tmp.128 = invoke %tmp.125 %tmp.126(%tmp.127);
         lputv %b.4 %tmp.128;
-F_Active_Important_Coding_monkey_c_cleanAnalog_source_cleanAnalogView_mc_169_34_stop:
-        goto @F_Active_Important_Coding_monkey_c_cleanAnalog_source_cleanAnalogView_mc_169_9_if_end;
-F_Active_Important_Coding_monkey_c_cleanAnalog_source_cleanAnalogView_mc_169_9_if_end:
-F_Active_Important_Coding_monkey_c_cleanAnalog_source_cleanAnalogView_mc_165_9_if_end:
-F_Active_Important_Coding_monkey_c_cleanAnalog_source_cleanAnalogView_mc_161_9_if_end:
-F_Active_Important_Coding_monkey_c_cleanAnalog_source_cleanAnalogView_mc_157_9_if_end:
-F_Active_Important_Coding_monkey_c_cleanAnalog_source_cleanAnalogView_mc_153_2_if_end:
-[ "F:\Active\Important\Coding\monkey-c\cleanAnalog\source\cleanAnalogView.mc" 175 2 ]
+F_Active_Important_Coding_monkey_c_connect_iq_watchfaces_cleanAnalog_source_cleanAnalogView_mc_169_34_stop:
+        goto @F_Active_Important_Coding_monkey_c_connect_iq_watchfaces_cleanAnalog_source_cleanAnalogView_mc_169_9_if_end;
+F_Active_Important_Coding_monkey_c_connect_iq_watchfaces_cleanAnalog_source_cleanAnalogView_mc_169_9_if_end:
+F_Active_Important_Coding_monkey_c_connect_iq_watchfaces_cleanAnalog_source_cleanAnalogView_mc_165_9_if_end:
+F_Active_Important_Coding_monkey_c_connect_iq_watchfaces_cleanAnalog_source_cleanAnalogView_mc_161_9_if_end:
+F_Active_Important_Coding_monkey_c_connect_iq_watchfaces_cleanAnalog_source_cleanAnalogView_mc_157_9_if_end:
+F_Active_Important_Coding_monkey_c_connect_iq_watchfaces_cleanAnalog_source_cleanAnalogView_mc_153_2_if_end:
+[ "F:\Active\Important\Coding\monkey-c\connect-iq\watchfaces\cleanAnalog\source\cleanAnalogView.mc" 175 2 ]
         %tmp.129 = newa 3;
         %tmp.131 = lgetv %r.2;
         %tmp.132 = dup %tmp.129;
@@ -693,12 +693,12 @@ F_Active_Important_Coding_monkey_c_cleanAnalog_source_cleanAnalogView_mc_153_2_i
         %tmp.140 = dup %tmp.137;
         %tmp.141 = aputv %tmp.140 2 %tmp.139;
         ret %tmp.141;
-F_Active_Important_Coding_monkey_c_cleanAnalog_source_cleanAnalogView_mc_147_27_stop:
+F_Active_Important_Coding_monkey_c_connect_iq_watchfaces_cleanAnalog_source_cleanAnalogView_mc_147_27_stop:
     }
-    [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\source\cleanAnalogView.mc"; @line = 179; ]
+    [ @file = "F:\Active\Important\Coding\monkey-c\connect-iq\watchfaces\cleanAnalog\source\cleanAnalogView.mc"; @line = 179; ]
     function onLayout(dc as Dc) as Void {
-F_Active_Important_Coding_monkey_c_cleanAnalog_source_cleanAnalogView_mc_179_40_start:
-[ "F:\Active\Important\Coding\monkey-c\cleanAnalog\source\cleanAnalogView.mc" 180 8 ]
+F_Active_Important_Coding_monkey_c_connect_iq_watchfaces_cleanAnalog_source_cleanAnalogView_mc_179_40_start:
+[ "F:\Active\Important\Coding\monkey-c\connect-iq\watchfaces\cleanAnalog\source\cleanAnalogView.mc" 180 8 ]
         %tmp.1 = self;
         %tmp.2 = getv function %tmp.1 :setLayout;
         %tmp.4 = getv ? :Rez;
@@ -707,89 +707,89 @@ F_Active_Important_Coding_monkey_c_cleanAnalog_source_cleanAnalogView_mc_179_40_
         %tmp.8 = lgetv %dc;
         %tmp.9 = invoke %tmp.5 %tmp.6(%tmp.8);
         invoke %tmp.1 %tmp.2(%tmp.9);
-F_Active_Important_Coding_monkey_c_cleanAnalog_source_cleanAnalogView_mc_179_40_stop:
+F_Active_Important_Coding_monkey_c_connect_iq_watchfaces_cleanAnalog_source_cleanAnalogView_mc_179_40_stop:
     }
-    [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\source\cleanAnalogView.mc"; @line = 186; ]
+    [ @file = "F:\Active\Important\Coding\monkey-c\connect-iq\watchfaces\cleanAnalog\source\cleanAnalogView.mc"; @line = 186; ]
     function onShow() as Void {
     }
-    [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\source\cleanAnalogView.mc"; @line = 190; ]
+    [ @file = "F:\Active\Important\Coding\monkey-c\connect-iq\watchfaces\cleanAnalog\source\cleanAnalogView.mc"; @line = 190; ]
     function onUpdate(dc as Dc) as Void {
-F_Active_Important_Coding_monkey_c_cleanAnalog_source_cleanAnalogView_mc_190_40_start:
-[ "F:\Active\Important\Coding\monkey-c\cleanAnalog\source\cleanAnalogView.mc" 192 8 ]
-        [ "F_Active_Important_Coding_monkey_c_cleanAnalog_source_cleanAnalogView_mc_190_40_start" "F_Active_Important_Coding_monkey_c_cleanAnalog_source_cleanAnalogView_mc_190_40_stop" ]
+F_Active_Important_Coding_monkey_c_connect_iq_watchfaces_cleanAnalog_source_cleanAnalogView_mc_190_40_start:
+[ "F:\Active\Important\Coding\monkey-c\connect-iq\watchfaces\cleanAnalog\source\cleanAnalogView.mc" 192 8 ]
+        [ "F_Active_Important_Coding_monkey_c_connect_iq_watchfaces_cleanAnalog_source_cleanAnalogView_mc_190_40_start" "F_Active_Important_Coding_monkey_c_connect_iq_watchfaces_cleanAnalog_source_cleanAnalogView_mc_190_40_stop" ]
         %timeFormat.1 = local;
         %tmp.1 = "$1$:$2$";
         lputv %timeFormat.1 %tmp.1;
-[ "F:\Active\Important\Coding\monkey-c\cleanAnalog\source\cleanAnalogView.mc" 193 8 ]
-        [ "F_Active_Important_Coding_monkey_c_cleanAnalog_source_cleanAnalogView_mc_190_40_start" "F_Active_Important_Coding_monkey_c_cleanAnalog_source_cleanAnalogView_mc_190_40_stop" ]
+[ "F:\Active\Important\Coding\monkey-c\connect-iq\watchfaces\cleanAnalog\source\cleanAnalogView.mc" 193 8 ]
+        [ "F_Active_Important_Coding_monkey_c_connect_iq_watchfaces_cleanAnalog_source_cleanAnalogView_mc_190_40_start" "F_Active_Important_Coding_monkey_c_connect_iq_watchfaces_cleanAnalog_source_cleanAnalogView_mc_190_40_stop" ]
         %clockTime.2 = local;
         %tmp.2 = getm $.Toybox.System;
         %tmp.3 = getv function %tmp.2 :getClockTime;
         %tmp.4 = invoke %tmp.2 %tmp.3();
         lputv %clockTime.2 %tmp.4;
-[ "F:\Active\Important\Coding\monkey-c\cleanAnalog\source\cleanAnalogView.mc" 194 8 ]
-        [ "F_Active_Important_Coding_monkey_c_cleanAnalog_source_cleanAnalogView_mc_190_40_start" "F_Active_Important_Coding_monkey_c_cleanAnalog_source_cleanAnalogView_mc_190_40_stop" ]
+[ "F:\Active\Important\Coding\monkey-c\connect-iq\watchfaces\cleanAnalog\source\cleanAnalogView.mc" 194 8 ]
+        [ "F_Active_Important_Coding_monkey_c_connect_iq_watchfaces_cleanAnalog_source_cleanAnalogView_mc_190_40_start" "F_Active_Important_Coding_monkey_c_connect_iq_watchfaces_cleanAnalog_source_cleanAnalogView_mc_190_40_stop" ]
         %hours.3 = local;
         %tmp.5 = lgetv %clockTime.2;
         %tmp.6 = getv %tmp.5 :hour;
         lputv %hours.3 %tmp.6;
-[ "F:\Active\Important\Coding\monkey-c\cleanAnalog\source\cleanAnalogView.mc" 195 8 ]
-F_Active_Important_Coding_monkey_c_cleanAnalog_source_cleanAnalogView_mc_195_8_if_stmt:
+[ "F:\Active\Important\Coding\monkey-c\connect-iq\watchfaces\cleanAnalog\source\cleanAnalogView.mc" 195 8 ]
+F_Active_Important_Coding_monkey_c_connect_iq_watchfaces_cleanAnalog_source_cleanAnalogView_mc_195_8_if_stmt:
         %tmp.7 = getm $.Toybox.System;
         %tmp.8 = getv function %tmp.7 :getDeviceSettings;
         %tmp.9 = invoke %tmp.7 %tmp.8();
         %tmp.10 = getv %tmp.9 :is24Hour;
         %tmp.11 = not %tmp.10;
-        bf %tmp.11 @F_Active_Important_Coding_monkey_c_cleanAnalog_source_cleanAnalogView_mc_195_8_if_false;
-F_Active_Important_Coding_monkey_c_cleanAnalog_source_cleanAnalogView_mc_195_8_if_true:
-F_Active_Important_Coding_monkey_c_cleanAnalog_source_cleanAnalogView_mc_195_50_start:
-[ "F:\Active\Important\Coding\monkey-c\cleanAnalog\source\cleanAnalogView.mc" 196 12 ]
-F_Active_Important_Coding_monkey_c_cleanAnalog_source_cleanAnalogView_mc_196_12_if_stmt:
+        bf %tmp.11 @F_Active_Important_Coding_monkey_c_connect_iq_watchfaces_cleanAnalog_source_cleanAnalogView_mc_195_8_if_false;
+F_Active_Important_Coding_monkey_c_connect_iq_watchfaces_cleanAnalog_source_cleanAnalogView_mc_195_8_if_true:
+F_Active_Important_Coding_monkey_c_connect_iq_watchfaces_cleanAnalog_source_cleanAnalogView_mc_195_50_start:
+[ "F:\Active\Important\Coding\monkey-c\connect-iq\watchfaces\cleanAnalog\source\cleanAnalogView.mc" 196 12 ]
+F_Active_Important_Coding_monkey_c_connect_iq_watchfaces_cleanAnalog_source_cleanAnalogView_mc_196_12_if_stmt:
         %tmp.13 = lgetv %hours.3;
         %tmp.14 = 12;
         %tmp.15 = gt %tmp.13 %tmp.14;
-        bf %tmp.15 @F_Active_Important_Coding_monkey_c_cleanAnalog_source_cleanAnalogView_mc_196_12_if_end;
-F_Active_Important_Coding_monkey_c_cleanAnalog_source_cleanAnalogView_mc_196_12_if_true:
-F_Active_Important_Coding_monkey_c_cleanAnalog_source_cleanAnalogView_mc_196_28_start:
-[ "F:\Active\Important\Coding\monkey-c\cleanAnalog\source\cleanAnalogView.mc" 197 16 ]
+        bf %tmp.15 @F_Active_Important_Coding_monkey_c_connect_iq_watchfaces_cleanAnalog_source_cleanAnalogView_mc_196_12_if_end;
+F_Active_Important_Coding_monkey_c_connect_iq_watchfaces_cleanAnalog_source_cleanAnalogView_mc_196_12_if_true:
+F_Active_Important_Coding_monkey_c_connect_iq_watchfaces_cleanAnalog_source_cleanAnalogView_mc_196_28_start:
+[ "F:\Active\Important\Coding\monkey-c\connect-iq\watchfaces\cleanAnalog\source\cleanAnalogView.mc" 197 16 ]
         %tmp.17 = lgetv %hours.3;
         %tmp.18 = 12;
         %tmp.19 = sub %tmp.17 %tmp.18;
         lputv %hours.3 %tmp.19;
-F_Active_Important_Coding_monkey_c_cleanAnalog_source_cleanAnalogView_mc_196_28_stop:
-        goto @F_Active_Important_Coding_monkey_c_cleanAnalog_source_cleanAnalogView_mc_196_12_if_end;
-F_Active_Important_Coding_monkey_c_cleanAnalog_source_cleanAnalogView_mc_196_12_if_end:
-F_Active_Important_Coding_monkey_c_cleanAnalog_source_cleanAnalogView_mc_195_50_stop:
-        goto @F_Active_Important_Coding_monkey_c_cleanAnalog_source_cleanAnalogView_mc_195_8_if_end;
-F_Active_Important_Coding_monkey_c_cleanAnalog_source_cleanAnalogView_mc_195_8_if_false:
-F_Active_Important_Coding_monkey_c_cleanAnalog_source_cleanAnalogView_mc_199_15_start:
-[ "F:\Active\Important\Coding\monkey-c\cleanAnalog\source\cleanAnalogView.mc" 200 12 ]
-F_Active_Important_Coding_monkey_c_cleanAnalog_source_cleanAnalogView_mc_200_12_if_stmt:
+F_Active_Important_Coding_monkey_c_connect_iq_watchfaces_cleanAnalog_source_cleanAnalogView_mc_196_28_stop:
+        goto @F_Active_Important_Coding_monkey_c_connect_iq_watchfaces_cleanAnalog_source_cleanAnalogView_mc_196_12_if_end;
+F_Active_Important_Coding_monkey_c_connect_iq_watchfaces_cleanAnalog_source_cleanAnalogView_mc_196_12_if_end:
+F_Active_Important_Coding_monkey_c_connect_iq_watchfaces_cleanAnalog_source_cleanAnalogView_mc_195_50_stop:
+        goto @F_Active_Important_Coding_monkey_c_connect_iq_watchfaces_cleanAnalog_source_cleanAnalogView_mc_195_8_if_end;
+F_Active_Important_Coding_monkey_c_connect_iq_watchfaces_cleanAnalog_source_cleanAnalogView_mc_195_8_if_false:
+F_Active_Important_Coding_monkey_c_connect_iq_watchfaces_cleanAnalog_source_cleanAnalogView_mc_199_15_start:
+[ "F:\Active\Important\Coding\monkey-c\connect-iq\watchfaces\cleanAnalog\source\cleanAnalogView.mc" 200 12 ]
+F_Active_Important_Coding_monkey_c_connect_iq_watchfaces_cleanAnalog_source_cleanAnalogView_mc_200_12_if_stmt:
         %tmp.20 = self;
         %tmp.21 = getv function %tmp.20 :getApp;
         %tmp.22 = invoke %tmp.20 %tmp.21();
         %tmp.23 = getv function %tmp.22 :getProperty;
         %tmp.24 = "UseMilitaryFormat";
         %tmp.25 = invoke %tmp.22 %tmp.23(%tmp.24);
-        bf %tmp.25 @F_Active_Important_Coding_monkey_c_cleanAnalog_source_cleanAnalogView_mc_200_12_if_end;
-F_Active_Important_Coding_monkey_c_cleanAnalog_source_cleanAnalogView_mc_200_12_if_true:
-F_Active_Important_Coding_monkey_c_cleanAnalog_source_cleanAnalogView_mc_200_59_start:
-[ "F:\Active\Important\Coding\monkey-c\cleanAnalog\source\cleanAnalogView.mc" 201 16 ]
+        bf %tmp.25 @F_Active_Important_Coding_monkey_c_connect_iq_watchfaces_cleanAnalog_source_cleanAnalogView_mc_200_12_if_end;
+F_Active_Important_Coding_monkey_c_connect_iq_watchfaces_cleanAnalog_source_cleanAnalogView_mc_200_12_if_true:
+F_Active_Important_Coding_monkey_c_connect_iq_watchfaces_cleanAnalog_source_cleanAnalogView_mc_200_59_start:
+[ "F:\Active\Important\Coding\monkey-c\connect-iq\watchfaces\cleanAnalog\source\cleanAnalogView.mc" 201 16 ]
         %tmp.26 = "$1$$2$";
         lputv %timeFormat.1 %tmp.26;
-[ "F:\Active\Important\Coding\monkey-c\cleanAnalog\source\cleanAnalogView.mc" 202 16 ]
+[ "F:\Active\Important\Coding\monkey-c\connect-iq\watchfaces\cleanAnalog\source\cleanAnalogView.mc" 202 16 ]
         %tmp.27 = lgetv %hours.3;
         %tmp.28 = getv function %tmp.27 :format;
         %tmp.29 = "%02d";
         %tmp.30 = invoke %tmp.27 %tmp.28(%tmp.29);
         lputv %hours.3 %tmp.30;
-F_Active_Important_Coding_monkey_c_cleanAnalog_source_cleanAnalogView_mc_200_59_stop:
-        goto @F_Active_Important_Coding_monkey_c_cleanAnalog_source_cleanAnalogView_mc_200_12_if_end;
-F_Active_Important_Coding_monkey_c_cleanAnalog_source_cleanAnalogView_mc_200_12_if_end:
-F_Active_Important_Coding_monkey_c_cleanAnalog_source_cleanAnalogView_mc_199_15_stop:
-F_Active_Important_Coding_monkey_c_cleanAnalog_source_cleanAnalogView_mc_195_8_if_end:
-[ "F:\Active\Important\Coding\monkey-c\cleanAnalog\source\cleanAnalogView.mc" 205 8 ]
-        [ "F_Active_Important_Coding_monkey_c_cleanAnalog_source_cleanAnalogView_mc_190_40_start" "F_Active_Important_Coding_monkey_c_cleanAnalog_source_cleanAnalogView_mc_190_40_stop" ]
+F_Active_Important_Coding_monkey_c_connect_iq_watchfaces_cleanAnalog_source_cleanAnalogView_mc_200_59_stop:
+        goto @F_Active_Important_Coding_monkey_c_connect_iq_watchfaces_cleanAnalog_source_cleanAnalogView_mc_200_12_if_end;
+F_Active_Important_Coding_monkey_c_connect_iq_watchfaces_cleanAnalog_source_cleanAnalogView_mc_200_12_if_end:
+F_Active_Important_Coding_monkey_c_connect_iq_watchfaces_cleanAnalog_source_cleanAnalogView_mc_199_15_stop:
+F_Active_Important_Coding_monkey_c_connect_iq_watchfaces_cleanAnalog_source_cleanAnalogView_mc_195_8_if_end:
+[ "F:\Active\Important\Coding\monkey-c\connect-iq\watchfaces\cleanAnalog\source\cleanAnalogView.mc" 205 8 ]
+        [ "F_Active_Important_Coding_monkey_c_connect_iq_watchfaces_cleanAnalog_source_cleanAnalogView_mc_190_40_start" "F_Active_Important_Coding_monkey_c_connect_iq_watchfaces_cleanAnalog_source_cleanAnalogView_mc_190_40_stop" ]
         %timeString.4 = local;
         %tmp.31 = getm $.Toybox.Lang;
         %tmp.32 = getv function %tmp.31 :format;
@@ -807,8 +807,8 @@ F_Active_Important_Coding_monkey_c_cleanAnalog_source_cleanAnalogView_mc_195_8_i
         %tmp.46 = aputv %tmp.45 1 %tmp.44;
         %tmp.47 = invoke %tmp.31 %tmp.32(%tmp.34, %tmp.46);
         lputv %timeString.4 %tmp.47;
-[ "F:\Active\Important\Coding\monkey-c\cleanAnalog\source\cleanAnalogView.mc" 208 8 ]
-        [ "F_Active_Important_Coding_monkey_c_cleanAnalog_source_cleanAnalogView_mc_190_40_start" "F_Active_Important_Coding_monkey_c_cleanAnalog_source_cleanAnalogView_mc_190_40_stop" ]
+[ "F:\Active\Important\Coding\monkey-c\connect-iq\watchfaces\cleanAnalog\source\cleanAnalogView.mc" 208 8 ]
+        [ "F_Active_Important_Coding_monkey_c_connect_iq_watchfaces_cleanAnalog_source_cleanAnalogView_mc_190_40_start" "F_Active_Important_Coding_monkey_c_connect_iq_watchfaces_cleanAnalog_source_cleanAnalogView_mc_190_40_stop" ]
         %view.5 = local;
         %tmp.49 = getv ? :View;
         %tmp.50 = getv function %tmp.49 :findDrawableById;
@@ -816,7 +816,7 @@ F_Active_Important_Coding_monkey_c_cleanAnalog_source_cleanAnalogView_mc_195_8_i
         %tmp.52 = invoke %tmp.49 %tmp.50(%tmp.51);
         %tmp.53 = as %tmp.52 Text;
         lputv %view.5 %tmp.53;
-[ "F:\Active\Important\Coding\monkey-c\cleanAnalog\source\cleanAnalogView.mc" 209 8 ]
+[ "F:\Active\Important\Coding\monkey-c\connect-iq\watchfaces\cleanAnalog\source\cleanAnalogView.mc" 209 8 ]
         %tmp.54 = lgetv %view.5;
         %tmp.55 = getv function %tmp.54 :setColor;
         %tmp.56 = self;
@@ -827,182 +827,194 @@ F_Active_Important_Coding_monkey_c_cleanAnalog_source_cleanAnalogView_mc_195_8_i
         %tmp.61 = invoke %tmp.58 %tmp.59(%tmp.60);
         %tmp.62 = as %tmp.61 Number;
         invoke %tmp.54 %tmp.55(%tmp.62);
-[ "F:\Active\Important\Coding\monkey-c\cleanAnalog\source\cleanAnalogView.mc" 210 8 ]
+[ "F:\Active\Important\Coding\monkey-c\connect-iq\watchfaces\cleanAnalog\source\cleanAnalogView.mc" 210 8 ]
         %tmp.63 = lgetv %view.5;
         %tmp.64 = getv function %tmp.63 :setText;
         %tmp.66 = lgetv %timeString.4;
         invoke %tmp.63 %tmp.64(%tmp.66);
-[ "F:\Active\Important\Coding\monkey-c\cleanAnalog\source\cleanAnalogView.mc" 222 2 ]
-        [ "F_Active_Important_Coding_monkey_c_cleanAnalog_source_cleanAnalogView_mc_190_40_start" "F_Active_Important_Coding_monkey_c_cleanAnalog_source_cleanAnalogView_mc_190_40_stop" ]
+[ "F:\Active\Important\Coding\monkey-c\connect-iq\watchfaces\cleanAnalog\source\cleanAnalogView.mc" 217 8 ]
+        %tmp.67 = lgetv %dc;
+        %tmp.68 = getv function %tmp.67 :setColor;
+        %tmp.69 = getm $.Toybox.Graphics;
+        %tmp.70 = getv %tmp.69 :COLOR_BLACK;
+        %tmp.71 = getm $.Toybox.Graphics;
+        %tmp.72 = getv %tmp.71 :COLOR_BLACK;
+        invoke %tmp.67 %tmp.68(%tmp.70, %tmp.72);
+[ "F:\Active\Important\Coding\monkey-c\connect-iq\watchfaces\cleanAnalog\source\cleanAnalogView.mc" 218 5 ]
+        %tmp.73 = lgetv %dc;
+        %tmp.74 = getv function %tmp.73 :clear;
+        invoke %tmp.73 %tmp.74();
+[ "F:\Active\Important\Coding\monkey-c\connect-iq\watchfaces\cleanAnalog\source\cleanAnalogView.mc" 222 2 ]
+        [ "F_Active_Important_Coding_monkey_c_connect_iq_watchfaces_cleanAnalog_source_cleanAnalogView_mc_190_40_start" "F_Active_Important_Coding_monkey_c_connect_iq_watchfaces_cleanAnalog_source_cleanAnalogView_mc_190_40_stop" ]
         %clock.6 = local;
-        %tmp.67 = getm $.Toybox.System;
-        %tmp.68 = getv function %tmp.67 :getClockTime;
-        %tmp.69 = invoke %tmp.67 %tmp.68();
-        lputv %clock.6 %tmp.69;
-[ "F:\Active\Important\Coding\monkey-c\cleanAnalog\source\cleanAnalogView.mc" 223 8 ]
-        [ "F_Active_Important_Coding_monkey_c_cleanAnalog_source_cleanAnalogView_mc_190_40_start" "F_Active_Important_Coding_monkey_c_cleanAnalog_source_cleanAnalogView_mc_190_40_stop" ]
+        %tmp.75 = getm $.Toybox.System;
+        %tmp.76 = getv function %tmp.75 :getClockTime;
+        %tmp.77 = invoke %tmp.75 %tmp.76();
+        lputv %clock.6 %tmp.77;
+[ "F:\Active\Important\Coding\monkey-c\connect-iq\watchfaces\cleanAnalog\source\cleanAnalogView.mc" 223 8 ]
+        [ "F_Active_Important_Coding_monkey_c_connect_iq_watchfaces_cleanAnalog_source_cleanAnalogView_mc_190_40_start" "F_Active_Important_Coding_monkey_c_connect_iq_watchfaces_cleanAnalog_source_cleanAnalogView_mc_190_40_stop" ]
         %th.7 = local;
-        %tmp.70 = lgetv %clockTime.2;
-        %tmp.71 = getv %tmp.70 :hour;
-        lputv %th.7 %tmp.71;
-[ "F:\Active\Important\Coding\monkey-c\cleanAnalog\source\cleanAnalogView.mc" 224 8 ]
-        [ "F_Active_Important_Coding_monkey_c_cleanAnalog_source_cleanAnalogView_mc_190_40_start" "F_Active_Important_Coding_monkey_c_cleanAnalog_source_cleanAnalogView_mc_190_40_stop" ]
+        %tmp.78 = lgetv %clockTime.2;
+        %tmp.79 = getv %tmp.78 :hour;
+        lputv %th.7 %tmp.79;
+[ "F:\Active\Important\Coding\monkey-c\connect-iq\watchfaces\cleanAnalog\source\cleanAnalogView.mc" 224 8 ]
+        [ "F_Active_Important_Coding_monkey_c_connect_iq_watchfaces_cleanAnalog_source_cleanAnalogView_mc_190_40_start" "F_Active_Important_Coding_monkey_c_connect_iq_watchfaces_cleanAnalog_source_cleanAnalogView_mc_190_40_stop" ]
         %tm.8 = local;
-        %tmp.72 = lgetv %clockTime.2;
-        %tmp.73 = getv %tmp.72 :min;
-        lputv %tm.8 %tmp.73;
-[ "F:\Active\Important\Coding\monkey-c\cleanAnalog\source\cleanAnalogView.mc" 225 8 ]
-        [ "F_Active_Important_Coding_monkey_c_cleanAnalog_source_cleanAnalogView_mc_190_40_start" "F_Active_Important_Coding_monkey_c_cleanAnalog_source_cleanAnalogView_mc_190_40_stop" ]
+        %tmp.80 = lgetv %clockTime.2;
+        %tmp.81 = getv %tmp.80 :min;
+        lputv %tm.8 %tmp.81;
+[ "F:\Active\Important\Coding\monkey-c\connect-iq\watchfaces\cleanAnalog\source\cleanAnalogView.mc" 225 8 ]
+        [ "F_Active_Important_Coding_monkey_c_connect_iq_watchfaces_cleanAnalog_source_cleanAnalogView_mc_190_40_start" "F_Active_Important_Coding_monkey_c_connect_iq_watchfaces_cleanAnalog_source_cleanAnalogView_mc_190_40_stop" ]
         %ts.9 = local;
-        %tmp.74 = lgetv %clockTime.2;
-        %tmp.75 = getv %tmp.74 :sec;
-        lputv %ts.9 %tmp.75;
-[ "F:\Active\Important\Coding\monkey-c\cleanAnalog\source\cleanAnalogView.mc" 226 8 ]
-        [ "F_Active_Important_Coding_monkey_c_cleanAnalog_source_cleanAnalogView_mc_190_40_start" "F_Active_Important_Coding_monkey_c_cleanAnalog_source_cleanAnalogView_mc_190_40_stop" ]
+        %tmp.82 = lgetv %clockTime.2;
+        %tmp.83 = getv %tmp.82 :sec;
+        lputv %ts.9 %tmp.83;
+[ "F:\Active\Important\Coding\monkey-c\connect-iq\watchfaces\cleanAnalog\source\cleanAnalogView.mc" 226 8 ]
+        [ "F_Active_Important_Coding_monkey_c_connect_iq_watchfaces_cleanAnalog_source_cleanAnalogView_mc_190_40_start" "F_Active_Important_Coding_monkey_c_connect_iq_watchfaces_cleanAnalog_source_cleanAnalogView_mc_190_40_stop" ]
         %w.10 = local;
-        %tmp.76 = getm $.Toybox.System;
-        %tmp.77 = getv function %tmp.76 :getDeviceSettings;
-        %tmp.78 = invoke %tmp.76 %tmp.77();
-        %tmp.79 = getv %tmp.78 :screenWidth;
-        lputv %w.10 %tmp.79;
-[ "F:\Active\Important\Coding\monkey-c\cleanAnalog\source\cleanAnalogView.mc" 227 8 ]
-        [ "F_Active_Important_Coding_monkey_c_cleanAnalog_source_cleanAnalogView_mc_190_40_start" "F_Active_Important_Coding_monkey_c_cleanAnalog_source_cleanAnalogView_mc_190_40_stop" ]
+        %tmp.84 = getm $.Toybox.System;
+        %tmp.85 = getv function %tmp.84 :getDeviceSettings;
+        %tmp.86 = invoke %tmp.84 %tmp.85();
+        %tmp.87 = getv %tmp.86 :screenWidth;
+        lputv %w.10 %tmp.87;
+[ "F:\Active\Important\Coding\monkey-c\connect-iq\watchfaces\cleanAnalog\source\cleanAnalogView.mc" 227 8 ]
+        [ "F_Active_Important_Coding_monkey_c_connect_iq_watchfaces_cleanAnalog_source_cleanAnalogView_mc_190_40_start" "F_Active_Important_Coding_monkey_c_connect_iq_watchfaces_cleanAnalog_source_cleanAnalogView_mc_190_40_stop" ]
         %h.11 = local;
-        %tmp.80 = getm $.Toybox.System;
-        %tmp.81 = getv function %tmp.80 :getDeviceSettings;
-        %tmp.82 = invoke %tmp.80 %tmp.81();
-        %tmp.83 = getv %tmp.82 :screenHeight;
-        lputv %h.11 %tmp.83;
-[ "F:\Active\Important\Coding\monkey-c\cleanAnalog\source\cleanAnalogView.mc" 229 2 ]
-        [ "F_Active_Important_Coding_monkey_c_cleanAnalog_source_cleanAnalogView_mc_190_40_start" "F_Active_Important_Coding_monkey_c_cleanAnalog_source_cleanAnalogView_mc_190_40_stop" ]
+        %tmp.88 = getm $.Toybox.System;
+        %tmp.89 = getv function %tmp.88 :getDeviceSettings;
+        %tmp.90 = invoke %tmp.88 %tmp.89();
+        %tmp.91 = getv %tmp.90 :screenHeight;
+        lputv %h.11 %tmp.91;
+[ "F:\Active\Important\Coding\monkey-c\connect-iq\watchfaces\cleanAnalog\source\cleanAnalogView.mc" 229 2 ]
+        [ "F_Active_Important_Coding_monkey_c_connect_iq_watchfaces_cleanAnalog_source_cleanAnalogView_mc_190_40_start" "F_Active_Important_Coding_monkey_c_connect_iq_watchfaces_cleanAnalog_source_cleanAnalogView_mc_190_40_stop" ]
         %hoursArc.12 = local;
-        %tmp.85 = lgetv %th.7;
-        %tmp.86 = 12;
-        %tmp.87 = mod %tmp.85 %tmp.86;
-        %tmp.88 = 12;
-        %tmp.89 = div %tmp.87 %tmp.88;
-        lputv %hoursArc.12 %tmp.89;
-[ "F:\Active\Important\Coding\monkey-c\cleanAnalog\source\cleanAnalogView.mc" 230 8 ]
-        %tmp.90 = lgetv %dc;
-        %tmp.91 = getv function %tmp.90 :setColor;
-        %tmp.92 = getm $.Toybox.Graphics;
-        %tmp.93 = getv %tmp.92 :COLOR_DK_BLUE;
-        %tmp.94 = getm $.Toybox.Graphics;
-        %tmp.95 = getv %tmp.94 :COLOR_DK_BLUE;
-        invoke %tmp.90 %tmp.91(%tmp.93, %tmp.95);
-[ "F:\Active\Important\Coding\monkey-c\cleanAnalog\source\cleanAnalogView.mc" 231 8 ]
-        %tmp.96 = lgetv %dc;
-        %tmp.97 = getv function %tmp.96 :setPenWidth;
-        %tmp.98 = 160;
-        invoke %tmp.96 %tmp.97(%tmp.98);
-[ "F:\Active\Important\Coding\monkey-c\cleanAnalog\source\cleanAnalogView.mc" 232 8 ]
-        %tmp.99 = lgetv %dc;
-        %tmp.100 = getv function %tmp.99 :drawArc;
-        %tmp.102 = lgetv %w.10;
-        %tmp.103 = 2;
-        %tmp.104 = div %tmp.102 %tmp.103;
-        %tmp.106 = lgetv %h.11;
-        %tmp.107 = 2;
-        %tmp.108 = div %tmp.106 %tmp.107;
+        %tmp.93 = lgetv %th.7;
+        %tmp.94 = 12;
+        %tmp.95 = mod %tmp.93 %tmp.94;
+        %tmp.96 = 12;
+        %tmp.97 = div %tmp.95 %tmp.96;
+        lputv %hoursArc.12 %tmp.97;
+[ "F:\Active\Important\Coding\monkey-c\connect-iq\watchfaces\cleanAnalog\source\cleanAnalogView.mc" 230 8 ]
+        %tmp.98 = lgetv %dc;
+        %tmp.99 = getv function %tmp.98 :setColor;
+        %tmp.100 = getm $.Toybox.Graphics;
+        %tmp.101 = getv %tmp.100 :COLOR_DK_BLUE;
+        %tmp.102 = getm $.Toybox.Graphics;
+        %tmp.103 = getv %tmp.102 :COLOR_DK_BLUE;
+        invoke %tmp.98 %tmp.99(%tmp.101, %tmp.103);
+[ "F:\Active\Important\Coding\monkey-c\connect-iq\watchfaces\cleanAnalog\source\cleanAnalogView.mc" 231 8 ]
+        %tmp.104 = lgetv %dc;
+        %tmp.105 = getv function %tmp.104 :setPenWidth;
+        %tmp.106 = 160;
+        invoke %tmp.104 %tmp.105(%tmp.106);
+[ "F:\Active\Important\Coding\monkey-c\connect-iq\watchfaces\cleanAnalog\source\cleanAnalogView.mc" 232 8 ]
+        %tmp.107 = lgetv %dc;
+        %tmp.108 = getv function %tmp.107 :drawArc;
         %tmp.110 = lgetv %w.10;
-        %tmp.111 = 2.2;
+        %tmp.111 = 2;
         %tmp.112 = div %tmp.110 %tmp.111;
-        %tmp.113 = getm $.Toybox.Graphics;
-        %tmp.114 = getv %tmp.113 :ARC_COUNTER_CLOCKWISE;
-        %tmp.115 = 0;
-        %tmp.116 = 20;
-        invoke %tmp.99 %tmp.100(%tmp.104, %tmp.108, %tmp.112, %tmp.114, %tmp.115, %tmp.116);
-[ "F:\Active\Important\Coding\monkey-c\cleanAnalog\source\cleanAnalogView.mc" 234 2 ]
-        [ "F_Active_Important_Coding_monkey_c_cleanAnalog_source_cleanAnalogView_mc_190_40_start" "F_Active_Important_Coding_monkey_c_cleanAnalog_source_cleanAnalogView_mc_190_40_stop" ]
-        %minutesArc.13 = local;
-        %tmp.118 = lgetv %tm.8;
-        %tmp.119 = 60;
+        %tmp.114 = lgetv %h.11;
+        %tmp.115 = 2;
+        %tmp.116 = div %tmp.114 %tmp.115;
+        %tmp.118 = lgetv %w.10;
+        %tmp.119 = 2.2;
         %tmp.120 = div %tmp.118 %tmp.119;
-        lputv %minutesArc.13 %tmp.120;
-[ "F:\Active\Important\Coding\monkey-c\cleanAnalog\source\cleanAnalogView.mc" 235 8 ]
-        %tmp.121 = lgetv %dc;
-        %tmp.122 = getv function %tmp.121 :setColor;
-        %tmp.123 = getm $.Toybox.Graphics;
-        %tmp.124 = getv %tmp.123 :COLOR_BLUE;
-        %tmp.125 = getm $.Toybox.Graphics;
-        %tmp.126 = getv %tmp.125 :COLOR_BLUE;
-        invoke %tmp.121 %tmp.122(%tmp.124, %tmp.126);
-[ "F:\Active\Important\Coding\monkey-c\cleanAnalog\source\cleanAnalogView.mc" 236 8 ]
-        %tmp.127 = lgetv %dc;
-        %tmp.128 = getv function %tmp.127 :setPenWidth;
-        %tmp.129 = 220;
-        invoke %tmp.127 %tmp.128(%tmp.129);
-[ "F:\Active\Important\Coding\monkey-c\cleanAnalog\source\cleanAnalogView.mc" 237 8 ]
-        %tmp.130 = lgetv %dc;
-        %tmp.131 = getv function %tmp.130 :drawArc;
-        %tmp.133 = lgetv %w.10;
-        %tmp.134 = 2;
-        %tmp.135 = div %tmp.133 %tmp.134;
-        %tmp.137 = lgetv %h.11;
-        %tmp.138 = 2;
-        %tmp.139 = div %tmp.137 %tmp.138;
+        %tmp.121 = getm $.Toybox.Graphics;
+        %tmp.122 = getv %tmp.121 :ARC_COUNTER_CLOCKWISE;
+        %tmp.123 = 0;
+        %tmp.124 = 20;
+        invoke %tmp.107 %tmp.108(%tmp.112, %tmp.116, %tmp.120, %tmp.122, %tmp.123, %tmp.124);
+[ "F:\Active\Important\Coding\monkey-c\connect-iq\watchfaces\cleanAnalog\source\cleanAnalogView.mc" 234 2 ]
+        [ "F_Active_Important_Coding_monkey_c_connect_iq_watchfaces_cleanAnalog_source_cleanAnalogView_mc_190_40_start" "F_Active_Important_Coding_monkey_c_connect_iq_watchfaces_cleanAnalog_source_cleanAnalogView_mc_190_40_stop" ]
+        %minutesArc.13 = local;
+        %tmp.126 = lgetv %tm.8;
+        %tmp.127 = 60;
+        %tmp.128 = div %tmp.126 %tmp.127;
+        lputv %minutesArc.13 %tmp.128;
+[ "F:\Active\Important\Coding\monkey-c\connect-iq\watchfaces\cleanAnalog\source\cleanAnalogView.mc" 235 8 ]
+        %tmp.129 = lgetv %dc;
+        %tmp.130 = getv function %tmp.129 :setColor;
+        %tmp.131 = getm $.Toybox.Graphics;
+        %tmp.132 = getv %tmp.131 :COLOR_BLUE;
+        %tmp.133 = getm $.Toybox.Graphics;
+        %tmp.134 = getv %tmp.133 :COLOR_BLUE;
+        invoke %tmp.129 %tmp.130(%tmp.132, %tmp.134);
+[ "F:\Active\Important\Coding\monkey-c\connect-iq\watchfaces\cleanAnalog\source\cleanAnalogView.mc" 236 8 ]
+        %tmp.135 = lgetv %dc;
+        %tmp.136 = getv function %tmp.135 :setPenWidth;
+        %tmp.137 = 220;
+        invoke %tmp.135 %tmp.136(%tmp.137);
+[ "F:\Active\Important\Coding\monkey-c\connect-iq\watchfaces\cleanAnalog\source\cleanAnalogView.mc" 237 8 ]
+        %tmp.138 = lgetv %dc;
+        %tmp.139 = getv function %tmp.138 :drawArc;
         %tmp.141 = lgetv %w.10;
-        %tmp.142 = 2.2;
+        %tmp.142 = 2;
         %tmp.143 = div %tmp.141 %tmp.142;
-        %tmp.144 = getm $.Toybox.Graphics;
-        %tmp.145 = getv %tmp.144 :ARC_COUNTER_CLOCKWISE;
-        %tmp.146 = 100;
-        %tmp.147 = 112;
-        invoke %tmp.130 %tmp.131(%tmp.135, %tmp.139, %tmp.143, %tmp.145, %tmp.146, %tmp.147);
-[ "F:\Active\Important\Coding\monkey-c\cleanAnalog\source\cleanAnalogView.mc" 239 2 ]
-        [ "F_Active_Important_Coding_monkey_c_cleanAnalog_source_cleanAnalogView_mc_190_40_start" "F_Active_Important_Coding_monkey_c_cleanAnalog_source_cleanAnalogView_mc_190_40_stop" ]
-        %secondArc.14 = local;
-        %tmp.149 = lgetv %ts.9;
-        %tmp.150 = 60;
+        %tmp.145 = lgetv %h.11;
+        %tmp.146 = 2;
+        %tmp.147 = div %tmp.145 %tmp.146;
+        %tmp.149 = lgetv %w.10;
+        %tmp.150 = 2.2;
         %tmp.151 = div %tmp.149 %tmp.150;
-        lputv %secondArc.14 %tmp.151;
-[ "F:\Active\Important\Coding\monkey-c\cleanAnalog\source\cleanAnalogView.mc" 240 8 ]
-        %tmp.152 = lgetv %dc;
-        %tmp.153 = getv function %tmp.152 :setColor;
-        %tmp.154 = getm $.Toybox.Graphics;
-        %tmp.155 = getv %tmp.154 :COLOR_WHITE;
-        %tmp.156 = getm $.Toybox.Graphics;
-        %tmp.157 = getv %tmp.156 :COLOR_WHITE;
-        invoke %tmp.152 %tmp.153(%tmp.155, %tmp.157);
-[ "F:\Active\Important\Coding\monkey-c\cleanAnalog\source\cleanAnalogView.mc" 241 8 ]
-        %tmp.158 = lgetv %dc;
-        %tmp.159 = getv function %tmp.158 :setPenWidth;
-        %tmp.160 = 280;
-        invoke %tmp.158 %tmp.159(%tmp.160);
-[ "F:\Active\Important\Coding\monkey-c\cleanAnalog\source\cleanAnalogView.mc" 242 8 ]
-        %tmp.161 = lgetv %dc;
-        %tmp.162 = getv function %tmp.161 :drawArc;
-        %tmp.164 = lgetv %w.10;
-        %tmp.165 = 2;
-        %tmp.166 = div %tmp.164 %tmp.165;
-        %tmp.168 = lgetv %h.11;
-        %tmp.169 = 2;
-        %tmp.170 = div %tmp.168 %tmp.169;
+        %tmp.152 = getm $.Toybox.Graphics;
+        %tmp.153 = getv %tmp.152 :ARC_COUNTER_CLOCKWISE;
+        %tmp.154 = 100;
+        %tmp.155 = 112;
+        invoke %tmp.138 %tmp.139(%tmp.143, %tmp.147, %tmp.151, %tmp.153, %tmp.154, %tmp.155);
+[ "F:\Active\Important\Coding\monkey-c\connect-iq\watchfaces\cleanAnalog\source\cleanAnalogView.mc" 239 2 ]
+        [ "F_Active_Important_Coding_monkey_c_connect_iq_watchfaces_cleanAnalog_source_cleanAnalogView_mc_190_40_start" "F_Active_Important_Coding_monkey_c_connect_iq_watchfaces_cleanAnalog_source_cleanAnalogView_mc_190_40_stop" ]
+        %secondArc.14 = local;
+        %tmp.157 = lgetv %ts.9;
+        %tmp.158 = 60;
+        %tmp.159 = div %tmp.157 %tmp.158;
+        lputv %secondArc.14 %tmp.159;
+[ "F:\Active\Important\Coding\monkey-c\connect-iq\watchfaces\cleanAnalog\source\cleanAnalogView.mc" 240 8 ]
+        %tmp.160 = lgetv %dc;
+        %tmp.161 = getv function %tmp.160 :setColor;
+        %tmp.162 = getm $.Toybox.Graphics;
+        %tmp.163 = getv %tmp.162 :COLOR_WHITE;
+        %tmp.164 = getm $.Toybox.Graphics;
+        %tmp.165 = getv %tmp.164 :COLOR_WHITE;
+        invoke %tmp.160 %tmp.161(%tmp.163, %tmp.165);
+[ "F:\Active\Important\Coding\monkey-c\connect-iq\watchfaces\cleanAnalog\source\cleanAnalogView.mc" 241 8 ]
+        %tmp.166 = lgetv %dc;
+        %tmp.167 = getv function %tmp.166 :setPenWidth;
+        %tmp.168 = 280;
+        invoke %tmp.166 %tmp.167(%tmp.168);
+[ "F:\Active\Important\Coding\monkey-c\connect-iq\watchfaces\cleanAnalog\source\cleanAnalogView.mc" 242 8 ]
+        %tmp.169 = lgetv %dc;
+        %tmp.170 = getv function %tmp.169 :drawArc;
         %tmp.172 = lgetv %w.10;
-        %tmp.173 = 2.2;
+        %tmp.173 = 2;
         %tmp.174 = div %tmp.172 %tmp.173;
-        %tmp.175 = getm $.Toybox.Graphics;
-        %tmp.176 = getv %tmp.175 :ARC_COUNTER_CLOCKWISE;
-        %tmp.177 = 60;
-        %tmp.178 = 66;
-        invoke %tmp.161 %tmp.162(%tmp.166, %tmp.170, %tmp.174, %tmp.176, %tmp.177, %tmp.178);
-[ "F:\Active\Important\Coding\monkey-c\cleanAnalog\source\cleanAnalogView.mc" 245 8 ]
-        %tmp.180 = getv ? :View;
-        %tmp.181 = getv function %tmp.180 :onUpdate;
-        %tmp.183 = lgetv %dc;
-        invoke %tmp.180 %tmp.181(%tmp.183);
-F_Active_Important_Coding_monkey_c_cleanAnalog_source_cleanAnalogView_mc_190_40_stop:
+        %tmp.176 = lgetv %h.11;
+        %tmp.177 = 2;
+        %tmp.178 = div %tmp.176 %tmp.177;
+        %tmp.180 = lgetv %w.10;
+        %tmp.181 = 2.2;
+        %tmp.182 = div %tmp.180 %tmp.181;
+        %tmp.183 = getm $.Toybox.Graphics;
+        %tmp.184 = getv %tmp.183 :ARC_COUNTER_CLOCKWISE;
+        %tmp.185 = 60;
+        %tmp.186 = 66;
+        invoke %tmp.169 %tmp.170(%tmp.174, %tmp.178, %tmp.182, %tmp.184, %tmp.185, %tmp.186);
+[ "F:\Active\Important\Coding\monkey-c\connect-iq\watchfaces\cleanAnalog\source\cleanAnalogView.mc" 245 8 ]
+        %tmp.188 = getv ? :View;
+        %tmp.189 = getv function %tmp.188 :onUpdate;
+        %tmp.191 = lgetv %dc;
+        invoke %tmp.188 %tmp.189(%tmp.191);
+F_Active_Important_Coding_monkey_c_connect_iq_watchfaces_cleanAnalog_source_cleanAnalogView_mc_190_40_stop:
     }
-    [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\source\cleanAnalogView.mc"; @line = 251; ]
+    [ @file = "F:\Active\Important\Coding\monkey-c\connect-iq\watchfaces\cleanAnalog\source\cleanAnalogView.mc"; @line = 251; ]
     function onHide() as Void {
     }
-    [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\source\cleanAnalogView.mc"; @line = 255; ]
+    [ @file = "F:\Active\Important\Coding\monkey-c\connect-iq\watchfaces\cleanAnalog\source\cleanAnalogView.mc"; @line = 255; ]
     function onExitSleep() as Void {
     }
-    [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\source\cleanAnalogView.mc"; @line = 259; ]
+    [ @file = "F:\Active\Important\Coding\monkey-c\connect-iq\watchfaces\cleanAnalog\source\cleanAnalogView.mc"; @line = 259; ]
     function onEnterSleep() as Void {
     }
 }
-[ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\source\cleanAnalogView.mc"; @line = 1; ]
+[ @file = "F:\Active\Important\Coding\monkey-c\connect-iq\watchfaces\cleanAnalog\source\cleanAnalogView.mc"; @line = 1; ]
 <init> {
 }

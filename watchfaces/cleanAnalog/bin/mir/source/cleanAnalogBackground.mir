@@ -1,25 +1,25 @@
-[ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\source\cleanAnalogBackground.mc"; @line = 1; ]
+[ @file = "F:\Active\Important\Coding\monkey-c\connect-iq\watchfaces\cleanAnalog\source\cleanAnalogBackground.mc"; @line = 1; ]
 import Toybox.Application;
-[ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\source\cleanAnalogBackground.mc"; @line = 2; ]
+[ @file = "F:\Active\Important\Coding\monkey-c\connect-iq\watchfaces\cleanAnalog\source\cleanAnalogBackground.mc"; @line = 2; ]
 import Toybox.Graphics;
-[ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\source\cleanAnalogBackground.mc"; @line = 3; ]
+[ @file = "F:\Active\Important\Coding\monkey-c\connect-iq\watchfaces\cleanAnalog\source\cleanAnalogBackground.mc"; @line = 3; ]
 import Toybox.Lang;
-[ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\source\cleanAnalogBackground.mc"; @line = 4; ]
+[ @file = "F:\Active\Important\Coding\monkey-c\connect-iq\watchfaces\cleanAnalog\source\cleanAnalogBackground.mc"; @line = 4; ]
 import Toybox.WatchUi;
-[ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\source\cleanAnalogBackground.mc"; @line = 6; ]
+[ @file = "F:\Active\Important\Coding\monkey-c\connect-iq\watchfaces\cleanAnalog\source\cleanAnalogBackground.mc"; @line = 6; ]
 class Background extends WatchUi.Drawable{
-    [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\source\cleanAnalogBackground.mc"; @line = 6; ]
+    [ @file = "F:\Active\Important\Coding\monkey-c\connect-iq\watchfaces\cleanAnalog\source\cleanAnalogBackground.mc"; @line = 6; ]
     <init> {
     }
-    [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\source\cleanAnalogBackground.mc"; @line = 6; ]
+    [ @file = "F:\Active\Important\Coding\monkey-c\connect-iq\watchfaces\cleanAnalog\source\cleanAnalogBackground.mc"; @line = 6; ]
     static
     <init> {
     }
-    [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\source\cleanAnalogBackground.mc"; @line = 8; ]
+    [ @file = "F:\Active\Important\Coding\monkey-c\connect-iq\watchfaces\cleanAnalog\source\cleanAnalogBackground.mc"; @line = 8; ]
     function initialize() as Void {
-F_Active_Important_Coding_monkey_c_cleanAnalog_source_cleanAnalogBackground_mc_8_26_start:
-[ "F:\Active\Important\Coding\monkey-c\cleanAnalog\source\cleanAnalogBackground.mc" 9 8 ]
-        [ "F_Active_Important_Coding_monkey_c_cleanAnalog_source_cleanAnalogBackground_mc_8_26_start" "F_Active_Important_Coding_monkey_c_cleanAnalog_source_cleanAnalogBackground_mc_8_26_stop" ]
+F_Active_Important_Coding_monkey_c_connect_iq_watchfaces_cleanAnalog_source_cleanAnalogBackground_mc_8_26_start:
+[ "F:\Active\Important\Coding\monkey-c\connect-iq\watchfaces\cleanAnalog\source\cleanAnalogBackground.mc" 9 8 ]
+        [ "F_Active_Important_Coding_monkey_c_connect_iq_watchfaces_cleanAnalog_source_cleanAnalogBackground_mc_8_26_start" "F_Active_Important_Coding_monkey_c_connect_iq_watchfaces_cleanAnalog_source_cleanAnalogBackground_mc_8_26_stop" ]
         %dictionary.1 = local;
         %tmp.1 = newd 1;
         %tmp.3 = const :identifier;
@@ -27,17 +27,17 @@ F_Active_Important_Coding_monkey_c_cleanAnalog_source_cleanAnalogBackground_mc_8
         %tmp.5 = dup %tmp.1;
         %tmp.6 = aputv %tmp.5 %tmp.3 %tmp.4;
         lputv %dictionary.1 %tmp.6;
-[ "F:\Active\Important\Coding\monkey-c\cleanAnalog\source\cleanAnalogBackground.mc" 13 8 ]
+[ "F:\Active\Important\Coding\monkey-c\connect-iq\watchfaces\cleanAnalog\source\cleanAnalogBackground.mc" 13 8 ]
         %tmp.8 = getv ? :Drawable;
         %tmp.9 = getv function %tmp.8 :initialize;
         %tmp.11 = lgetv %dictionary.1;
         invoke %tmp.8 %tmp.9(%tmp.11);
-F_Active_Important_Coding_monkey_c_cleanAnalog_source_cleanAnalogBackground_mc_8_26_stop:
+F_Active_Important_Coding_monkey_c_connect_iq_watchfaces_cleanAnalog_source_cleanAnalogBackground_mc_8_26_stop:
     }
-    [ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\source\cleanAnalogBackground.mc"; @line = 16; ]
+    [ @file = "F:\Active\Important\Coding\monkey-c\connect-iq\watchfaces\cleanAnalog\source\cleanAnalogBackground.mc"; @line = 16; ]
     function draw(dc as Dc) as Void {
-F_Active_Important_Coding_monkey_c_cleanAnalog_source_cleanAnalogBackground_mc_16_36_start:
-[ "F:\Active\Important\Coding\monkey-c\cleanAnalog\source\cleanAnalogBackground.mc" 18 8 ]
+F_Active_Important_Coding_monkey_c_connect_iq_watchfaces_cleanAnalog_source_cleanAnalogBackground_mc_16_36_start:
+[ "F:\Active\Important\Coding\monkey-c\connect-iq\watchfaces\cleanAnalog\source\cleanAnalogBackground.mc" 18 8 ]
         %tmp.1 = lgetv %dc;
         %tmp.2 = getv function %tmp.1 :setColor;
         %tmp.3 = self;
@@ -55,38 +55,38 @@ F_Active_Important_Coding_monkey_c_cleanAnalog_source_cleanAnalogBackground_mc_1
         %tmp.15 = invoke %tmp.12 %tmp.13(%tmp.14);
         %tmp.16 = as %tmp.15 Number;
         invoke %tmp.1 %tmp.2(%tmp.9, %tmp.16);
-[ "F:\Active\Important\Coding\monkey-c\cleanAnalog\source\cleanAnalogBackground.mc" 19 8 ]
+[ "F:\Active\Important\Coding\monkey-c\connect-iq\watchfaces\cleanAnalog\source\cleanAnalogBackground.mc" 19 8 ]
         %tmp.17 = lgetv %dc;
         %tmp.18 = getv function %tmp.17 :clear;
         invoke %tmp.17 %tmp.18();
-[ "F:\Active\Important\Coding\monkey-c\cleanAnalog\source\cleanAnalogBackground.mc" 20 8 ]
-        [ "F_Active_Important_Coding_monkey_c_cleanAnalog_source_cleanAnalogBackground_mc_16_36_start" "F_Active_Important_Coding_monkey_c_cleanAnalog_source_cleanAnalogBackground_mc_16_36_stop" ]
+[ "F:\Active\Important\Coding\monkey-c\connect-iq\watchfaces\cleanAnalog\source\cleanAnalogBackground.mc" 20 8 ]
+        [ "F_Active_Important_Coding_monkey_c_connect_iq_watchfaces_cleanAnalog_source_cleanAnalogBackground_mc_16_36_start" "F_Active_Important_Coding_monkey_c_connect_iq_watchfaces_cleanAnalog_source_cleanAnalogBackground_mc_16_36_stop" ]
         %w.1 = local;
         %tmp.19 = getm $.Toybox.System;
         %tmp.20 = getv function %tmp.19 :getDeviceSettings;
         %tmp.21 = invoke %tmp.19 %tmp.20();
         %tmp.22 = getv %tmp.21 :screenWidth;
         lputv %w.1 %tmp.22;
-[ "F:\Active\Important\Coding\monkey-c\cleanAnalog\source\cleanAnalogBackground.mc" 21 8 ]
-        [ "F_Active_Important_Coding_monkey_c_cleanAnalog_source_cleanAnalogBackground_mc_16_36_start" "F_Active_Important_Coding_monkey_c_cleanAnalog_source_cleanAnalogBackground_mc_16_36_stop" ]
+[ "F:\Active\Important\Coding\monkey-c\connect-iq\watchfaces\cleanAnalog\source\cleanAnalogBackground.mc" 21 8 ]
+        [ "F_Active_Important_Coding_monkey_c_connect_iq_watchfaces_cleanAnalog_source_cleanAnalogBackground_mc_16_36_start" "F_Active_Important_Coding_monkey_c_connect_iq_watchfaces_cleanAnalog_source_cleanAnalogBackground_mc_16_36_stop" ]
         %h.2 = local;
         %tmp.23 = getm $.Toybox.System;
         %tmp.24 = getv function %tmp.23 :getDeviceSettings;
         %tmp.25 = invoke %tmp.23 %tmp.24();
         %tmp.26 = getv %tmp.25 :screenHeight;
         lputv %h.2 %tmp.26;
-[ "F:\Active\Important\Coding\monkey-c\cleanAnalog\source\cleanAnalogBackground.mc" 23 8 ]
+[ "F:\Active\Important\Coding\monkey-c\connect-iq\watchfaces\cleanAnalog\source\cleanAnalogBackground.mc" 23 8 ]
         %tmp.27 = lgetv %dc;
         %tmp.28 = getv function %tmp.27 :setColor;
         %tmp.29 = 0xaaaaaa;
         %tmp.30 = 0xaaaaaa;
         invoke %tmp.27 %tmp.28(%tmp.29, %tmp.30);
-[ "F:\Active\Important\Coding\monkey-c\cleanAnalog\source\cleanAnalogBackground.mc" 24 8 ]
+[ "F:\Active\Important\Coding\monkey-c\connect-iq\watchfaces\cleanAnalog\source\cleanAnalogBackground.mc" 24 8 ]
         %tmp.31 = lgetv %dc;
         %tmp.32 = getv function %tmp.31 :setPenWidth;
         %tmp.33 = 20;
         invoke %tmp.31 %tmp.32(%tmp.33);
-[ "F:\Active\Important\Coding\monkey-c\cleanAnalog\source\cleanAnalogBackground.mc" 25 8 ]
+[ "F:\Active\Important\Coding\monkey-c\connect-iq\watchfaces\cleanAnalog\source\cleanAnalogBackground.mc" 25 8 ]
         %tmp.34 = lgetv %dc;
         %tmp.35 = getv function %tmp.34 :drawCircle;
         %tmp.37 = lgetv %w.1;
@@ -99,18 +99,18 @@ F_Active_Important_Coding_monkey_c_cleanAnalog_source_cleanAnalogBackground_mc_1
         %tmp.46 = 2;
         %tmp.47 = div %tmp.45 %tmp.46;
         invoke %tmp.34 %tmp.35(%tmp.39, %tmp.43, %tmp.47);
-[ "F:\Active\Important\Coding\monkey-c\cleanAnalog\source\cleanAnalogBackground.mc" 27 8 ]
+[ "F:\Active\Important\Coding\monkey-c\connect-iq\watchfaces\cleanAnalog\source\cleanAnalogBackground.mc" 27 8 ]
         %tmp.48 = lgetv %dc;
         %tmp.49 = getv function %tmp.48 :setColor;
         %tmp.50 = 0xeeeeee;
         %tmp.51 = 0xeeeeee;
         invoke %tmp.48 %tmp.49(%tmp.50, %tmp.51);
-[ "F:\Active\Important\Coding\monkey-c\cleanAnalog\source\cleanAnalogBackground.mc" 28 8 ]
+[ "F:\Active\Important\Coding\monkey-c\connect-iq\watchfaces\cleanAnalog\source\cleanAnalogBackground.mc" 28 8 ]
         %tmp.52 = lgetv %dc;
         %tmp.53 = getv function %tmp.52 :setPenWidth;
         %tmp.54 = 20;
         invoke %tmp.52 %tmp.53(%tmp.54);
-[ "F:\Active\Important\Coding\monkey-c\cleanAnalog\source\cleanAnalogBackground.mc" 29 8 ]
+[ "F:\Active\Important\Coding\monkey-c\connect-iq\watchfaces\cleanAnalog\source\cleanAnalogBackground.mc" 29 8 ]
         %tmp.55 = lgetv %dc;
         %tmp.56 = getv function %tmp.55 :drawCircle;
         %tmp.58 = lgetv %w.1;
@@ -125,7 +125,7 @@ F_Active_Important_Coding_monkey_c_cleanAnalog_source_cleanAnalogBackground_mc_1
         %tmp.69 = 40;
         %tmp.70 = add %tmp.68 %tmp.69;
         invoke %tmp.55 %tmp.56(%tmp.60, %tmp.64, %tmp.70);
-[ "F:\Active\Important\Coding\monkey-c\cleanAnalog\source\cleanAnalogBackground.mc" 31 8 ]
+[ "F:\Active\Important\Coding\monkey-c\connect-iq\watchfaces\cleanAnalog\source\cleanAnalogBackground.mc" 31 8 ]
         %tmp.71 = lgetv %dc;
         %tmp.72 = getv function %tmp.71 :setColor;
         %tmp.73 = getm $.Toybox.Graphics;
@@ -133,7 +133,7 @@ F_Active_Important_Coding_monkey_c_cleanAnalog_source_cleanAnalogBackground_mc_1
         %tmp.75 = getm $.Toybox.Graphics;
         %tmp.76 = getv %tmp.75 :COLOR_BLACK;
         invoke %tmp.71 %tmp.72(%tmp.74, %tmp.76);
-[ "F:\Active\Important\Coding\monkey-c\cleanAnalog\source\cleanAnalogBackground.mc" 32 8 ]
+[ "F:\Active\Important\Coding\monkey-c\connect-iq\watchfaces\cleanAnalog\source\cleanAnalogBackground.mc" 32 8 ]
         %tmp.77 = lgetv %dc;
         %tmp.78 = getv function %tmp.77 :setPenWidth;
         %tmp.79 = getm $.Toybox.System;
@@ -143,7 +143,7 @@ F_Active_Important_Coding_monkey_c_cleanAnalog_source_cleanAnalogBackground_mc_1
         %tmp.83 = 4;
         %tmp.84 = div %tmp.82 %tmp.83;
         invoke %tmp.77 %tmp.78(%tmp.84);
-[ "F:\Active\Important\Coding\monkey-c\cleanAnalog\source\cleanAnalogBackground.mc" 34 8 ]
+[ "F:\Active\Important\Coding\monkey-c\connect-iq\watchfaces\cleanAnalog\source\cleanAnalogBackground.mc" 34 8 ]
         %tmp.85 = lgetv %dc;
         %tmp.86 = getv function %tmp.85 :fillCircle;
         %tmp.88 = lgetv %w.1;
@@ -158,9 +158,9 @@ F_Active_Important_Coding_monkey_c_cleanAnalog_source_cleanAnalogBackground_mc_1
         %tmp.99 = 40;
         %tmp.100 = add %tmp.98 %tmp.99;
         invoke %tmp.85 %tmp.86(%tmp.90, %tmp.94, %tmp.100);
-F_Active_Important_Coding_monkey_c_cleanAnalog_source_cleanAnalogBackground_mc_16_36_stop:
+F_Active_Important_Coding_monkey_c_connect_iq_watchfaces_cleanAnalog_source_cleanAnalogBackground_mc_16_36_stop:
     }
 }
-[ @file = "F:\Active\Important\Coding\monkey-c\cleanAnalog\source\cleanAnalogBackground.mc"; @line = 1; ]
+[ @file = "F:\Active\Important\Coding\monkey-c\connect-iq\watchfaces\cleanAnalog\source\cleanAnalogBackground.mc"; @line = 1; ]
 <init> {
 }
