@@ -3,14 +3,13 @@
 
 @import "{{ site.theme }}";
 html {
-    * {
      background-color: #222;
-   }
-  }
+}
+
 p, h1, h2, h3, h4, h5{
     color:#fff;
 }
 
 blockquote, blockquote > * {
-    color:#999;
+    color:#dddddd;
 }
