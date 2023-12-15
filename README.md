@@ -120,8 +120,6 @@ Display resources
 </summary>
 <br/>
 7.1. Github Repositories
-  <br/>
-[repo](https://example.com)
 
 7.2. Garmin Official
 <br/><br/>
@@ -132,7 +130,7 @@ Display resources
 [Toybox.Graphics.Dc Class in Monkey-C](https://developer.garmin.com/connect-iq/api-docs/Toybox/Graphics/Dc.html)<br/><br/>
 7.3. Garmin Forum
 <br/><br/>
-
+[Garmin forum](https://forums.garmin.com/)
 <br/><br/>
 
 </details>
