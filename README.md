@@ -114,6 +114,29 @@ Install [Visual Studio Code](https://code.visualstudio.com/Download)
 
 6.8. Congratulations! You have built a fully-functioning Garmin watch-face!🎆🎆🎆
 
+### 7. Resources 💡
+<details><summary>
+Display resources
+</summary>
+<br/>
+7.1. Github Repositories
+  <br/>
+[repo](https://example.com)
+
+7.2. Garmin Official
+<br/><br/>
+[Compatible devices](https://developer.garmin.com/connect-iq/compatible-devices/)<br/>
+[Submit an app](https://developer.garmin.com/connect-iq/submit-an-app/)<br/>
+[Connect-IQ debugging](https://developer.garmin.com/connect-iq/core-topics/debugging/)<br/>
+[Monkey-Ccode reference](https://developer.garmin.com/connect-iq/reference-guides/monkey-c-reference/)<br/>
+[Toybox.Graphics.Dc Class in Monkey-C](https://developer.garmin.com/connect-iq/api-docs/Toybox/Graphics/Dc.html)<br/><br/>
+7.3. Garmin Forum
+<br/><br/>
+
+<br/><br/>
+
+</details>
+
 ---
 
 > Footnotes:
