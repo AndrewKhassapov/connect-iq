@@ -118,7 +118,7 @@ Install [Visual Studio Code](https://code.visualstudio.com/Download)
 <details><summary>
 Display resources
 </summary>
-<br/>
+<p>
 7.1. Github Repositories
 <br/><br/>
   
@@ -146,8 +146,8 @@ Display resources
 <br/><br/>
 [Garmin Connect-IQ forum](https://forums.garmin.com/developer/connect-iq/)
 
-<br/><br/>
-
+<br/>
+</p>
 </details>
 
 ---
