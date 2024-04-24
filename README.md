@@ -120,7 +120,21 @@ Display resources
 </summary>
 <br/>
 7.1. Github Repositories
+<br/><br/>
+  
+[Simple analogue watchface. A useful template. Simple-Times by winston-de](https://github.com/winston-de/Simple-Times)<br/>
+<img src="https://services.garmin.com/appsLibraryExternalServices/api/icons/30f64e29-76fc-46b0-a1e5-9277e636f4b3" height="200"><br/><br/>
 
+[Smart Arcs Active analogue watchface. Indicators as arcs. By okdar](https://github.com/okdar/smartarcsactive)<br/>
+<img src="https://github.com/okdar/smartarcsactive/blob/master/connect_iq_store/black_cover.png?raw=true" height="200"><br/><br/>
+
+[Garmin written digital watchface. Text instead of numbers. By Cutwell](https://github.com/Cutwell/garmin-written-watchface)<br/>
+<img src="https://raw.githubusercontent.com/Cutwell/garmin-written-watchface/main/cover-image.png" height="200"><br/>
+[Garmin square watchhands analogue watchface. Squares instead of arrows. By Cutwell](https://github.com/Cutwell/garmin-square-watchhands-watchface)<br/>
+<img src="https://github.com/AndrewKhassapov/connect-iq/assets/53222142/8e2e4132-26d5-4e66-9b68-bda5d48fbc4d" height="200"><br/>
+
+<br/>
+  
 7.2. Garmin Official
 <br/><br/>
 [Compatible devices](https://developer.garmin.com/connect-iq/compatible-devices/)<br/>
@@ -130,7 +144,8 @@ Display resources
 [Toybox.Graphics.Dc Class in Monkey-C](https://developer.garmin.com/connect-iq/api-docs/Toybox/Graphics/Dc.html)<br/><br/>
 7.3. Garmin Forum
 <br/><br/>
-[Garmin forum](https://forums.garmin.com/)
+[Garmin Connect-IQ forum](https://forums.garmin.com/developer/connect-iq/)
+
 <br/><br/>
 
 </details>
@@ -139,6 +154,6 @@ Display resources
 
 > Footnotes:
 >
-> [^1]: Valid as of December 15, 2023. Using Visual Studio Code as recommended IDE [^2] by Garmin.
+> [^1]: Valid as of March, 2024. Using Visual Studio Code as recommended IDE [^2] by Garmin.
 > [^2]: I know Visual Studio Code isn't an "Intergrated Development Environment" itself. Let's call it VS Code with Java JDK, Garmin IQ SDK and Monkey-C extension. OS agnostic.
 > [^3]: Official documentation available at [Garmin](https://developer.garmin.com/connect-iq/connect-iq-basics/getting-started/).
