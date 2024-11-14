@@ -154,6 +154,6 @@ Display resources
 
 > Footnotes:
 >
-> [^1]: Valid as of March, 2024. Using Visual Studio Code as recommended IDE [^2] by Garmin.
+> [^1]: Valid as of October, 2024. Using Visual Studio Code as recommended IDE [^2] by Garmin.
 > [^2]: I know Visual Studio Code isn't an "Intergrated Development Environment" itself. Let's call it VS Code with Java JDK, Garmin IQ SDK and Monkey-C extension. OS agnostic.
 > [^3]: Official documentation available at [Garmin](https://developer.garmin.com/connect-iq/connect-iq-basics/getting-started/).
